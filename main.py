@@ -19,6 +19,7 @@ if __name__ == "__main__":
     print('hello')
     command_list = [
         'git pull origin master',
+        'mkdir my_packages',
         'git add .',
         'git commit -m "feedback"',
         'git push origin master'
