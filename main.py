@@ -17,9 +17,14 @@ def run_command(command):
 
 if __name__ == "__main__":
     print('hello')
-    run_command('git add .')
-    run_command('git commit -m "feedback"')
-    run_command('git push origin master')
+    command_list = [
+        'git add .',
+        'git commit -m "feedback"',
+        'git push origin master'
+        ]
+    for l in command_list:
+        run_command(l)
+        
     #time.sleep(10)
     # from subprocess import call
     # call(["git add . && git commit -am 'feedback' && git push origin master"])
