@@ -19,12 +19,14 @@ if __name__ == "__main__":
     print('hello')
     command_list = [
         'git pull origin master',
-        'mkdir my_packages',
+        'pwd',
+        'ls -la',
         'git add .',
         'git commit -m "feedback"',
         'git push origin master'
         ]
     for l in command_list:
+        print(l)
         run_command(l)
         
     #time.sleep(10)
