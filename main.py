@@ -18,6 +18,7 @@ def run_command(command):
 if __name__ == "__main__":
     print('hello')
     command_list = [
+        'git pull origin master',
         'git add .',
         'git commit -m "feedback"',
         'git push origin master'
