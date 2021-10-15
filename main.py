@@ -19,6 +19,7 @@ if __name__ == "__main__":
     print('hello')
     command_list = [
         'git pull origin master',
+        'whoami',
         'pwd',
         'ls -la',
         'echo \'bye\' >> ./test.txt',
