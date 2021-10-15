@@ -23,7 +23,7 @@ if __name__ == "__main__":
         'pwd',
         'ls -la',
         'touch test.txt',
-        'echo "23iabcd" >> test.txt',
+        'echo "23iabcd">>test.txt',
         'git add .',
         'git status',
         'git commit -m "feedback"',
