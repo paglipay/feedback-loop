@@ -23,7 +23,7 @@ if __name__ == "__main__":
         'git checkout ' + socket.gethostname(),
         'git add .',
         'git status',
-        'git commit -m "pull"',
+        'git commit -m "' + socket.gethostname() + '"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
