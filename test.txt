@@ -12,13 +12,3 @@ some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
-<<<<<<< HEAD
-=======
-some text, as header of the file
-main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
-<<<<<<< HEAD
-some text, as header of the file
-main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
-=======
->>>>>>> f9621656218cab09511d81ee7f136ccb7a401264
->>>>>>> 890491d51728b921099422f03a50bddd4a11e510
