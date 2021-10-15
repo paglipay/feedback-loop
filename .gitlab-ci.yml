@@ -17,15 +17,15 @@ build:
     - echo "Start building App"
     - pwd
     - ls -la
-    - echo "We are currently in stage 2"
-    - git checkout -B branch
+    # - echo "We are currently in stage 2"
+    # - git checkout -B branch
     # do the file changes here
     - echo "running python script"
     - python3 main.py
     # - git checkout master
     # - git push origin master
-    - touch branch.txt
-    - echo 'hi' >> branch.txt
-    - git add -A
-    - git commit -m '[skip ci] commit from CI runner'
-    - git push --follow-tags origin branch
+    # - touch branch.txt
+    # - echo 'hi' >> branch.txt
+    # - git add -A
+    # - git commit -m '[skip ci] commit from CI runner'
+    # - git push --follow-tags origin branch
