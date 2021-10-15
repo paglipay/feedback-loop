@@ -10,19 +10,9 @@ build:
   # before_script:
   #   - docker login -u paglipay -p $CI_REGISTRY_PASSWORD  
   before_script:
-    - apt-get update -y && apt-get install -yqqf openssh-client git unzip sshpass rsync --fix-missing
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-    - eval $(ssh-agent -s)
-    # - echo "$SSH_PRIVATE_KEY_TOOLKIT" | tr -d '\r' | ssh-add - > /dev/null
-
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-
-    - ssh-keyscan https://corp.paglipay.info/root/feedback-loop >> ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-
-    - git config --global user.email "our@email.com"
-    - git config --global user.name "Gitlab Runner"
+    - git remote set-url origin https://paglipay:PAssw0rd@corp.paglipay.info/root/feedback-loop
+    - git config --global user.email 'paglipay@gmail.com'
+    - git config --global user.name 'paglipay'
   script: 
     - echo "Start building App"
     - pwd
