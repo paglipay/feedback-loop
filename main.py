@@ -18,9 +18,10 @@ def run_command(command):
 
 if __name__ == "__main__":
     print('hello')
+
     command_list = [
-        'git pull origin master',
         'git checkout ' + socket.gethostname(),
+        'git pull origin master',
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
@@ -52,6 +53,7 @@ if __name__ == "__main__":
     for l in command_list:
         print(l)
         run_command(l)
+
         
     #time.sleep(10)
     # from subprocess import call

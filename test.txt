@@ -115,11 +115,30 @@ some text, as header of the file
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
 some text, as header of the file
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ubd-220
+some text, as header of the file
+ubd-220
+=======
+=======
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
+=======
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
 some text, as header of the file
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d32d42b57090f24a36a0288edee20a5c90ee4e0a
+some text, as header of the file
+ubd-220
+=======
+=======
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
 some text, as header of the file
 hostname: cannot set name to ‘/p’: Invalid argument
 some text, as header of the file
@@ -138,3 +157,7 @@ operable program or batch file.
 some text, as header of the file
 'c-213' is not recognized as an internal or external command,
 operable program or batch file.
+<<<<<<< HEAD
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
+=======
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
