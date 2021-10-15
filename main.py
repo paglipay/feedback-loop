@@ -20,8 +20,8 @@ if __name__ == "__main__":
     print('hello')
 
     command_list = [
-        'git pull origin master',
         'git checkout ' + socket.gethostname(),
+        'git pull origin master',
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
