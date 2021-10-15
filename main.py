@@ -3,7 +3,7 @@ import shlex
 import time
 
 def run_command(command):
-    process = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE)
+    process = subprocess.Popen(shlex.split(command), shell=False, stdout=subprocess.PIPE)
     while True:
         output = process.stdout.readline().decode("utf-8")
         if len(output) < 1:
