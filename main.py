@@ -20,13 +20,6 @@ if __name__ == "__main__":
     print('hello')
 
     command_list = [
-        'git checkout -b ' + socket.gethostname()
-        ]
-    for l in command_list:
-        print(l)
-        run_command(l)
-
-    command_list = [
         'git pull origin master',
         'git checkout ' + socket.gethostname(),
         'git add .',
@@ -61,15 +54,6 @@ if __name__ == "__main__":
         print(l)
         run_command(l)
 
-    
-
-    command_list = [
-        'git checkout master\n'
-        'git branch -D ' + socket.gethostname()
-        ]
-    for l in command_list:
-        print(l)
-        run_command(l)
         
     #time.sleep(10)
     # from subprocess import call
