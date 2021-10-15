@@ -16,3 +16,5 @@ build:
     - echo "We are currently in stage 2"
     - echo "running python script"
     - python3 main.py
+    - git checkout master
+    - git push origin master
