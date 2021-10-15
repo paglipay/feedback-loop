@@ -39,11 +39,7 @@ ubd-220
 some text, as header of the file
 ub-desk-230
 some text, as header of the file
-<<<<<<< HEAD
-ub-desk-230
-=======
 ubd-220
->>>>>>> ba2442f3044b16928a342b76582f2e34b4d6f7b7
 some text, as header of the file
 ub-desk-230
 some text, as header of the file
