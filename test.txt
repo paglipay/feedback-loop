@@ -121,5 +121,12 @@ some text, as header of the file
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
 some text, as header of the file
+<<<<<<< HEAD
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
+=======
+hostname: cannot set name to ‘/p’: Invalid argument
+some text, as header of the file
+'c-213' is not recognized as an internal or external command,
+operable program or batch file.
+>>>>>>> 5624e2cc4d1680cf9169c80f7daefcaf5a4b05ab
