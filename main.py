@@ -22,9 +22,6 @@ if __name__ == "__main__":
     log.flush()  # <-- here's something not to forget!
     c = subprocess.Popen(['dir', '/p'], stdout=log, stderr=log, shell=True)
     command_list = [
-        'git add .',
-        'git status',
-        'git commit -m "pulling"',
         'git pull origin master',
         'git add .',
         'git status',
@@ -33,10 +30,6 @@ if __name__ == "__main__":
         'pwd',
         'ls -la',
         'echo hi >> text.txt',
-        'git add .',
-        'git status',
-        'git commit -m "pulling again"',
-        'git pull origin master',
         'git add .',
         'git status',
         'git commit -m "pushing"',
