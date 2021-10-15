@@ -96,8 +96,16 @@ ubd-220
 some text, as header of the file
 ub-desk-230
 some text, as header of the file
+<<<<<<< HEAD
 ubd-220
 some text, as header of the file
 ubd-220
 some text, as header of the file
 ubd-220
+=======
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+some text, as header of the file
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+>>>>>>> 673569a98495e5cea7448c87fa91bc395b08b172
