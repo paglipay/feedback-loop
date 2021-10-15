@@ -38,7 +38,7 @@ if __name__ == "__main__":
     log = open('test.txt', 'a')
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
-    c = subprocess.Popen(['date(&T)', '/p'], stdout=log, stderr=log, shell=True)
+    c = subprocess.Popen(['$now', '/p'], stdout=log, stderr=log, shell=True)
 
 
     for l in command_list:
