@@ -24,7 +24,7 @@ if __name__ == "__main__":
         'git add .',
         'git commit -m "feedback"',
         'git push origin master',
-        "$(date + '%m/%Y\')"
+        "bye"
         ]
     for l in command_list:
         print(l)
