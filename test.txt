@@ -5,10 +5,6 @@ main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 ub-desk-230
 some text, as header of the file
-<<<<<<< HEAD
-ubd-220
-=======
 ub-desk-230
->>>>>>> 9609030526242d9bb39f03edd689b5f7d56ccada
 some text, as header of the file
 ubd-220
