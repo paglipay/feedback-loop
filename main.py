@@ -18,7 +18,7 @@ def run_command(command):
 if __name__ == "__main__":
     print('hello')
     command_list = [
-        'echo bye >> log.txt',
+        'echo \'bye\' >> log.txt',
         'git pull origin master',
         'pwd',
         'ls -la',
