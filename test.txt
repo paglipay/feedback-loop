@@ -40,7 +40,14 @@ some text, as header of the file
 ub-desk-230
 some text, as header of the file
 ubd-220
+<<<<<<< HEAD
+some text, as header of the file
+ub-desk-230
+=======
+>>>>>>> e3a7ab4b3eebe913d37b628d37976036f3b6be4f
 some text, as header of the file
 ub-desk-230
 some text, as header of the file
-ub-desk-230
+ubd-220
+some text, as header of the file
+ubd-220
