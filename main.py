@@ -25,6 +25,8 @@ if __name__ == "__main__":
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
+        'git config --global user.email "you@example.com"',
+        'git config --global user.name "Your Name"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
@@ -58,3 +60,7 @@ if __name__ == "__main__":
     #time.sleep(10)
     # from subprocess import call
     # call(["git add . && git commit -am 'feedback' && git push origin master"])
+
+    # time.sleep(11)
+
+    print('DONE')
