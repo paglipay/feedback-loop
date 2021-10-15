@@ -19,6 +19,7 @@ if __name__ == "__main__":
     print('hello')
     command_list = [
         'git pull origin master',
+        'git checkout $HOSTNAME',
         'git add .',
         'git status',
         'git commit -m "pull"',
