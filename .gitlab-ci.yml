@@ -19,7 +19,7 @@ build:
     - ls -la
     - echo "We are currently in stage 2"
     - git checkout -B branch
-    - # do the file changes here
+    # do the file changes here
     - echo "running python script"
     - python3 main.py
     # - git checkout master
