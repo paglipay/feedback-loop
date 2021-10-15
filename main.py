@@ -23,7 +23,8 @@ if __name__ == "__main__":
         'ls -la',
         'git add .',
         'git commit -m "feedback"',
-        'git push origin master'
+        'git push origin master',
+        '$(date +\'%m/%d/%Y\')'
         ]
     for l in command_list:
         print(l)
