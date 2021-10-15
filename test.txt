@@ -126,6 +126,22 @@ some text, as header of the file
 'c-213' is not recognized as an internal or external command,
 operable program or batch file.
 some text, as header of the file
+<<<<<<< HEAD
 c-213 /p
 some text, as header of the file
 c-213 /p
+=======
+administrator2 /p
+some text, as header of the file
+/p: 1: ub-desk-230: not found
+some text, as header of the file
+/p: 1: ub-desk-230: not found
+some text, as header of the file
+/p: 1: ub-desk-230: not found
+some text, as header of the file
+'administrator2' is not recognized as an internal or external command,
+operable program or batch file.
+some text, as header of the file
+'administrator2' is not recognized as an internal or external command,
+operable program or batch file.
+>>>>>>> 10eaed433960741439529c8c156417971ff28fc9
