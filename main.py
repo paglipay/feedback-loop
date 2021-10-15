@@ -17,7 +17,7 @@ def run_command(command):
 
 if __name__ == "__main__":
     print('hello')
-    log = open('some file.txt', 'a')
+    log = open('test.txt', 'a')
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
     c = subprocess.Popen(['dir', '/p'], stdout=log, stderr=log, shell=True)

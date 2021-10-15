@@ -1,1 +1,2 @@
-test
+testsome text, as header of the file
+main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
