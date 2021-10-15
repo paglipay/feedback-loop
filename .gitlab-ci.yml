@@ -10,7 +10,7 @@ build:
   # before_script:
   #   - docker login -u paglipay -p $CI_REGISTRY_PASSWORD  
   before_script:
-    - git remote set-url origin https://paglipay:PAssw0rd@corp.paglipay.info/root/feedback-loop
+    - git remote set-url origin https://root:S8Aw7r2nQWKLxbxPR-Ar@corp.paglipay.info/root/feedback-loop
     - git config --global user.email 'paglipay@gmail.com'
     - git config --global user.name 'paglipay'
   script: 
