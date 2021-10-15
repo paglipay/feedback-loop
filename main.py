@@ -23,6 +23,7 @@ if __name__ == "__main__":
         'ls -la',
         'echo \'bye\' >> ./log.txt',
         'git add .',
+        'git status',
         'git commit -m "feedback"',
         'git push origin master'
         ]
