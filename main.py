@@ -1,6 +1,7 @@
 import subprocess
 import shlex
 import time
+import socket
 
 def run_command(command):
     process = subprocess.Popen(shlex.split(command), shell=False, stdout=subprocess.PIPE)
@@ -19,9 +20,10 @@ if __name__ == "__main__":
     print('hello')
     command_list = [
         'git pull origin master',
+        'git checkout ' + socket.gethostname(),
         'git add .',
         'git status',
-        'git commit -m "pull"',
+        'git commit -m "' + socket.gethostname() + '"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
@@ -29,7 +31,7 @@ if __name__ == "__main__":
         # 'git add .',
         # 'git status',
         # 'git commit -m "pushing"',
-        'git push origin master'
+        'git push origin ' + socket.gethostname()
         ]
     for l in command_list:
         print(l)
