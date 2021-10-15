@@ -18,13 +18,13 @@ def run_command(command):
 if __name__ == "__main__":
     print('hello')
     command_list = [
+        'echo bye >> log.txt',
         'git pull origin master',
         'pwd',
         'ls -la',
         'git add .',
         'git commit -m "feedback"',
-        'git push origin master',
-        'echo >> $(date +\'%m/%d/%Y\')'
+        'git push origin master'
         ]
     for l in command_list:
         print(l)
