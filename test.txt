@@ -128,6 +128,17 @@ hostname: cannot set name to ‘/p’: Invalid argument
 some text, as header of the file
 'c-213' is not recognized as an internal or external command,
 operable program or batch file.
+<<<<<<< HEAD
 >>>>>>> 5624e2cc4d1680cf9169c80f7daefcaf5a4b05ab
 some text, as header of the file
 ub-desk-230
+=======
+some text, as header of the file
+ubd-220
+some text, as header of the file
+
+some text, as header of the file
+
+some text, as header of the file
+/p: 1: ubd-220: not found
+>>>>>>> 506b2fc37fb3f6234505e42ea92f60d0edf5f81a
