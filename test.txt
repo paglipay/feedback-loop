@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 testsome text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
@@ -14,3 +15,7 @@ some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+=======
+some text, as header of the file
+main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+>>>>>>> a7bc07447ae39f11108ff0835759afab36137ec9
