@@ -133,3 +133,9 @@ some text, as header of the file
 /p: 1: ub-desk-230: not found
 some text, as header of the file
 /p: 1: ub-desk-230: not found
+some text, as header of the file
+'administrator2' is not recognized as an internal or external command,
+operable program or batch file.
+some text, as header of the file
+'administrator2' is not recognized as an internal or external command,
+operable program or batch file.
