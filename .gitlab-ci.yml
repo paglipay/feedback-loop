@@ -25,6 +25,6 @@ build:
     # - git checkout master
     # - git push origin master
     - touch branch.txt
-    - git add .
+    - git add -A
     - git commit -m '[skip ci] commit from CI runner'
     - git push --follow-tags origin branch
