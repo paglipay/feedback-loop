@@ -35,6 +35,10 @@ if __name__ == "__main__":
         'echo hi >> text.txt',
         'git add .',
         'git status',
+        'git commit -m "pulling again"',
+        'git pull origin master',
+        'git add .',
+        'git status',
         'git commit -m "pushing"',
         'git push origin master'
         ]
