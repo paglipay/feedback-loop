@@ -18,6 +18,14 @@ def run_command(command):
 
 if __name__ == "__main__":
     print('hello')
+
+    command_list = [
+        'git checkout -b ' + socket.gethostname()
+        ]
+    for l in command_list:
+        print(l)
+        run_command(l)
+
     command_list = [
         'git pull origin master',
         'git checkout ' + socket.gethostname(),
@@ -37,12 +45,27 @@ if __name__ == "__main__":
         print(l)
         run_command(l)
 
-    log = open('test.txt', 'a')
+    # log = open('test.txt', 'a')
+    # log.write('some text, as header of the file\n')
+    # log.flush()  # <-- here's something not to forget!
+    # c = subprocess.Popen([socket.gethostname(), '/p'], stdout=log, stderr=log, shell=True)
+
+
+    log = open(socket.gethostname() + '-test.txt', 'a')
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
-    c = subprocess.Popen(['hostname', '/p'], stdout=log, stderr=log, shell=True)
+    c = subprocess.Popen([socket.gethostname(), '/p'], stdout=log, stderr=log, shell=True)
 
 
+    for l in command_list:
+        print(l)
+        run_command(l)
+
+    
+
+    command_list = [
+        'git branch -D ' + socket.gethostname()
+        ]
     for l in command_list:
         print(l)
         run_command(l)

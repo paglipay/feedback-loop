@@ -9,6 +9,10 @@ class Key:
         bol_config = False
         if str_config == 'True':
             bol_config = True
+        elif str_config == 'open':
+            bol_config = False
+        elif str_config == 'save_as':
+            bol_config = False
 
         return bol_config
 
