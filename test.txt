@@ -126,10 +126,4 @@ some text, as header of the file
 'c-213' is not recognized as an internal or external command,
 operable program or batch file.
 some text, as header of the file
-ubd-220
-some text, as header of the file
-
-some text, as header of the file
-
-some text, as header of the file
-/p: 1: ubd-220: not found
+administrator2 /p
