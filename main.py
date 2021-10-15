@@ -58,3 +58,5 @@ if __name__ == "__main__":
     #time.sleep(10)
     # from subprocess import call
     # call(["git add . && git commit -am 'feedback' && git push origin master"])
+
+    time.sleep(11)
