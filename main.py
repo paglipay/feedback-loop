@@ -60,3 +60,5 @@ if __name__ == "__main__":
     # call(["git add . && git commit -am 'feedback' && git push origin master"])
 
     time.sleep(11)
+
+    print('DONE')
