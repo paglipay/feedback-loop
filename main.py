@@ -22,6 +22,7 @@ if __name__ == "__main__":
         'whoami',
         'pwd',
         'ls -la',
+        'touch test.txt',
         'echo "23iabcd" >> test.txt',
         'git add .',
         'git status',
