@@ -22,7 +22,7 @@ if __name__ == "__main__":
         'whoami',
         'pwd',
         'ls -la',
-        'cat [test.txt] >> [test.txt]',
+        'echo hi >> text.txt',
         'git add .',
         'git status',
         'git commit -m "feedback"',
