@@ -8,13 +8,22 @@ some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dc8f954c3abae64c06405714aac78ef5c8e54238
+some text, as header of the file
+main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+some text, as header of the file
+main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+<<<<<<< HEAD
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
 some text, as header of the file
 main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
-some text, as header of the file
-main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
-some text, as header of the file
-main.py  my_packages  README.md  some\ file.txt  start.json  test.txt
+=======
+=======
+>>>>>>> 10f5af310309e383f17cbfa50c61a961a9ddb7d3
+>>>>>>> dc8f954c3abae64c06405714aac78ef5c8e54238
