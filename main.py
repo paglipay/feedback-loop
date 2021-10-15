@@ -21,7 +21,7 @@ if __name__ == "__main__":
         'git pull origin master',
         'git add .',
         'git status',
-        'git commit -m "pull" -m "`$commitDate`"',
+        'git commit -m "pull" -m "$commitDate"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
