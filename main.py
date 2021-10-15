@@ -20,13 +20,13 @@ if __name__ == "__main__":
     print('hello')
 
     command_list = [
+        'git config --global user.email "you@example.com"',
+        'git config --global user.name "Your Name"',
         'git checkout ' + socket.gethostname(),
         'git pull origin master',
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
-        'git config --global user.email "you@example.com"',
-        'git config --global user.name "Your Name"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
