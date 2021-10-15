@@ -22,13 +22,13 @@ if __name__ == "__main__":
         'git add .',
         'git status',
         'git commit -m "pulled"',
-        'whoami',
-        'pwd',
-        'ls -la',
-        'echo hi >> text.txt',
-        'git add .',
-        'git status',
-        'git commit -m "pushing"',
+        # 'whoami',
+        # 'pwd',
+        # 'ls -la',
+        # 'echo hi >> text.txt',
+        # 'git add .',
+        # 'git status',
+        # 'git commit -m "pushing"',
         'git push origin master'
         ]
     for l in command_list:
