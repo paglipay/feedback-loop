@@ -126,6 +126,10 @@ some text, as header of the file
 'c-213' is not recognized as an internal or external command,
 operable program or batch file.
 some text, as header of the file
+<<<<<<< HEAD
 ub-desk-230
+=======
+administrator2 /p
+>>>>>>> 7aa0503665da9388aeee0c04feb6e00f0b080b6d
 some text, as header of the file
 /p: 1: ub-desk-230: not found
