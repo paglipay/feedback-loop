@@ -9,7 +9,7 @@ build:
   image: python:latest
   # before_script:
   #   - docker login -u paglipay -p $CI_REGISTRY_PASSWORD  
-   before_script:
+  before_script:
     - apt-get update -y && apt-get install -yqqf openssh-client git unzip sshpass rsync --fix-missing
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
