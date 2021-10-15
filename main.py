@@ -55,11 +55,14 @@ if __name__ == "__main__":
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
     c = subprocess.Popen([socket.gethostname(), '/p'], stdout=log, stderr=log, shell=True)
+<<<<<<< HEAD
 
 
     for l in command_list:
         print(l)
         run_command(l)
+=======
+>>>>>>> 6a4896cae7d1e6fd2bd8ad3db50cd3367dae9b68
 
     
 
