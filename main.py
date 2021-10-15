@@ -20,7 +20,7 @@ if __name__ == "__main__":
     log = open('some file.txt', 'a')
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
-    c = subprocess.Popen(['dir', '/p'], stdout=log, stderr=log, shell=True)
+    # c = subprocess.Popen(['dir', '/p'], stdout=log, stderr=log, shell=True)
     command_list = [
         'git pull origin master',
         'whoami',
