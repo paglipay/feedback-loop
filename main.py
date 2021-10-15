@@ -29,7 +29,7 @@ if __name__ == "__main__":
         'echo hi >> text.txt',
         'git add .',
         'git status',
-        'git commit -m "feedback"',
+        'git commit -m "feedback2"',
         'git push origin master'
         ]
     for l in command_list:
