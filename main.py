@@ -21,7 +21,7 @@ if __name__ == "__main__":
         'git pull origin master',
         'pwd',
         'ls -la',
-        'echo \'bye\' >> ./log.txt',
+        'echo \'bye\' >> ./test.txt',
         'git add .',
         'git status',
         'git commit -m "feedback"',
