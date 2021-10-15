@@ -93,3 +93,28 @@ hostname -s is not supported.
 some text, as header of the file
 some text, as header of the file
 ubd-220
+some text, as header of the file
+ub-desk-230
+some text, as header of the file
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+some text, as header of the file
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+some text, as header of the file
+ubd-220
+some text, as header of the file
+ubd-220
+some text, as header of the file
+ub-desk-230
+some text, as header of the file
+ub-desk-230
+some text, as header of the file
+ub-desk-230
+some text, as header of the file
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+some text, as header of the file
+ubd-220
+some text, as header of the file
+ubd-220
