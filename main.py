@@ -64,7 +64,7 @@ if __name__ == "__main__":
     
 
     command_list = [
-        'git checkout master'
+        'git checkout master\n'
         'git branch -D ' + socket.gethostname()
         ]
     for l in command_list:
