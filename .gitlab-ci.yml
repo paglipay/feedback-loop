@@ -17,11 +17,6 @@ build:
     - echo "Start building App"
     - pwd
     - ls -la
-<<<<<<< HEAD
-    - echo "We are currently in stage 2"
-=======
-    # - echo "We are currently in stage 2"
->>>>>>> e9054875ebf9bb390c7acb325133875739e3c60e
     # - git checkout -B branch
     # do the file changes here
     - echo "running python script"
