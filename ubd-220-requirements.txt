@@ -260,3 +260,45 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+self.io.write:git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+while:  1
+v_func: cd feedback-loop && python app.py
+self.io.write:cd feedback-loop && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && python app.py
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
