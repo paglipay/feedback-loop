@@ -1,12 +1,478 @@
-ifconfig, as header of the file
+python3 app.py
+apturl==0.5.2
+attrs==19.3.0
+bcrypt==3.1.7
+blinker==1.4
+Brlapi==0.7.0
+cached-property==1.5.1
+certifi==2019.11.28
+chardet==3.0.4
+Click==7.0
+colorama==0.4.3
+command-not-found==0.3
+cryptography==2.8
+cupshelpers==1.0
+dbus-python==1.2.16
+defer==1.0.6
+distro==1.4.0
+distro-info===0.23ubuntu1
+docker==4.1.0
+docker-compose==1.25.0
+dockerpty==0.4.1
+docopt==0.6.2
+duplicity==0.8.12.0
+entrypoints==0.3
+fasteners==0.14.1
+future==0.18.2
+httplib2==0.14.0
+idna==2.8
+importlib-metadata==1.5.0
+jsonschema==3.2.0
+keyring==18.0.1
+language-selector==0.1
+launchpadlib==1.10.13
+lazr.restfulclient==0.14.2
+lazr.uri==1.0.3
+lockfile==0.12.2
+louis==3.12.0
+macaroonbakery==1.3.1
+Mako==1.1.0
+MarkupSafe==1.1.0
+monotonic==1.5
+more-itertools==4.2.0
+netifaces==0.10.4
+oauthlib==3.1.0
+olefile==0.46
+paramiko==2.6.0
+pexpect==4.6.0
+Pillow==7.0.0
+protobuf==3.6.1
+pycairo==1.16.2
+pycups==1.9.73
+PyGObject==3.36.0
+PyJWT==1.7.1
+pymacaroons==0.13.0
+PyNaCl==1.3.0
+pyRFC3339==1.1
+pyrsistent==0.15.5
+python-apt==2.0.0+ubuntu0.20.4.4
+python-dateutil==2.7.3
+python-debian===0.1.36ubuntu1
+pytz==2019.3
+pyxdg==0.26
+PyYAML==5.3.1
+reportlab==3.5.34
+requests==2.22.0
+requests-unixsocket==0.2.0
+SecretStorage==2.3.1
+simplejson==3.16.0
+six==1.14.0
+systemd-python==234
+texttable==1.6.2
+ubuntu-advantage-tools==20.3
+ubuntu-drivers-common==0.0.0
+ufw==0.36
+unattended-upgrades==0.1
+urllib3==1.25.8
+usb-creator==0.3.7
+wadllib==1.3.3
+websocket-client==0.53.0
+xkit==0.0.0
+zipp==1.0.0
+python3 app.py
+appdirs==1.4.4
+astroid==2.4.2
+bcrypt==3.2.0
+certifi==2020.12.5
+cffi==1.14.5
+charset-normalizer==2.0.4
+click==8.0.1
+colorama==0.4.4
+cryptography==3.4.7
+distlib==0.3.1
+filelock==3.0.12
+Flask==2.0.1
+future==0.18.2
+idna==3.2
+isort==5.6.4
+itsdangerous==2.0.1
+Jinja2==3.0.1
+lazy-object-proxy==1.4.3
+lxml==4.6.3
+MarkupSafe==2.0.1
+mccabe==0.6.1
+netmiko==3.4.0
+ntc-templates==2.0.0
+numpy==1.21.1
+pandas==1.3.0
+paramiko==2.7.2
+pipenv==2020.11.15
+pyang==2.4.0
+pycparser==2.20
+pylint==2.6.0
+PyNaCl==1.4.0
+pyserial==3.5
+python-dateutil==2.8.2
+pytz==2021.1
+PyYAML==6.0
+requests==2.26.0
+scp==0.13.4
+six==1.15.0
+tenacity==7.0.0
+textfsm==1.1.0
+toml==0.10.2
+urllib3==1.26.6
+virtualenv==20.4.7
+virtualenv-clone==0.5.4
+Werkzeug==2.0.1
+wrapt==1.12.1
+python3 app.py
+appdirs==1.4.4
+astroid==2.4.2
+bcrypt==3.2.0
+certifi==2020.12.5
+cffi==1.14.5
+charset-normalizer==2.0.4
+click==8.0.1
+colorama==0.4.4
+cryptography==3.4.7
+distlib==0.3.1
+filelock==3.0.12
+Flask==2.0.1
+future==0.18.2
+idna==3.2
+isort==5.6.4
+itsdangerous==2.0.1
+Jinja2==3.0.1
+lazy-object-proxy==1.4.3
+lxml==4.6.3
+MarkupSafe==2.0.1
+mccabe==0.6.1
+netmiko==3.4.0
+ntc-templates==2.0.0
+numpy==1.21.1
+pandas==1.3.0
+paramiko==2.7.2
+pipenv==2020.11.15
+pyang==2.4.0
+pycparser==2.20
+pylint==2.6.0
+PyNaCl==1.4.0
+pyserial==3.5
+python-dateutil==2.8.2
+pytz==2021.1
+PyYAML==6.0
+requests==2.26.0
+scp==0.13.4
+six==1.15.0
+tenacity==7.0.0
+textfsm==1.1.0
+toml==0.10.2
+urllib3==1.26.6
+virtualenv==20.4.7
+virtualenv-clone==0.5.4
+Werkzeug==2.0.1
+wrapt==1.12.1
+python3 app.py
 app.py HERE
-ifconfig, as header of the file
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: ifconfig
+self.io.write:ifconfig
+
+time.sleep(self.wait):  0
+############################################Sending:ifconfig
+while:  1
+v_func: pwd
+self.io.write:pwd
+
+time.sleep(self.wait):  0
+############################################Sending:pwd
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
 app.py HERE
-ifconfig, as header of the file
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: ifconfig
+self.io.write:ifconfig
+
+time.sleep(self.wait):  0
+############################################Sending:ifconfig
+while:  1
+v_func: pwd
+self.io.write:pwd
+
+time.sleep(self.wait):  0
+############################################Sending:pwd
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
 app.py HERE
-ifconfig, as header of the file
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+self.io.write:git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git
+while:  1
+v_func: cd feedback-loop && python app.py
+self.io.write:cd feedback-loop && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && python app.py
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
 app.py HERE
-v_func:  Key
-ifconfig, as header of the file
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+while:  3
+v_func: cd feedback-loop && pip install -r requirements.txt && python app.py
+self.io.write:cd feedback-loop && pip install -r requirements.txt && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && pip install -r requirements.txt && python app.py
+while:  1
+while:  1
+while:  2
+while:  3
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
 app.py HERE
-.txt
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+Receiving objects:  76% (1784/2347)   Receiving objects:  77% (1808/2347)   
+Receiving objects:  78% (1831/2347)   Receiving objects:  79% (1855/2347)   Receiving objects:  80% (1878/2347)   Receiving objects:  81% (1902/2347)   Receiving objects:  82% (1925/2347)   Receiving objects:  83% (1949/2347)   Receiving objects:  84% (1972/2347)   Receiving objects:  85% (1995/2347)   Receiving objects:  86% (2019/2347)   Receiving objects:  87% (2042/2347)   Receiving objects:  88% (2066/2347)   Receiving objects:  89% (2089/2347)   Receiving objects:  90% (2113/2347)   Receiving objects:  91% (2136/2347)   Receiving objects:  92% (2160/2347)   Receiving objects:  93% (2183/2347)   Receiving objects:  94% (2207/2347)   Receiving objects:  95% (2230/2347)   Receiving objects:  96% (2254/2347)   Receiving objects:  97% (2277/2347)   Receiving objects:  98% (2301/2347)   Receiving objects:  99% (2324/2347), 1.88 MiB | 3.73 MiB/s   remote: Total 2347 (delta 156), reused 691 (delta 129), pack-reused 1619[K
+Receiving objects: 100% (2347/2347), 1.88 MiB | 3.73 MiB/s   Receiving objects: 100% (2347/2347), 3.40 MiB | 5.23 MiB/s, done.
+Resolving deltas:   0% (0/1167)   Resolving deltas:   1% (12/1167)   Resolving deltas:   2% (24/1167)   Resolving deltas:   3% (37/1167)   Resolving deltas:  44% (517/1167)   Resolving deltas:  45% (527/1167)   Resolving deltas:  54% (634/1167)   Resolving deltas:  55% (642/1167)   Resolving deltas:  64% (758/1167)   Resolving deltas:  67% (788/1167)   Resolving deltas:  72% (851/1167)   Resolving deltas:  81% (954/1167)   Resolving deltas:  82% (958/1167)   Resolving deltas:  83% (969/1167)   Resolving deltas:  84% (984/1167)   Resolving deltas:  85% (996/1167)   Resolving deltas:  88% (1037/1167)   Resolving deltas:  89% (1050/1167)   Resolving deltas:  90% (1058/1167)   Resolving deltas:  91% (1070/1167)   Resolving deltas:  93% (1087/1167)   Resolving deltas:  94% (1101/1167)   Resolving deltas:  95% (1110/1167)   Resolving deltas:  96% (1121/1167)   Resolving deltas:  97% (1137/1167)   Resolving deltas:  98% (1144/1167)   Resolving deltas:  99% (1156/1167)   Resolving deltas: 100% (1167/1167)   Resolving deltas: 100% (1167/1167), done.
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+self.io.write:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+while:  1
+while:  1
+while:  2
+while:  1
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc03:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
