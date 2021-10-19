@@ -1,0 +1,8 @@
+[
+    {
+        "import": "FeedbackLoopObj"
+    },
+    {
+        "True": "ls -la\npwd"
+    }
+]
