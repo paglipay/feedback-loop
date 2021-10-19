@@ -1,0 +1,311 @@
+- import: Key
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw12f1.physics.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw11f2.physics.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw00f2.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw00f3.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw11fb.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw00f10sw.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw11f10ne.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw11f10se.wc.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw12f1.pubpol.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
+- 'True':
+  - 'True':
+    - open: drawbridge.noc.ucla.edu
+  - wait: 1
+  - 'True': paglipay
+  - 'True':
+    - prompt: PASSCODE
+  - 'True': ssh sw15f2.pubpol.ucla.net
+  - 'True':
+    - prompt: password
+  - wait: 1
+  - 'True': enable
+  - 'True': search-your-feelings
+  - 'True': terminal length 0
+  - 'True': 'dir flash:'
+  - 'False': install remove inactive
+  - 'True': show snmp loc
+  - 'True': show cdp neighbors
+  - 'True': show env all
+  - 'True': show int status | inc connected
+  - 'True': show power inline
+  - 'True': show power inline police
+  - 'True': show mac address-table
+  - 'False': conf t
+  - 'False': ip tftp blocksize 1452
+  - 'False': exit
+  - 'False': 'copy tftp: flash:'
+  - 'False': 169.232.35.12
+  - 'False': /opt/tftp/cisco/2900/2960/c2960-lanbasek9-mz.150-2.SE11.bin
+  - 'False': /opt/tftp/cisco/3850/cat3k_caa-universalk9.16.12.05b.SPA.bin
+  - 'False': ''
