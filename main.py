@@ -57,7 +57,7 @@ if __name__ == "__main__":
     log = open(socket.gethostname() + '-requirements.txt', 'a')
     log.write('ifconfig, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
-    c = subprocess.Popen(['python3 app.py', '/p'], stdout=log, stderr=log, shell=True)
+    c = subprocess.Popen(['python3 -m pip freeze', '/p'], stdout=log, stderr=log, shell=True)
 
 
     for l in command_list:
