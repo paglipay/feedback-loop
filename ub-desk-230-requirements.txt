@@ -1,2 +1,7 @@
 python3 app.py
 app.py HERE!!!
+python3 app.py
+  File "app.py", line 1
+    <<<<<<< HEAD
+    ^
+SyntaxError: invalid syntax
