@@ -16,7 +16,8 @@
     },
     {
         "True":[
-            {"True":"my_packages/ParamikoObj/1.json"}
+            {"False":"my_packages/ParamikoObj/1.json"},
+            {"True":"json/git/out.json"}
         ]
     }
 ]

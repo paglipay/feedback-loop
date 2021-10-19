@@ -1,0 +1,53 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.81",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "True"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "git clone -c http.verifySsl=false https://root:P4xTn8u-UimDjTHcwnd@corp.paglipay.info/root/feedback-loop.git"
+                    },
+                    {
+                        "True": "cd feedback-loop && python app.py"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "False"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]
