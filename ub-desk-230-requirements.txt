@@ -16,3 +16,19 @@ python3
 v_func:  echo hi
 hi
 python3 app.py
+app.py HERE
+v_func:  python3 -m venv ../test_venv
+v_func:  ls ../test_venv/bin/ 
+activate
+activate.csh
+activate.fish
+Activate.ps1
+easy_install
+easy_install-3.8
+pip
+pip3
+pip3.8
+python
+python3
+v_func:  echo hi
+hi

@@ -9,9 +9,14 @@
         ]
     },
     {
-        "True":[
+        "False":[
             {"True":"json/venv/out.json"},
             {"False":"json/cisco_actions/tftp/out.yml"}
+        ]
+    },
+    {
+        "True":[
+            {"True":"my_packages/ParamikoObj/1.json"}
         ]
     }
 ]
