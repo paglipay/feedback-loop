@@ -581,3 +581,16 @@ $ git diff c7103c1e6e55f932a03778b7c07c3b21eb3e71e1
 output, run
 $ git reset --hard
 to recover.
+remote: 
+remote: To create a merge request for ubd-220, visit:        
+remote:   https://corp.paglipay.info/root/feedback-loop/-/merge_requests/new?merge_request%5Bsource_branch%5D=ubd-220        
+remote: 
+To https://corp.paglipay.info/root/feedback-loop.git
+   c7103c1..e607db0  ubd-220 -> ubd-220
+ifconfig, as header of the file
+Already on 'ubd-220'
+Already on 'ubd-220'
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
