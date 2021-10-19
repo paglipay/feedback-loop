@@ -36,7 +36,7 @@ class FeedbackLoopObj:
         return True
 
     def run_command(self, command):
-        process = subprocess.Popen(shlex.split(command), shell=False, stdout=subprocess.PIPE)
+        process = subprocess.Popen(shlex.split(command, '\n'), shell=False, stdout=subprocess.PIPE)
         while True:
             output = process.stdout.readline().decode("utf-8")
             if len(output) < 1:
