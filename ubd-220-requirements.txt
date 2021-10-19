@@ -20,3 +20,12 @@ $ git diff 2f7cd9df53833ca9ea0cb8c491f0685503214551
 output, run
 $ git reset --hard
 to recover.
+remote: error: cannot lock ref 'refs/heads/ubd-220': is at 8000b8a66e4c6ee754e180bf0c709c196952c7ff but expected 2f7cd9df53833ca9ea0cb8c491f0685503214551        
+To https://corp.paglipay.info/root/feedback-loop.git
+ ! [remote rejected] ubd-220 -> ubd-220 (failed to update ref)
+error: failed to push some refs to 'https://corp.paglipay.info/root/feedback-loop.git'
+ifconfig, as header of the file
+Already on 'ubd-220'
+Already on 'ubd-220'
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
