@@ -1,4 +1,4 @@
-import json
+import json, yaml
 import sys
 # from tqdm import tqdm
 class DTree:
@@ -30,6 +30,8 @@ class DTree:
         # print('k_process: ', config, v_val)
         if '.json' in config:
             return DTree(json.load(open(config)), config, self.import_obj_instance, self.current_module_name, self.data).bol
+        elif '.yml' in config:
+            return DTree(yaml.safe_load(open(config)), config, self.import_obj_instance, self.current_module_name, self.data).bol
         else:
             return self.import_obj_instance[self.current_module_name].k_func(config, v_val)
 
@@ -40,6 +42,12 @@ class DTree:
                 d = DTree(self.data[config], config, self.import_obj_instance, self.current_module_name, self.data)
             else:
                 d = DTree(json.load(open(config)), config, self.import_obj_instance, self.current_module_name, self.data)
+            return d.bol
+        elif '.yml' in config:
+            if config in self.data:
+                d = DTree(self.data[config], config, self.import_obj_instance, self.current_module_name, self.data)
+            else:
+                d = DTree(yaml.safe_load(open(config)), config, self.import_obj_instance, self.current_module_name, self.data)
             return d.bol
         else:
             return self.import_obj_instance[self.current_module_name].v_func(config)
