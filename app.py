@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-print('app.py HERE!!!')
-=======
 import DTree
 import json
 import uuid
@@ -21,4 +18,3 @@ if __name__ == "__main__":
     json_file = 'start.json'
 
     do_process(flask_process_data, json_file, import_obj_instance_hash)
->>>>>>> 0b1b5da4893b6c5d14c57c770689199dbeb90453
