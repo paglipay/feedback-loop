@@ -1,0 +1,27 @@
+python3 app.py
+total 104
+drwxrwxr-x  7 paul paul 4096 Oct 19 13:34 .
+drwxrwxr-x 22 paul paul 4096 Oct 19 13:40 ..
+-rw-rw-r--  1 paul paul 1496 Oct 15 21:54 administrator2-test.txt
+-rw-rw-r--  1 paul paul  625 Oct 19 13:14 app.py
+-rw-rw-r--  1 paul paul    6 Oct 15 17:39 branch.txt
+-rw-rw-r--  1 paul paul  212 Oct 19 12:29 c-213-requirements.txt
+-rw-rw-r--  1 paul paul 2286 Oct 19 12:29 c-213-test.txt
+-rw-rw-r--  1 paul paul 2911 Oct 19 12:33 DTree.py
+drwxrwxr-x  8 paul paul 4096 Oct 19 13:58 .git
+-rw-rw-r--  1 paul paul  812 Oct 15 21:54 .gitlab-ci.yml
+drwxrwxr-x  4 paul paul 4096 Oct 19 13:14 json
+-rw-rw-r--  1 paul paul 2193 Oct 19 13:35 main.py
+drwxrwxr-x  6 paul paul 4096 Oct 19 13:14 my_packages
+drwxrwxr-x  2 paul paul 4096 Oct 19 13:14 __pycache__
+-rw-rw-r--  1 paul paul   17 Oct 14 19:56 README.md
+-rw-rw-r--  1 paul paul  273 Oct 15 17:39 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 paul paul  445 Oct 14 19:56 some file.txt
+-rw-rw-r--  1 paul paul  341 Oct 19 13:39 start.json
+-rw-rw-r--  1 paul paul 4332 Oct 15 15:11 test.txt
+-rw-rw-r--  1 paul paul  238 Oct 19 13:14 ubd-220-requirements.txt
+-rw-rw-r--  1 paul paul 4189 Oct 19 13:14 ubd-220-test.txt
+-rw-rw-r--  1 paul paul   15 Oct 19 13:58 ub-desk-230-requirements.txt
+-rw-rw-r--  1 paul paul 2016 Oct 19 13:58 ub-desk-230-test.txt
+drwxrwxr-x  2 paul paul 4096 Oct 14 20:58 .vscode
+/home/paul/Documents/Projects/feedback-loop
