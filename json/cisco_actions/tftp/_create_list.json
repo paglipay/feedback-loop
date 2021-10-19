@@ -1,0 +1,8 @@
+[
+  {"import":"JinjaObj"},
+  {"True": [
+     {"list_dics":"json/cisco_actions/tftp/ip.txt"},
+     {"open":"json/cisco_actions/tftp/_accepts_list.json"},
+     {"save_as":"json/cisco_actions/tftp/out.json"}
+  ]}
+]
