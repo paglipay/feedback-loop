@@ -1,0 +1,80 @@
+
+vagrant@doc01:~$ ifconfig
+br-4759a70587ea: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.20.0.1  netmask 255.255.0.0  broadcast 172.20.255.255
+        ether 02:42:b8:4c:36:b0  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+br-a272740f1519: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.19.0.1  netmask 255.255.0.0  broadcast 172.19.255.255
+        ether 02:42:61:e0:67:b9  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:91ff:feeb:ee73  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:91:eb:ee:73  txqueuelen 0  (Ethernet)
+        RX packets 23856  bytes 1021032 (1.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 51378  bytes 184577602 (184.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker_gwbridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
+        inet6 fe80::42:a7ff:fef9:4313  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:a7:f9:43:13  txqueuelen 0  (Ethernet)
+        RX packets 88114  bytes 6403152 (6.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 672415  bytes 54788813 (54.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fea9:d0cb  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:a9:d0:cb  txqueuelen 1000  (Ethernet)
+        RX packets 127911  bytes 188815338 (188.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 25043  bytes 1714937 (1.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.2.81  netmask 255.255.255.0  broadcast 192.168.2.255
+        inet6 fe80::a00:27ff:fe70:3912  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:70:39:12  txqueuelen 1000  (Ethernet)
+        RX packets 3280301  bytes 538574163 (538.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2275591  bytes 446440641 (446.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 151967  bytes 10558448 (10.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 151967  bytes 10558448 (10.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+veth3ded126: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::2095:c3ff:fec2:42e6  prefixlen 64  scopeid 0x20<link>
+        ether 22:95:c3:c2:42:e6  txqueuelen 0  (Ethernet)
+        RX packets 88114  bytes 7636748 (7.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 672451  bytes 54791333 (54.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vethb779077: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::1844:1eff:fe8d:33d6  prefixlen 64  scopeid 0x20<link>
+        ether 1a:44:1e:8d:33:d6  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 368  bytes 81743 (81.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vagrant@doc01:~$ 

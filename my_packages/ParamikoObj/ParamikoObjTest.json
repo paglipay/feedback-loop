@@ -1,0 +1,63 @@
+[
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.81",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "True": "sudo git clone https://github.com/paglipay/burger.git"
+                    },
+                    {
+                        "True": "cd burger"
+                    },
+                    {
+                        "True": "npm i"
+                    },
+                    {
+                        "True": "ls -la"
+                    }
+                ]
+            },
+            {
+                "False": [
+                    {
+                        "True": "pwd"
+                    },
+                    {
+                        "True": "cd /"
+                    },
+                    {
+                        "True": "pwd"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    {
+                        "True": "mkdir TEST"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    {
+                        "True": "sudo docker service ls"
+                    },
+                    {
+                        "True": "exit"
+                    }
+                ]
+            },
+            {
+                "close": "exit"
+            }
+        ]
+    }
+]

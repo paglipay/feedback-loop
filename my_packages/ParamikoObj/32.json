@@ -1,0 +1,32 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.32",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "True": "pwd"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.36.199",
+                    "username": "ubuntu",
+                    "password": "P@ssw0rd"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "False": [
+                            "sudo apt-get remove --purge virtualbox -y",
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            "sudo rm ~/\"VirtualBox VMs\" -Rf",
+                            "sudo rm ~/.config/VirtualBox/ -Rf"
+                        ]
+                    },
+                    {
+                        "False": [
+                            "sudo apt-get install virtualbox -y",
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            }
+                        ]
+                    },
+                    {
+                        "False": [
+                            "virtualbox",
+                            "sudo ps aux | grep -i \"vbox\" -y",
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            "sudo pkill VBox*"
+                        ]
+                    },
+                    {
+                        "False": "vagrant up"
+                    },
+                    {
+                        "False": "virtualbox"
+                    },
+                    {
+                        "False": [
+                            "ansible all -m ping -u vagrant -K -k",
+                            "vagrant",
+                            "\n"
+                        ]
+                    },
+                    {
+                        "False": [
+                            "sudo apt-get update",
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            }
+                        ]
+                    },
+                    {
+                        "False": [
+                            "sudo apt-get --assume-yes install ansible",
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            }
+                        ]
+                    },
+                    {
+                        "True": [
+                            "sudo apt-get --assume-yes install ansible",
+                            {
+                                "wait": 0
+                            },
+                            {
+                                "password": {
+                                    "prompt": "(PASSCODE): "
+                                }
+                            },
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "sudo apt-get install -y sshpass",
+                            {
+                                "password": [
+                                    "P@ssw0rd"
+                                ]
+                            },
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "sudo apt-get install -y python-pip",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip install pywinrm",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "sudo apt-get install -y python3",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "sudo apt install -y python3-pip",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip install --upgrade pip",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip3 install flask",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip3 install paramiko",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip3 install selenium",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip3 install Flask-SQLAlchemy",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip3 install pyopenssl",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            "pip install pyOpenSSL",
+                            {
+                                "not':~$": "./json/paramiko/wait_till.json"
+                            },
+                            {
+                                "False": [
+                                    "sudo apt install -y samba",
+                                    {
+                                        "not':~$": "./json/paramiko/wait_till.json"
+                                    },
+                                    "sudo apt-get install -y default-jdk",
+                                    {
+                                        "not':~$": "./json/paramiko/wait_till.json"
+                                    },
+                                    "sudo mkdir /home/paul/jenkins",
+                                    {
+                                        "not':~$": "./json/paramiko/wait_till.json"
+                                    },
+                                    "sudo chown -R paul /home/paul/jenkins",
+                                    {
+                                        "not':~$": "./json/paramiko/wait_till.json"
+                                    },
+                                    "sudo apt-get install -y git",
+                                    {
+                                        "not':~$": "./json/paramiko/wait_till.json"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]
