@@ -22,7 +22,6 @@ if __name__ == "__main__":
     command_list = [
         'pwd',
         'ls -la',
-        # 'cd /c/Users/Paul Aglipay/Documents/Projects/feedback-loop/json',
         'pwd',
         'git config --global user.email "you@example.com"',
         'git config --global user.name "Your Name"',
