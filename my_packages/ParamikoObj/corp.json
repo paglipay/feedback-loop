@@ -1,0 +1,32 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "corp.paglipay.info",
+                    "username": "paul",
+                    "password": "P@ssw0rd"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "True": "pwd"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]

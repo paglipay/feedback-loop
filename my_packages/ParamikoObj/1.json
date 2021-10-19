@@ -1,0 +1,65 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.81",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "True": "pwd"
+                    },
+                    "echo PASSCODE",
+                    "json/paramiko/passcode.json",
+                    {
+                        "prompt": "custom_entry"
+                    },
+                    {
+                        "200": [
+                            {
+                                "prompt": "custom_entry2"
+                            }
+                        ]
+                    },
+                    {
+                        "False": "ls -la"
+                    },
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "True"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "ifconfig"
+                    },
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "False"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]

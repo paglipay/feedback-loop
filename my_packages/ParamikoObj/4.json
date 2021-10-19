@@ -1,0 +1,41 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.224",
+                    "username": "paul",
+                    "password": "26559@pa"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "False": "git clone https://github.com/paglipay/React-Portfolio.git"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    {
+                        "False": "sudo apt-get update"
+                    },
+                    {
+                        "False": "26559@pa"
+                    },
+                    {
+                        "False": "ls -la&& sudo apt-get install -y apache2 && sudo apt-get --assume-yes install ansible && sudo apt-get install -y sshpass && sudo apt-get install -y python-pip && sudo pip install pywinrm && sudo apt-get install -y python3 && sudo apt install -y python3-pip && sudo pip3 install awscli && sudo pip3 install flask && sudo pip3 install paramiko && sudo pip3 install selenium && sudo pip3 install Flask-SQLAlchemy && sudo pip3 install pyopenssl && sudo pip install pyOpenSSL"
+                    },
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]

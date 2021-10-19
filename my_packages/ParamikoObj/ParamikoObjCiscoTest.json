@@ -1,0 +1,32 @@
+[
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.227",
+                    "username": "paul",
+                    "password": "cisco12345"
+                }
+            },
+            {
+                "True": [
+                    {
+                        "True": "en"
+                    },
+                    {
+                        "True": "cisco1234"
+                    },
+                    {
+                        "True": "terminal length 0"
+                    },
+                    {
+                        "True": "sh run"
+                    }
+                ]
+            }
+        ]
+    }
+]

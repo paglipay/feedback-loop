@@ -1,0 +1,126 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.233",
+                    "username": "paul",
+                    "password": "P@ssw0rd"
+                }
+            },
+            {
+                "not'$": "./json/paramiko/wait_till.json"
+            },
+            {
+                "$": "sudo deluser --remove-home vagrant"
+            },
+            {
+                "[sudo] password for": [
+                    "P@ssw0rd",
+                    "ls -la /home"
+                ]
+            },
+            {
+                "True": [
+                    {
+                        "$": "sudo adduser vagrant"
+                    },
+                    {
+                        "[sudo] password for": "P@ssw0rd"
+                    },
+                    {
+                        "ew password": "vagrant"
+                    },
+                    {
+                        "Retype new password": "vagrant"
+                    },
+                    {
+                        "True": "\n\n\n\n\n\n\n"
+                    },
+                    {
+                        "not'$": "./json/paramiko/wait_till.json"
+                    },
+                    {
+                        "$": "sudo usermod -aG sudo vagrant"
+                    },
+                    {
+                        "password": "P@ssw0rd"
+                    }
+                ]
+            },
+            {
+                "not'$": "./json/paramiko/wait_till.json"
+            },
+            {
+                "$": "exit"
+            }
+        ]
+    },
+    {
+        "False": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.234",
+                    "username": "ubuntu",
+                    "password": "P@ssw0rd"
+                }
+            },
+            "pwd",
+            {
+                "not'$": "./json/paramiko/wait_till.json"
+            },
+            {
+                "$": "sudo deluser --remove-home vagrant"
+            },
+            {
+                "[sudo] password for": [
+                    "P@ssw0rd",
+                    "ls -la /home"
+                ]
+            },
+            {
+                "True": [
+                    {
+                        "$": "sudo adduser vagrant"
+                    },
+                    {
+                        "[sudo] password for": "P@ssw0rd"
+                    },
+                    {
+                        "ew password": "vagrant"
+                    },
+                    {
+                        "Retype new password": "vagrant"
+                    },
+                    {
+                        "True": "\n\n\n\n\n\n\n"
+                    },
+                    {
+                        "not'$": "./json/paramiko/wait_till.json"
+                    },
+                    {
+                        "$": "sudo usermod -aG sudo vagrant"
+                    },
+                    {
+                        "password": "P@ssw0rd"
+                    }
+                ]
+            },
+            {
+                "not'$": "./json/paramiko/wait_till.json"
+            },
+            {
+                "$": "exit"
+            }
+        ]
+    }
+]
