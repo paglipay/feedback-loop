@@ -30,6 +30,7 @@ if __name__ == "__main__":
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
+        'pip freeze > ' + socket.gethostname() + '.txt"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
@@ -53,6 +54,11 @@ if __name__ == "__main__":
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
     c = subprocess.Popen([socket.gethostname(), '/p'], stdout=log, stderr=log, shell=True)
+
+    log = open(socket.gethostname() + '-requirements.txt', 'a')
+    # log.write('some text, as header of the file\n')
+    log.flush()  # <-- here's something not to forget!
+    c = subprocess.Popen(['pip freeze', '/p'], stdout=log, stderr=log, shell=True)
 
 
     for l in command_list:
