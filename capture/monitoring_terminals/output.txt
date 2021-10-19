@@ -1,23 +1,25 @@
+
+
+
 Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
-  System information as of Tue Oct 19 23:42:25 UTC 2021
+  System information as of Tue Oct 19 23:43:18 UTC 2021
 
-  System load:                    0.06
-  Usage of /:                     56.2% of 61.80GB
-  Memory usage:                   27%
+  System load:                    0.1
+  Usage of /:                     34.8% of 61.80GB
+  Memory usage:                   30%
   Swap usage:                     0%
-  Processes:                      146
+  Processes:                      130
   Users logged in:                1
   IP address for eth0:            10.0.2.15
-  IP address for eth1:            192.168.2.81
-  IP address for docker0:         172.17.0.1
+  IP address for eth1:            192.168.2.83
   IP address for docker_gwbridge: 172.18.0.1
-  IP address for br-a272740f1519: 172.19.0.1
-  IP address for br-4759a70587ea: 172.20.0.1
+  IP address for br-5c8b56c38219: 172.19.0.1
+  IP address for docker0:         172.17.0.1
 
  * Canonical Livepatch is available for installation.
    - Reduce system reboots and improve kernel security. Activate at:
@@ -26,124 +28,49 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
-Last login: Tue Oct 19 23:27:07 2021 from 192.168.2.220
-
-
-
-vagrant@doc01:~$ 
-vagrant@doc01:~$ 
-vagrant@doc01:~$ 
-vagrant@doc01:~$ ifconfig
-br-4759a70587ea: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.20.0.1  netmask 255.255.0.0  broadcast 172.20.255.255
-        ether 02:42:b8:4c:36:b0  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 0  bytes 0 (0.0 B)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-br-a272740f1519: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.19.0.1  netmask 255.255.0.0  broadcast 172.19.255.255
-        ether 02:42:61:e0:67:b9  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 0  bytes 0 (0.0 B)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
-        inet6 fe80::42:91ff:feeb:ee73  prefixlen 64  scopeid 0x20<link>
-        ether 02:42:91:eb:ee:73  txqueuelen 0  (Ethernet)
-        RX packets 23856  bytes 1021032 (1.0 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 51378  bytes 184577602 (184.5 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-docker_gwbridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
-        inet6 fe80::42:a7ff:fef9:4313  prefixlen 64  scopeid 0x20<link>
-        ether 02:42:a7:f9:43:13  txqueuelen 0  (Ethernet)
-        RX packets 95290  bytes 6924765 (6.9 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 722111  bytes 58855763 (58.8 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
-        inet6 fe80::a00:27ff:fea9:d0cb  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:a9:d0:cb  txqueuelen 1000  (Ethernet)
-        RX packets 127994  bytes 188822454 (188.8 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 25151  bytes 1727700 (1.7 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 192.168.2.81  netmask 255.255.255.0  broadcast 192.168.2.255
-        inet6 fe80::a00:27ff:fe70:3912  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:70:39:12  txqueuelen 1000  (Ethernet)
-        RX packets 3547360  bytes 586138070 (586.1 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 2464156  bytes 483266086 (483.2 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-        loop  txqueuelen 1000  (Local Loopback)
-        RX packets 164562  bytes 11431722 (11.4 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 164562  bytes 11431722 (11.4 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-veth3ded126: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::2095:c3ff:fec2:42e6  prefixlen 64  scopeid 0x20<link>
-        ether 22:95:c3:c2:42:e6  txqueuelen 0  (Ethernet)
-        RX packets 95290  bytes 8258825 (8.2 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 722150  bytes 58858493 (58.8 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-vethb779077: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::1844:1eff:fe8d:33d6  prefixlen 64  scopeid 0x20<link>
-        ether 1a:44:1e:8d:33:d6  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 393  bytes 87662 (87.6 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-vagrant@doc01:~$ pwd
-/home/vagrant
-vagrant@doc01:~$ ls -la
-total 232
-drwxr-xr-x 15 vagrant vagrant  4096 Oct 19 23:27 [0m[01;34m.[0m
-drwxr-xr-x  3 root    root     4096 Dec 21  2020 [01;34m..[0m
-drwx------  3 vagrant vagrant  4096 Jun  3 00:41 [01;34m.ansible[0m
--rw-rw-r--  1 vagrant vagrant 10649 Jun  3 00:58 ansible.cfg
--rw-------  1 vagrant vagrant 56856 Oct 19 23:27 .bash_history
--rw-r--r--  1 vagrant vagrant   220 Dec 21  2020 .bash_logout
--rw-r--r--  1 vagrant vagrant  3771 Dec 21  2020 .bashrc
-drwx------  2 vagrant vagrant  4096 Dec 21  2020 [01;34m.cache[0m
--rw-rw-r--  1 vagrant vagrant    25 Jun 18 02:21 close.sh
-drwx------  2 vagrant vagrant  4096 Oct  8 22:52 [01;34m.docker[0m
-drwxrwxr-x 12 vagrant vagrant  4096 Aug 23 23:16 [01;34mfaas[0m
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 19 23:27 [01;34mfeedback-loop[0m
--rw-rw-r--  1 vagrant vagrant    46 Jun 18 17:15 .gitconfig
-drwx------  3 vagrant vagrant  4096 Dec 21  2020 [01;34m.gnupg[0m
--rw-rw-r--  1 vagrant vagrant   780 Jun  3 00:58 hosts
--rw-rw-r--  1 vagrant vagrant   800 Sep 25 01:13 hosts.tmp
--rw-r--r--  1 vagrant vagrant   588 Jun 29 19:13 id_rsa.pub
--rw-rw-r--  1 vagrant vagrant 52401 Oct 19 21:51 index.html
-drwxr-xr-x  2 vagrant root     4096 Jun  3 00:57 [01;34mjenkins[0m
-drwxrwxr-x  3 vagrant vagrant  4096 Jul  7 19:42 [01;34m.local[0m
-drwxrwxr-x  4 vagrant vagrant  4096 Jun 18 17:23 [01;34mpaglipay-docker-swarm[0m
-drwxrwxr-x  4 vagrant vagrant  4096 Aug  4 23:22 [01;34mpaglipay-gitlab[0m
-drwxrwxr-x  3 vagrant vagrant  4096 Aug  5 21:57 [01;34mpaglipay-guacamole[0m
-drwxrwxr-x  5 vagrant vagrant  4096 Jun  3 22:49 [01;34mpaglipay-naemon[0m
--rw-r--r--  1 vagrant vagrant   807 Dec 21  2020 .profile
--rw-rw-r--  1 vagrant vagrant    66 Jul  7 19:42 .selected_editor
-drwx------  3 vagrant root     4096 Jun 29 18:45 [01;34m.ssh[0m
--rw-r--r--  1 vagrant vagrant     0 Dec 21  2020 .sudo_as_admin_successful
--rw-r--r--  1 vagrant vagrant     6 Dec 21  2020 .vbox_version
--rw-------  1 root    root     4979 Jun 18 02:21 .viminfo
--rw-r--r--  1 root    root      180 Dec 21  2020 .wget-hsts
-vagrant@doc01:~$ 
+Last login: Tue Oct 19 23:43:03 2021 from 192.168.2.230
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+vagrant@doc03:~$ Username for 'https://corp.paglipay.info': root
+Password for 'https://root@corp.paglipay.info': remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  20% (1/5)[Kremote: Compressing objects:  40% (2/5)remote: Compressing objects:  60% (3/5)[Kremote: Compressing objects:  80% (4/5)[Kremote: Compressing objects: 100% (5/5)[Kremote: Compressing objects: 100% (5/5), done.[K
+Receiving objects:   0% (1/2386)   Receiving objects:   1% (24/2386)   Receiving objects:   2% (48/2386)   Receiving objects:   3% (72/2386)   Receiving objects:   4% (96/2386)   Receiving objects:   5% (120/2386)   Receiving objects:   6% (144/2386)   Receiving objects:   7% (168/2386)   Receiving objects:   8% (191/2386)   Receiving objects:   9% (215/2386)   Receiving objects:  10% (239/2386)   Receiving objects:  11% (263/2386)   Receiving objects:  12% (287/2386)   Receiving objects:  13% (311/2386)   Receiving objects:  14% (335/2386)   Receiving objects:  15% (358/2386)   Receiving objects:  16% (382/2386)   Receiving objects:  17% (406/2386)   Receiving objects:  18% (430/2386)   Receiving objects:  19% (454/2386)   Receiving objects:  20% (478/2386)   Receiving objects:  21% (502/2386)   Receiving objects:  22% (525/2386)   Receiving objects:  23% (549/2386)   Receiving objects:  24% (573/2386)   Receiving objects:  25% (597/2386)   Receiving objects:  26% (621/2386)   Receiving objects:  27% (645/2386)   Receiving objects:  28% (669/2386)   Receiving objects:  29% (692/2386)   Receiving objects:  30% (716/2386)   Receiving objects:  31% (740/2386)   Receiving objects:  32% (764/2386)   Receiving objects:  33% (788/2386)   Receiving objects:  34% (812/2386)   Receiving objects:  35% (836/2386)   Receiving objects:  36% (859/2386)   Receiving objects:  37% (883/2386)   Receiving objects:  38% (907/2386)   Receiving objects:  39% (931/2386)   Receiving objects:  40% (955/2386)   Receiving objects:  41% (979/2386)   Receiving objects:  42% (1003/2386)   Receiving objects:  43% (1026/2386)   Receiving objects:  44% (1050/2386)   Receiving objects:  45% (1074/2386)   Receiving objects:  46% (1098/2386)   Receiving objects:  47% (1122/2386)   Receiving objects:  48% (1146/2386)   Receiving objects:  49% (1170/2386)   Receiving objects:  50% (1193/2386)   Receiving objects:  51% (1217/2386)   Receiving objects:  52% (1241/2386)   Receiving objects:  53% (1265/2386)   Receiving objects:  54% (1289/2386)   Receiving objects:  55% (1313/2386)   Receiving objects:  56% (1337/2386)   Receiving objects:  57% (1361/2386)   
+Receiving objects:  58% (1384/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  59% (1408/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  60% (1432/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  61% (1456/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  62% (1480/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  63% (1504/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  64% (1528/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  65% (1551/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  66% (1575/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  67% (1599/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  68% (1623/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  69% (1647/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  70% (1671/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  71% (1695/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  72% (1718/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  73% (1742/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  74% (1766/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  75% (1790/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  76% (1814/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  77% (1838/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  78% (1862/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  79% (1885/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  80% (1909/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  81% (1933/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  82% (1957/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  83% (1981/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  84% (2005/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  85% (2029/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  86% (2052/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  87% (2076/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  88% (2100/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  89% (2124/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  90% (2148/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  91% (2172/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  92% (2196/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  93% (2219/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  94% (2243/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  95% (2267/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  96% (2291/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  97% (2315/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  98% (2339/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects:  99% (2363/2386), 3.15 MiB | 6.30 MiB/s   remote: Total 2386 (delta 0), reused 0 (delta 0), pack-reused 2381[K
+Receiving objects: 100% (2386/2386), 3.15 MiB | 6.30 MiB/s   Receiving objects: 100% (2386/2386), 3.41 MiB | 6.38 MiB/s, done.
+Resolving deltas:   0% (0/1198)   Resolving deltas:   1% (13/1198)   Resolving deltas:   2% (24/1198)   Resolving deltas:   3% (36/1198)   Resolving deltas:   8% (99/1198)   Resolving deltas:  13% (164/1198)   Resolving deltas:  19% (230/1198)   Resolving deltas:  21% (256/1198)   Resolving deltas:  27% (335/1198)   Resolving deltas:  28% (347/1198)   Resolving deltas:  42% (508/1198)   Resolving deltas:  43% (518/1198)   Resolving deltas:  44% (531/1198)   Resolving deltas:  58% (699/1198)   Resolving deltas:  62% (751/1198)   Resolving deltas:  69% (829/1198)   Resolving deltas:  77% (930/1198)   Resolving deltas:  85% (1026/1198)   Resolving deltas:  89% (1071/1198)   Resolving deltas:  90% (1086/1198)   Resolving deltas:  91% (1094/1198)   Resolving deltas:  92% (1104/1198)   Resolving deltas:  93% (1126/1198)   Resolving deltas:  94% (1127/1198)   Resolving deltas:  95% (1139/1198)   Resolving deltas:  96% (1152/1198)   Resolving deltas:  97% (1166/1198)   Resolving deltas:  98% (1181/1198)   Resolving deltas:  99% (1194/1198)   Resolving deltas: 100% (1198/1198)   Resolving deltas: 100% (1198/1198), done.
+vagrant@doc03:~$ 
+vagrant@doc03:~$ [31m  Could not find a version that satisfies the requirement bcrypt==3.2.0 (from -r requirements.txt (line 2)) (from versions: 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.1.1, 2.0.0, 3.0.0, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.1.5, 3.1.6, 3.1.7)[0m
+[31mNo matching distribution found for bcrypt==3.2.0 (from -r requirements.txt (line 2))[0m
+vagrant@doc03:~/feedback-loop$ 
+vagrant@doc03:~/feedback-loop$ ls -la
+total 128
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 19 23:43  [0m[01;34m.[0m
+drwxr-xr-x 19 vagrant vagrant  4096 Oct 19 23:43  [01;34m..[0m
+-rw-rw-r--  1 vagrant vagrant  1496 Oct 19 23:43  administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant   625 Oct 19 23:43  app.py
+-rw-rw-r--  1 vagrant vagrant     6 Oct 19 23:43  branch.txt
+-rw-rw-r--  1 vagrant vagrant   212 Oct 19 23:43  c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2286 Oct 19 23:43  c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant  4096 Oct 19 23:43  [01;34mcapture[0m
+-rw-rw-r--  1 vagrant vagrant  2911 Oct 19 23:43  DTree.py
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 19 23:43  [01;34m.git[0m
+-rw-rw-r--  1 vagrant vagrant    64 Oct 19 23:43  .gitignore
+-rw-rw-r--  1 vagrant vagrant   812 Oct 19 23:43  .gitlab-ci.yml
+drwxrwxr-x  6 vagrant vagrant  4096 Oct 19 23:43  [01;34mjson[0m
+-rw-rw-r--  1 vagrant vagrant  2162 Oct 19 23:43  main.py
+drwxrwxr-x  7 vagrant vagrant  4096 Oct 19 23:43  [01;34mmy_packages[0m
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 19 23:43  [01;34m__pycache__[0m
+-rw-rw-r--  1 vagrant vagrant    17 Oct 19 23:43  README.md
+-rw-rw-r--  1 vagrant vagrant   714 Oct 19 23:43  requirements.txt
+-rw-rw-r--  1 vagrant vagrant   273 Oct 19 23:43  runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant   445 Oct 19 23:43 'some file.txt'
+-rw-rw-r--  1 vagrant vagrant   479 Oct 19 23:43  start.json
+-rw-rw-r--  1 vagrant vagrant  4332 Oct 19 23:43  test.txt
+-rw-rw-r--  1 vagrant vagrant 12825 Oct 19 23:43  ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  4779 Oct 19 23:43  ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant   467 Oct 19 23:43  ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2331 Oct 19 23:43  ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 19 23:43  [01;34m.vscode[0m
+vagrant@doc03:~/feedback-loop$ 
