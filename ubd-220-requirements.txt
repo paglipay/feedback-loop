@@ -823,3 +823,19 @@ Already on 'ubd-220'
 Already on 'ubd-220'
 From https://corp.paglipay.info/root/feedback-loop
  * branch            master     -> FETCH_HEAD
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit ee5f006af507137c9ba8eaa1dbdec43066afd439.
+error: Your local changes to the following files would be overwritten by merge:
+	ubd-220-requirements.txt
+	ubd-220-test.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff ee5f006af507137c9ba8eaa1dbdec43066afd439
+output, run
+$ git reset --hard
+to recover.
