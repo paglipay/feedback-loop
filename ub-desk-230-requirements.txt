@@ -48,3 +48,6 @@ virtualenv==20.4.7
 virtualenv-clone==0.5.4
 Werkzeug==2.0.1
 wrapt==1.12.1
+python3 app.py
+app.py HERE
+.txt
