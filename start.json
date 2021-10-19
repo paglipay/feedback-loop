@@ -3,14 +3,14 @@
         "import": "Key"
     },
     {
-        "True":[
+        "False":[
             {"True":"json/cisco_actions/tftp/_create_list.json"},
             {"False":"json/cisco_actions/tftp/out.yml"}
         ]
     },
     {
-        "False":[
-            {"True":"json/cisco_actions/tftp/_create_list.json"},
+        "True":[
+            {"True":"json/venv/out.json"},
             {"False":"json/cisco_actions/tftp/out.yml"}
         ]
     }
