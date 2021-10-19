@@ -35,7 +35,13 @@
                         "Password": "P@ssw0rd"
                     },
                     {
-                        "True": "cd feedback-loop && pip install -r requirements.txt && python app.py"
+                        "True": "json/paramiko/wait_till.json"
+                    },
+                    {
+                        "True": "cd feedback-loop && ls && pip install -r requirements.txt && python app.py"
+                    },
+                    {
+                        "True": "json/paramiko/wait_till.json"
                     },
                     {
                         "True": "ls -la"
