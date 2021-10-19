@@ -2,3 +2,5 @@ ifconfig, as header of the file
 app.py HERE
 ifconfig, as header of the file
 /bin/python3: No module named pip
+ifconfig, as header of the file
+Already on 'ubd-220'
