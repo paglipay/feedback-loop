@@ -30,7 +30,6 @@ if __name__ == "__main__":
         'git add .',
         'git status',
         'git commit -m "' + socket.gethostname() + '"',
-        'pip freeze > ' + socket.gethostname() + '.txt"',
         # 'whoami',
         # 'pwd',
         # 'ls -la',
