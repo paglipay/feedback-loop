@@ -58,3 +58,232 @@ From https://corp.paglipay.info/root/feedback-loop
  * branch            master     -> FETCH_HEAD
 From https://corp.paglipay.info/root/feedback-loop
  * branch            master     -> FETCH_HEAD
+remote: error: cannot lock ref 'refs/heads/ubd-220': is at 0fa50852429f5610d63fbe35d36af2838bd28428 but expected 8000b8a66e4c6ee754e180bf0c709c196952c7ff        
+To https://corp.paglipay.info/root/feedback-loop.git
+ ! [remote rejected] ubd-220 -> ubd-220 (failed to update ref)
+error: failed to push some refs to 'https://corp.paglipay.info/root/feedback-loop.git'
+hello
+pwd
+/home/paul/Documents/Projects/feedback-loop
+ls -la
+total 104
+drwxrwxr-x  6 paul paul 4096 Oct 19 12:39 .
+drwxrwxr-x 12 paul paul 4096 Oct 18 15:22 ..
+-rw-rw-r--  1 paul paul 1496 Oct 15 21:55 administrator2-test.txt
+-rw-rw-r--  1 paul paul   20 Oct 19 12:39 app.py
+-rw-rw-r--  1 paul paul    6 Oct 15 17:39 branch.txt
+-rw-rw-r--  1 paul paul  212 Oct 19 12:20 c-213-requirements.txt
+-rw-rw-r--  1 paul paul 2286 Oct 19 12:20 c-213-test.txt
+-rw-rw-r--  1 paul paul 2911 Oct 19 12:35 DTree.py
+drwxrwxr-x  8 paul paul 4096 Oct 19 12:42 .git
+-rw-rw-r--  1 paul paul  812 Oct 15 21:55 .gitlab-ci.yml
+drwxrwxr-x  3 paul paul 4096 Oct 19 12:20 json
+-rw-rw-r--  1 paul paul 2180 Oct 19 12:42 main.py
+drwxrwxr-x  4 paul paul 4096 Oct 14 18:33 my_packages
+-rw-rw-r--  1 paul paul   17 Oct 14 18:33 README.md
+-rw-rw-r--  1 paul paul  273 Oct 15 17:39 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 paul paul  445 Oct 14 19:49 some file.txt
+-rw-rw-r--  1 paul paul   76 Oct 14 18:33 start.json
+-rw-rw-r--  1 paul paul 4332 Oct 15 15:07 test.txt
+-rw-rw-r--  1 paul paul  142 Oct 19 12:42 ubd-220-requirements.txt
+-rw-rw-r--  1 paul paul 3422 Oct 19 12:42 ubd-220-test.txt
+-rw-rw-r--  1 paul paul 9675 Oct 19 12:35 ub-desk-230-requirements.txt
+-rw-rw-r--  1 paul paul 1197 Oct 19 12:35 ub-desk-230-test.txt
+drwxrwxr-x  2 paul paul 4096 Oct 14 20:51 .vscode
+pwd
+/home/paul/Documents/Projects/feedback-loop
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout ubd-220
+M	ubd-220-requirements.txt
+M	ubd-220-test.txt
+Your branch is up to date with 'origin/ubd-220'.
+git pull origin master
+git add .
+git status
+On branch ubd-220
+Your branch is ahead of 'origin/ubd-220' by 1 commit.
+(use "git push" to publish your local commits)
+
+Changes to be committed:
+(use "git restore --staged <file>..." to unstage)
+modified:   ubd-220-requirements.txt
+
+git commit -m "ubd-220"
+[ubd-220 8000b8a] ubd-220
+1 file changed, 16 insertions(+)
+git push origin ubd-220
+pwd
+/home/paul/Documents/Projects/feedback-loop
+ls -la
+total 104
+drwxrwxr-x  6 paul paul 4096 Oct 19 12:39 .
+drwxrwxr-x 12 paul paul 4096 Oct 18 15:22 ..
+-rw-rw-r--  1 paul paul 1496 Oct 15 21:55 administrator2-test.txt
+-rw-rw-r--  1 paul paul   20 Oct 19 12:39 app.py
+-rw-rw-r--  1 paul paul    6 Oct 15 17:39 branch.txt
+-rw-rw-r--  1 paul paul  212 Oct 19 12:20 c-213-requirements.txt
+-rw-rw-r--  1 paul paul 2286 Oct 19 12:20 c-213-test.txt
+-rw-rw-r--  1 paul paul 2911 Oct 19 12:35 DTree.py
+drwxrwxr-x  8 paul paul 4096 Oct 19 12:42 .git
+-rw-rw-r--  1 paul paul  812 Oct 15 21:55 .gitlab-ci.yml
+drwxrwxr-x  3 paul paul 4096 Oct 19 12:20 json
+-rw-rw-r--  1 paul paul 2180 Oct 19 12:42 main.py
+drwxrwxr-x  4 paul paul 4096 Oct 14 18:33 my_packages
+-rw-rw-r--  1 paul paul   17 Oct 14 18:33 README.md
+-rw-rw-r--  1 paul paul  273 Oct 15 17:39 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 paul paul  445 Oct 14 19:49 some file.txt
+-rw-rw-r--  1 paul paul   76 Oct 14 18:33 start.json
+-rw-rw-r--  1 paul paul 4332 Oct 15 15:07 test.txt
+-rw-rw-r--  1 paul paul 1182 Oct 19 12:42 ubd-220-requirements.txt
+-rw-rw-r--  1 paul paul 3481 Oct 19 12:42 ubd-220-test.txt
+-rw-rw-r--  1 paul paul 9675 Oct 19 12:35 ub-desk-230-requirements.txt
+-rw-rw-r--  1 paul paul 1197 Oct 19 12:35 ub-desk-230-test.txt
+drwxrwxr-x  2 paul paul 4096 Oct 14 20:51 .vscode
+pwd
+/home/paul/Documents/Projects/feedback-loop
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout ubd-220
+M	ubd-220-requirements.txt
+M	ubd-220-test.txt
+Your branch is ahead of 'origin/ubd-220' by 2 commits.
+(use "git push" to publish your local commits)
+git pull origin master
+git add .
+git status
+On branch ubd-220
+Your branch is ahead of 'origin/ubd-220' by 2 commits.
+(use "git push" to publish your local commits)
+
+Changes to be committed:
+(use "git restore --staged <file>..." to unstage)
+modified:   ubd-220-requirements.txt
+
+git commit -m "ubd-220"
+[ubd-220 354d3fc] ubd-220
+1 file changed, 16 insertions(+)
+git push origin ubd-220
+DONE
+remote: error: cannot lock ref 'refs/heads/ubd-220': is at fbe08e87f09645ee45cf3d05ee9c17af8995f438 but expected 0fa50852429f5610d63fbe35d36af2838bd28428        
+To https://corp.paglipay.info/root/feedback-loop.git
+ ! [remote rejected] ubd-220 -> ubd-220 (failed to update ref)
+error: failed to push some refs to 'https://corp.paglipay.info/root/feedback-loop.git'
+hello
+pwd
+/home/paul/Documents/Projects/feedback-loop
+ls -la
+total 104
+drwxrwxr-x  6 paul paul 4096 Oct 19 12:39 .
+drwxrwxr-x 12 paul paul 4096 Oct 18 15:22 ..
+-rw-rw-r--  1 paul paul 1496 Oct 15 21:55 administrator2-test.txt
+-rw-rw-r--  1 paul paul   20 Oct 19 12:39 app.py
+-rw-rw-r--  1 paul paul    6 Oct 15 17:39 branch.txt
+-rw-rw-r--  1 paul paul  212 Oct 19 12:20 c-213-requirements.txt
+-rw-rw-r--  1 paul paul 2286 Oct 19 12:20 c-213-test.txt
+-rw-rw-r--  1 paul paul 2911 Oct 19 12:35 DTree.py
+drwxrwxr-x  8 paul paul 4096 Oct 19 12:42 .git
+-rw-rw-r--  1 paul paul  812 Oct 15 21:55 .gitlab-ci.yml
+drwxrwxr-x  3 paul paul 4096 Oct 19 12:20 json
+-rw-rw-r--  1 paul paul 2180 Oct 19 12:42 main.py
+drwxrwxr-x  4 paul paul 4096 Oct 14 18:33 my_packages
+-rw-rw-r--  1 paul paul   17 Oct 14 18:33 README.md
+-rw-rw-r--  1 paul paul  273 Oct 15 17:39 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 paul paul  445 Oct 14 19:49 some file.txt
+-rw-rw-r--  1 paul paul   76 Oct 14 18:33 start.json
+-rw-rw-r--  1 paul paul 4332 Oct 15 15:07 test.txt
+-rw-rw-r--  1 paul paul 1182 Oct 19 12:42 ubd-220-requirements.txt
+-rw-rw-r--  1 paul paul 3481 Oct 19 12:42 ubd-220-test.txt
+-rw-rw-r--  1 paul paul 9675 Oct 19 12:35 ub-desk-230-requirements.txt
+-rw-rw-r--  1 paul paul 1197 Oct 19 12:35 ub-desk-230-test.txt
+drwxrwxr-x  2 paul paul 4096 Oct 14 20:51 .vscode
+pwd
+/home/paul/Documents/Projects/feedback-loop
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout ubd-220
+M	ubd-220-requirements.txt
+M	ubd-220-test.txt
+Your branch is ahead of 'origin/ubd-220' by 1 commit.
+(use "git push" to publish your local commits)
+git pull origin master
+Already up to date.
+git add .
+git status
+On branch ubd-220
+Your branch is ahead of 'origin/ubd-220' by 1 commit.
+(use "git push" to publish your local commits)
+
+Changes to be committed:
+(use "git restore --staged <file>..." to unstage)
+modified:   ubd-220-requirements.txt
+modified:   ubd-220-test.txt
+
+git commit -m "ubd-220"
+[ubd-220 0fa5085] ubd-220
+2 files changed, 11 insertions(+)
+git push origin ubd-220
+pwd
+/home/paul/Documents/Projects/feedback-loop
+ls -la
+total 104
+drwxrwxr-x  6 paul paul 4096 Oct 19 12:39 .
+drwxrwxr-x 12 paul paul 4096 Oct 18 15:22 ..
+-rw-rw-r--  1 paul paul 1496 Oct 15 21:55 administrator2-test.txt
+-rw-rw-r--  1 paul paul   20 Oct 19 12:39 app.py
+-rw-rw-r--  1 paul paul    6 Oct 15 17:39 branch.txt
+-rw-rw-r--  1 paul paul  212 Oct 19 12:20 c-213-requirements.txt
+-rw-rw-r--  1 paul paul 2286 Oct 19 12:20 c-213-test.txt
+-rw-rw-r--  1 paul paul 2911 Oct 19 12:35 DTree.py
+drwxrwxr-x  8 paul paul 4096 Oct 19 12:42 .git
+-rw-rw-r--  1 paul paul  812 Oct 15 21:55 .gitlab-ci.yml
+drwxrwxr-x  3 paul paul 4096 Oct 19 12:20 json
+-rw-rw-r--  1 paul paul 2180 Oct 19 12:42 main.py
+drwxrwxr-x  4 paul paul 4096 Oct 14 18:33 my_packages
+-rw-rw-r--  1 paul paul   17 Oct 14 18:33 README.md
+-rw-rw-r--  1 paul paul  273 Oct 15 17:39 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 paul paul  445 Oct 14 19:49 some file.txt
+-rw-rw-r--  1 paul paul   76 Oct 14 18:33 start.json
+-rw-rw-r--  1 paul paul 4332 Oct 15 15:07 test.txt
+-rw-rw-r--  1 paul paul 2274 Oct 19 12:42 ubd-220-requirements.txt
+-rw-rw-r--  1 paul paul 3540 Oct 19 12:42 ubd-220-test.txt
+-rw-rw-r--  1 paul paul 9675 Oct 19 12:35 ub-desk-230-requirements.txt
+-rw-rw-r--  1 paul paul 1197 Oct 19 12:35 ub-desk-230-test.txt
+drwxrwxr-x  2 paul paul 4096 Oct 14 20:51 .vscode
+pwd
+/home/paul/Documents/Projects/feedback-loop
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout ubd-220
+M	ubd-220-requirements.txt
+M	ubd-220-test.txt
+Your branch is ahead of 'origin/ubd-220' by 1 commit.
+(use "git push" to publish your local commits)
+git pull origin master
+Already up to date.
+git add .
+git status
+On branch ubd-220
+Your branch is ahead of 'origin/ubd-220' by 2 commits.
+(use "git push" to publish your local commits)
+
+Changes to be committed:
+(use "git restore --staged <file>..." to unstage)
+modified:   ubd-220-requirements.txt
+
+git commit -m "ubd-220"
+[ubd-220 fbe08e8] ubd-220
+1 file changed, 2 insertions(+)
+git push origin ubd-220
+DONE
+remote: 
+remote: To create a merge request for ubd-220, visit:        
+remote:   https://corp.paglipay.info/root/feedback-loop/-/merge_requests/new?merge_request%5Bsource_branch%5D=ubd-220        
+remote: 
+To https://corp.paglipay.info/root/feedback-loop.git
+   0fa5085..fbe08e8  ubd-220 -> ubd-220
+ifconfig, as header of the file
+Already on 'ubd-220'
+Already on 'ubd-220'
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
