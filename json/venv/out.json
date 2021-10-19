@@ -1,6 +1,6 @@
 [
     {"import":"FeedbackLoopObj"},
-    {"True":"pwd"},
+    {"True":"ls -la && pwd && python3 -m venv ../test_venv'"},
     {"False":"ls -la"},
     {"True":"echo hi"}
     
