@@ -4,3 +4,19 @@ ifconfig, as header of the file
 /bin/python3: No module named pip
 ifconfig, as header of the file
 Already on 'ubd-220'
+From https://corp.paglipay.info/root/feedback-loop
+ * branch            master     -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 2f7cd9df53833ca9ea0cb8c491f0685503214551.
+error: Your local changes to the following files would be overwritten by merge:
+	ubd-220-requirements.txt
+	ubd-220-test.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 2f7cd9df53833ca9ea0cb8c491f0685503214551
+output, run
+$ git reset --hard
+to recover.
