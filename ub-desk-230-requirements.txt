@@ -32,3 +32,4 @@ python
 python3
 v_func:  echo hi
 hi
+python3 app.py
