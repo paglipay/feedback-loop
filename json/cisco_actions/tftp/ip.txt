@@ -1,10 +1,2 @@
 sw12f1.physics.ucla.net
 sw11f2.physics.ucla.net
-sw00f2.wc.ucla.net
-sw00f3.wc.ucla.net
-sw11fb.wc.ucla.net
-sw00f10sw.wc.ucla.net
-sw11f10ne.wc.ucla.net
-sw11f10se.wc.ucla.net
-sw12f1.pubpol.ucla.net
-sw15f2.pubpol.ucla.net
