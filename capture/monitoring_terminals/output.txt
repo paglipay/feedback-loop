@@ -1,80 +1,67 @@
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
-vagrant@doc01:~$ ifconfig
-br-4759a70587ea: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.20.0.1  netmask 255.255.0.0  broadcast 172.20.255.255
-        ether 02:42:b8:4c:36:b0  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 0  bytes 0 (0.0 B)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
 
-br-a272740f1519: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.19.0.1  netmask 255.255.0.0  broadcast 172.19.255.255
-        ether 02:42:61:e0:67:b9  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 0  bytes 0 (0.0 B)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+  System information as of Tue Oct 19 23:30:54 UTC 2021
 
-docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
-        inet6 fe80::42:91ff:feeb:ee73  prefixlen 64  scopeid 0x20<link>
-        ether 02:42:91:eb:ee:73  txqueuelen 0  (Ethernet)
-        RX packets 23856  bytes 1021032 (1.0 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 51378  bytes 184577602 (184.5 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+  System load:                    0.05
+  Usage of /:                     34.8% of 61.80GB
+  Memory usage:                   29%
+  Swap usage:                     0%
+  Processes:                      127
+  Users logged in:                0
+  IP address for eth0:            10.0.2.15
+  IP address for eth1:            192.168.2.83
+  IP address for docker_gwbridge: 172.18.0.1
+  IP address for br-5c8b56c38219: 172.19.0.1
+  IP address for docker0:         172.17.0.1
 
-docker_gwbridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
-        inet6 fe80::42:a7ff:fef9:4313  prefixlen 64  scopeid 0x20<link>
-        ether 02:42:a7:f9:43:13  txqueuelen 0  (Ethernet)
-        RX packets 88114  bytes 6403152 (6.4 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 672415  bytes 54788813 (54.7 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
 
-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
-        inet6 fe80::a00:27ff:fea9:d0cb  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:a9:d0:cb  txqueuelen 1000  (Ethernet)
-        RX packets 127911  bytes 188815338 (188.8 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 25043  bytes 1714937 (1.7 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 192.168.2.81  netmask 255.255.255.0  broadcast 192.168.2.255
-        inet6 fe80::a00:27ff:fe70:3912  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:70:39:12  txqueuelen 1000  (Ethernet)
-        RX packets 3280301  bytes 538574163 (538.5 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 2275591  bytes 446440641 (446.4 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+This system is built by the Bento project by Chef Software
+More information can be found at https://github.com/chef/bento
+Last login: Tue Oct 19 23:30:34 2021 from 192.168.2.220
 
-lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-        loop  txqueuelen 1000  (Local Loopback)
-        RX packets 151967  bytes 10558448 (10.5 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 151967  bytes 10558448 (10.5 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-veth3ded126: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::2095:c3ff:fec2:42e6  prefixlen 64  scopeid 0x20<link>
-        ether 22:95:c3:c2:42:e6  txqueuelen 0  (Ethernet)
-        RX packets 88114  bytes 7636748 (7.6 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 672451  bytes 54791333 (54.7 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-vethb779077: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::1844:1eff:fe8d:33d6  prefixlen 64  scopeid 0x20<link>
-        ether 1a:44:1e:8d:33:d6  txqueuelen 0  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 368  bytes 81743 (81.7 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-vagrant@doc01:~$ 
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+vagrant@doc03:~$ Username for 'https://corp.paglipay.info': root
+Password for 'https://root@corp.paglipay.info': remote: Enumerating objects: 700, done.[K
+remote: Counting objects:   0% (1/700)[Kremote: Counting objects:   1% (7/700)[Kremote: Counting objects:   2% (14/700)[Kremote: Counting objects:   3% (21/700)[Kremote: Counting objects:   4% (28/700)[Kremote: Counting objects:   5% (35/700)[Kremote: Counting objects:   6% (42/700)[Kremote: Counting objects:   7% (49/700)[Kremote: Counting objects:   8% (56/700)[Kremote: Counting objects:   9% (63/700)[Kremote: Counting objects:  10% (70/700)[Kremote: Counting objects:  11% (77/700)[Kremote: Counting objects:  12% (84/700)[Kremote: Counting objects:  13% (91/700)[Kremote: Counting objects:  14% (98/700)[Kremote: Counting objects:  15% (105/700)remote: Counting objects:  16% (112/700)[Kremote: Counting objects:  17% (119/700)[Kremote: Counting objects:  18% (126/700)[Kremote: Counting objects:  19% (133/700)[Kremote: Counting objects:  20% (140/700)[Kremote: Counting objects:  21% (147/700)[Kremote: Counting objects:  22% (154/700)[Kremote: Counting objects:  23% (161/700)[Kremote: Counting objects:  24% (168/700)[Kremote: Counting objects:  25% (175/700)[Kremote: Counting objects:  26% (182/700)[Kremote: Counting objects:  27% (189/700)[Kremote: Counting objects:  28% (196/700)[Kremote: Counting objects:  29% (203/700)[Kremote: Counting objects:  30% (210/700)[Kremote: Counting objects:  31% (217/700)[Kremote: Counting objects:  32% (224/700)[Kremote: Counting objects:  33% (231/700)[Kremote: Counting objects:  34% (238/700)[Kremote: Counting objects:  35% (245/700)[Kremote: Counting objects:  36% (252/700)[Kremote: Counting objects:  37% (259/700)[Kremote: Counting objects:  38% (266/700)[Kremote: Counting objects:  39% (273/700)[Kremote: Counting objects:  40% (280/700)[Kremote: Counting objects:  41% (287/700)[Kremote: Counting objects:  42% (294/700)[Kremote: Counting objects:  43% (301/700)[Kremote: Counting objects:  44% (308/700)[Kremote: Counting objects:  45% (315/700)[Kremote: Counting objects:  46% (322/700)[Kremote: Counting objects:  47% (329/700)[Kremote: Counting objects:  48% (336/700)[Kremote: Counting objects:  49% (343/700)[Kremote: Counting objects:  50% (350/700)[Kremote: Counting objects:  51% (357/700)[Kremote: Counting objects:  52% (364/700)[Kremote: Counting objects:  53% (371/700)[Kremote: Counting objects:  54% (378/700)[Kremote: Counting objects:  55% (385/700)[Kremote: Counting objects:  56% (392/700)[Kremote: Counting objects:  57% (399/700)[Kremote: Counting objects:  58% (406/700)[Kremote: Counting objects:  59% (413/700)[Kremote: Counting objects:  60% (420/700)[Kremote: Counting objects:  61% (427/700)[Kremote: Counting objects:  62% (434/700)[Kremote: Counting objects:  63% (441/700)[Kremote: Counting objects:  64% (448/700)[Kremote: Counting objects:  65% (455/700)[Kremote: Counting objects:  66% (462/700)[Kremote: Counting objects:  67% (469/700)[Kremote: Counting objects:  68% (476/700)[Kremote: Counting objects:  69% (483/700)[Kremote: Counting objects:  70% (490/700)[Kremote: Counting objects:  71% (497/700)[Kremote: Counting objects:  72% (504/700)[Kremote: Counting objects:  73% (511/700)[Kremote: Counting objects:  74% (518/700)[Kremote: Counting objects:  75% (525/700)[Kremote: Counting objects:  76% (532/700)[Kremote: Counting objects:  77% (539/700)[Kremote: Counting objects:  78% (546/700)[Kremote: Counting objects:  79% (553/700)[Kremote: Counting objects:  80% (560/700)[Kremote: Counting objects:  81% (567/700)[Kremote: Counting objects:  82% (574/700)[Kremote: Counting objects:  83% (581/700)[Kremote: Counting objects:  84% (588/700)[Kremote: Counting objects:  85% (595/700)[Kremote: Counting objects:  86% (602/700)[Kremote: Counting objects:  87% (609/700)[Kremote: Counting objects:  88% (616/700)[Kremote: Counting objects:  89% (623/700)[Kremote: Counting objects:  90% (630/700)[Kremote: Counting objects:  91% (637/700)[Kremote: Counting objects:  92% (644/700)[Kremote: Counting objects:  93% (651/700)[Kremote: Counting objects:  94% (658/700)[Kremote: Counting objects:  95% (665/700)[Kremote: Counting objects:  96% (672/700)[Kremote: Counting objects:  97% (679/700)[Kremote: Counting objects:  98% (686/700)[Kremote: Counting objects:  99% (693/700)[Kremote: Counting objects: 100% (700/700)[Kremote: Counting objects: 100% (700/700), done.[K
+remote: Compressing objects:   0% (1/577)[Kremote: Compressing objects:   1% (6/577)[Kremote: Compressing objects:   2% (12/577)[Kremote: Compressing objects:   3% (18/577)[Kremote: Compressing objects:   4% (24/577)[Kremote: Compressing objects:   5% (29/577)[Kremote: Compressing objects:   6% (35/577)[Kremote: Compressing objects:   7% (41/577)[Kremote: Compressing objects:   8% (47/577)[Kremote: Compressing objects:   9% (52/577)[Kremote: Compressing objects:  10% (58/577)[Kremote: Compressing objects:  11% (64/577)[Kremote: Compressing objects:  12% (70/577)[Kremote: Compressing objects:  13% (76/577)[Kremote: Compressing objects:  14% (81/577)[Kremote: Compressing objects:  15% (87/577)[Kremote: Compressing objects:  16% (93/577)remote: Compressing objects:  17% (99/577)[Kremote: Compressing objects:  18% (104/577)[Kremote: Compressing objects:  19% (110/577)[Kremote: Compressing objects:  20% (116/577)[Kremote: Compressing objects:  21% (122/577)[Kremote: Compressing objects:  22% (127/577)[Kremote: Compressing objects:  23% (133/577)[Kremote: Compressing objects:  24% (139/577)[Kremote: Compressing objects:  25% (145/577)[Kremote: Compressing objects:  26% (151/577)[Kremote: Compressing objects:  27% (156/577)[Kremote: Compressing objects:  28% (162/577)[Kremote: Compressing objects:  29% (168/577)[Kremote: Compressing objects:  30% (174/577)[Kremote: Compressing objects:  31% (179/577)[Kremote: Compressing objects:  32% (185/577)[Kremote: Compressing objects:  33% (191/577)[Kremote: Compressing objects:  34% (197/577)[Kremote: Compressing objects:  35% (202/577)[Kremote: Compressing objects:  36% (208/577)[Kremote: Compressing objects:  37% (214/577)[Kremote: Compressing objects:  38% (220/577)[Kremote: Compressing objects:  39% (226/577)[Kremote: Compressing objects:  40% (231/577)[Kremote: Compressing objects:  41% (237/577)[Kremote: Compressing objects:  42% (243/577)[Kremote: Compressing objects:  43% (249/577)[Kremote: Compressing objects:  44% (254/577)[Kremote: Compressing objects:  45% (260/577)[Kremote: Compressing objects:  46% (266/577)[Kremote: Compressing objects:  47% (272/577)[Kremote: Compressing objects:  48% (277/577)[Kremote: Compressing objects:  49% (283/577)[Kremote: Compressing objects:  50% (289/577)[Kremote: Compressing objects:  51% (295/577)[Kremote: Compressing objects:  52% (301/577)[Kremote: Compressing objects:  53% (306/577)[Kremote: Compressing objects:  54% (312/577)[Kremote: Compressing objects:  55% (318/577)[Kremote: Compressing objects:  56% (324/577)[Kremote: Compressing objects:  57% (329/577)[Kremote: Compressing objects:  58% (335/577)[Kremote: Compressing objects:  59% (341/577)[Kremote: Compressing objects:  60% (347/577)[Kremote: Compressing objects:  61% (352/577)[Kremote: Compressing objects:  62% (358/577)[Kremote: Compressing objects:  63% (364/577)[Kremote: Compressing objects:  64% (370/577)[Kremote: Compressing objects:  65% (376/577)[Kremote: Compressing objects:  66% (381/577)[Kremote: Compressing objects:  67% (387/577)[Kremote: Compressing objects:  68% (393/577)[Kremote: Compressing objects:  69% (399/577)[Kremote: Compressing objects:  70% (404/577)[Kremote: Compressing objects:  71% (410/577)[Kremote: Compressing objects:  72% (416/577)[Kremote: Compressing objects:  73% (422/577)[Kremote: Compressing objects:  74% (427/577)[Kremote: Compressing objects:  75% (433/577)[Kremote: Compressing objects:  76% (439/577)[Kremote: Compressing objects:  77% (445/577)[Kremote: Compressing objects:  78% (451/577)[Kremote: Compressing objects:  79% (456/577)[Kremote: Compressing objects:  80% (462/577)[Kremote: Compressing objects:  81% (468/577)[Kremote: Compressing objects:  82% (474/577)[Kremote: Compressing objects:  83% (479/577)[Kremote: Compressing objects:  84% (485/577)[Kremote: Compressing objects:  85% (491/577)[Kremote: Compressing objects:  86% (497/577)[Kremote: Compressing objects:  87% (502/577)[Kremote: Compressing objects:  88% (508/577)[Kremote: Compressing objects:  89% (514/577)[Kremote: Compressing objects:  90% (520/577)[Kremote: Compressing objects:  91% (526/577)[Kremote: Compressing objects:  92% (531/577)[Kremote: Compressing objects:  93% (537/577)[Kremote: Compressing objects:  94% (543/577)[Kremote: Compressing objects:  95% (549/577)[Kremote: Compressing objects:  96% (554/577)[Kremote: Compressing objects:  97% (560/577)[Kremote: Compressing objects:  98% (566/577)[Kremote: Compressing objects:  99% (572/577)[Kremote: Compressing objects: 100% (577/577)[Kremote: Compressing objects: 100% (577/577), done.[K
+Receiving objects:   0% (1/2319)   Receiving objects:   1% (24/2319)   Receiving objects:   2% (47/2319)   Receiving objects:   3% (70/2319)   Receiving objects:   4% (93/2319)   Receiving objects:   5% (116/2319)   Receiving objects:   6% (140/2319)   Receiving objects:   7% (163/2319)   Receiving objects:   8% (186/2319)   Receiving objects:   9% (209/2319)   Receiving objects:  10% (232/2319)   Receiving objects:  11% (256/2319)   Receiving objects:  12% (279/2319)   Receiving objects:  13% (302/2319)   Receiving objects:  14% (325/2319)   Receiving objects:  15% (348/2319)   Receiving objects:  16% (372/2319)   Receiving objects:  17% (395/2319)   Receiving objects:  18% (418/2319)   Receiving objects:  19% (441/2319)   Receiving objects:  20% (464/2319)   Receiving objects:  21% (487/2319)   Receiving objects:  22% (511/2319)   Receiving objects:  23% (534/2319)   Receiving objects:  24% (557/2319)   Receiving objects:  25% (580/2319)   Receiving objects:  26% (603/2319)   Receiving objects:  27% (627/2319)   Receiving objects:  28% (650/2319)   Receiving objects:  29% (673/2319)   Receiving objects:  30% (696/2319)   Receiving objects:  31% (719/2319)   Receiving objects:  32% (743/2319)   Receiving objects:  33% (766/2319)   Receiving objects:  34% (789/2319)   Receiving objects:  35% (812/2319)   Receiving objects:  36% (835/2319)   Receiving objects:  37% (859/2319)   Receiving objects:  38% (882/2319)   Receiving objects:  39% (905/2319)   Receiving objects:  40% (928/2319)   Receiving objects:  41% (951/2319)   Receiving objects:  42% (974/2319)   Receiving objects:  43% (998/2319)   Receiving objects:  44% (1021/2319)   Receiving objects:  45% (1044/2319)   Receiving objects:  46% (1067/2319)   Receiving objects:  47% (1090/2319)   Receiving objects:  48% (1114/2319)   Receiving objects:  49% (1137/2319)   Receiving objects:  50% (1160/2319)   Receiving objects:  51% (1183/2319)   Receiving objects:  52% (1206/2319)   Receiving objects:  53% (1230/2319)   Receiving objects:  54% (1253/2319)   Receiving objects:  55% (1276/2319)   Receiving objects:  56% (1299/2319)   Receiving objects:  57% (1322/2319)   Receiving objects:  58% (1346/2319)   Receiving objects:  59% (1369/2319)   Receiving objects:  60% (1392/2319)   Receiving objects:  61% (1415/2319)   Receiving objects:  62% (1438/2319)   Receiving objects:  63% (1461/2319)   Receiving objects:  64% (1485/2319)   Receiving objects:  65% (1508/2319)   Receiving objects:  66% (1531/2319)   Receiving objects:  67% (1554/2319)   Receiving objects:  68% (1577/2319)   Receiving objects:  69% (1601/2319)   Receiving objects:  70% (1624/2319)   Receiving objects:  71% (1647/2319)   Receiving objects:  72% (1670/2319)   Receiving objects:  73% (1693/2319)   Receiving objects:  74% (1717/2319)   Receiving objects:  75% (1740/2319)   Receiving objects:  76% (1763/2319)   Receiving objects:  77% (1786/2319)   Receiving objects:  78% (1809/2319)   Receiving objects:  79% (1833/2319)   Receiving objects:  80% (1856/2319)   Receiving objects:  81% (1879/2319)   Receiving objects:  82% (1902/2319)   Receiving objects:  83% (1925/2319)   Receiving objects:  84% (1948/2319)   Receiving objects:  85% (1972/2319)   Receiving objects:  86% (1995/2319)   Receiving objects:  87% (2018/2319)   Receiving objects:  88% (2041/2319)   Receiving objects:  89% (2064/2319)   Receiving objects:  90% (2088/2319)   Receiving objects:  91% (2111/2319)   Receiving objects:  92% (2134/2319)   Receiving objects:  93% (2157/2319)   [31mCould not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'[0m
+vagrant@doc03:~/feedback-loop$ ls -la
+total 108
+drwxrwxr-x  8 vagrant vagrant 4096 Oct 19 23:30  [0m[01;34m.[0m
+drwxr-xr-x 19 vagrant vagrant 4096 Oct 19 23:30  [01;34m..[0m
+-rw-rw-r--  1 vagrant vagrant 1496 Oct 19 23:30  administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant  625 Oct 19 23:30  app.py
+-rw-rw-r--  1 vagrant vagrant    6 Oct 19 23:30  branch.txt
+-rw-rw-r--  1 vagrant vagrant  212 Oct 19 23:30  c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant 2286 Oct 19 23:30  c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant 4096 Oct 19 23:30  [01;34mcapture[0m
+-rw-rw-r--  1 vagrant vagrant 2911 Oct 19 23:30  DTree.py
+drwxrwxr-x  8 vagrant vagrant 4096 Oct 19 23:30  [01;34m.git[0m
+-rw-rw-r--  1 vagrant vagrant  812 Oct 19 23:30  .gitlab-ci.yml
+drwxrwxr-x  4 vagrant vagrant 4096 Oct 19 23:30  [01;34mjson[0m
+-rw-rw-r--  1 vagrant vagrant 2162 Oct 19 23:30  main.py
+drwxrwxr-x  7 vagrant vagrant 4096 Oct 19 23:30  [01;34mmy_packages[0m
+drwxrwxr-x  2 vagrant vagrant 4096 Oct 19 23:30  [01;34m__pycache__[0m
+-rw-rw-r--  1 vagrant vagrant   17 Oct 19 23:30  README.md
+-rw-rw-r--  1 vagrant vagrant  273 Oct 19 23:30  runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant  445 Oct 19 23:30 'some file.txt'
+-rw-rw-r--  1 vagrant vagrant  436 Oct 19 23:30  start.json
+-rw-rw-r--  1 vagrant vagrant 4332 Oct 19 23:30  test.txt
+-rw-rw-r--  1 vagrant vagrant  238 Oct 19 23:30  ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant 4189 Oct 19 23:30  ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant  467 Oct 19 23:30  ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant 2331 Oct 19 23:30  ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant 4096 Oct 19 23:30  [01;34m.vscode[0m
+vagrant@doc03:~/feedback-loop$ 

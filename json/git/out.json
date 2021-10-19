@@ -1,0 +1,59 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.83",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "True"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git"
+                    },
+                    {
+                        "Username": "root"
+                    },
+                    {
+                        "Password": "P@ssw0rd"
+                    },
+                    {
+                        "True": "cd feedback-loop && pip install -r requirements.txt && python app.py"
+                    },
+                    {
+                        "True": "ls -la"
+                    },
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "False"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]

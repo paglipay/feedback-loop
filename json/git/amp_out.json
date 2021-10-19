@@ -1,0 +1,59 @@
+[
+    {
+        "import": "Key"
+    },
+    {
+        "True": [
+            {
+                "import": "ParamikoObj"
+            },
+            {
+                "open": {
+                    "ip": "192.168.2.82",
+                    "username": "vagrant",
+                    "password": "vagrant"
+                }
+            },
+            {
+                "True": [
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "True"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "ssh awsupport@amp-csb-01.noc.ucla.edu"
+                    },  
+                    "Username:",
+                    "awsupport",
+                    "Password:",
+                    "NB5UCjEK9Ebza8Y2+",
+                    " ",
+                    "sudo bash",
+                    "cd /tmp",
+                    "cd /var/amp/ampcli/user",
+                    "ls /var/amp/ampcli/user/ amp*.key",
+                    "ls /var/amp/ampcli/user/ amp*",
+                    "ls /var/amp/ampcli/user",
+                    "cd /var/amp/ampcli/user",
+                    [
+                      {
+                        "capture_to_file": "./capture/monitoring_terminals/output.txt"
+                      },
+                      {
+                        "capture": "False"
+                      },
+                      ""
+                    ],
+                    {
+                        "True": "exit"
+                    }
+                ]
+            }
+        ]
+    }
+]
