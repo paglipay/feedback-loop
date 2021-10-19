@@ -1,1 +1,2 @@
 /p: 1: python: not found
+/bin/python3: No module named pip
