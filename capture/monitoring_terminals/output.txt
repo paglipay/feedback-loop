@@ -1,4 +1,38 @@
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue Oct 19 21:33:16 UTC 2021
+
+  System load:                    0.09
+  Usage of /:                     56.2% of 61.80GB
+  Memory usage:                   26%
+  Swap usage:                     0%
+  Processes:                      143
+  Users logged in:                0
+  IP address for eth0:            10.0.2.15
+  IP address for eth1:            192.168.2.81
+  IP address for docker0:         172.17.0.1
+  IP address for docker_gwbridge: 172.18.0.1
+  IP address for br-a272740f1519: 172.19.0.1
+  IP address for br-4759a70587ea: 172.20.0.1
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+
+This system is built by the Bento project by Chef Software
+More information can be found at https://github.com/chef/bento
+Last login: Tue Oct 19 21:27:16 2021 from 192.168.2.230
+
+
+
+vagrant@doc01:~$ 
+vagrant@doc01:~$ 
+vagrant@doc01:~$ 
 vagrant@doc01:~$ ifconfig
 br-4759a70587ea: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         inet 172.20.0.1  netmask 255.255.0.0  broadcast 172.20.255.255
@@ -29,9 +63,9 @@ docker_gwbridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
         inet6 fe80::42:a7ff:fef9:4313  prefixlen 64  scopeid 0x20<link>
         ether 02:42:a7:f9:43:13  txqueuelen 0  (Ethernet)
-        RX packets 88114  bytes 6403152 (6.4 MB)
+        RX packets 88465  bytes 6428107 (6.4 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 672415  bytes 54788813 (54.7 MB)
+        TX packets 675012  bytes 55003066 (55.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -47,26 +81,26 @@ eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.2.81  netmask 255.255.255.0  broadcast 192.168.2.255
         inet6 fe80::a00:27ff:fe70:3912  prefixlen 64  scopeid 0x20<link>
         ether 08:00:27:70:39:12  txqueuelen 1000  (Ethernet)
-        RX packets 3280301  bytes 538574163 (538.5 MB)
+        RX packets 3294839  bytes 540904727 (540.9 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 2275591  bytes 446440641 (446.4 MB)
+        TX packets 2285315  bytes 448390164 (448.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 151967  bytes 10558448 (10.5 MB)
+        RX packets 152620  bytes 10604776 (10.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 151967  bytes 10558448 (10.5 MB)
+        TX packets 152620  bytes 10604776 (10.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 veth3ded126: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 fe80::2095:c3ff:fec2:42e6  prefixlen 64  scopeid 0x20<link>
         ether 22:95:c3:c2:42:e6  txqueuelen 0  (Ethernet)
-        RX packets 88114  bytes 7636748 (7.6 MB)
+        RX packets 88465  bytes 7666617 (7.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 672451  bytes 54791333 (54.7 MB)
+        TX packets 675049  bytes 55005656 (55.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 vethb779077: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -77,4 +111,37 @@ vethb779077: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 368  bytes 81743 (81.7 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+vagrant@doc01:~$ pwd
+/home/vagrant
+vagrant@doc01:~$ ls -la
+total 180
+drwxr-xr-x 14 vagrant vagrant  4096 Oct 19 21:27 [0m[01;34m.[0m
+drwxr-xr-x  3 root    root     4096 Dec 21  2020 [01;34m..[0m
+drwx------  3 vagrant vagrant  4096 Jun  3 00:41 [01;34m.ansible[0m
+-rw-rw-r--  1 vagrant vagrant 10649 Jun  3 00:58 ansible.cfg
+-rw-------  1 vagrant vagrant 57521 Oct 19 21:27 .bash_history
+-rw-r--r--  1 vagrant vagrant   220 Dec 21  2020 .bash_logout
+-rw-r--r--  1 vagrant vagrant  3771 Dec 21  2020 .bashrc
+drwx------  2 vagrant vagrant  4096 Dec 21  2020 [01;34m.cache[0m
+-rw-rw-r--  1 vagrant vagrant    25 Jun 18 02:21 close.sh
+drwx------  2 vagrant vagrant  4096 Oct  8 22:52 [01;34m.docker[0m
+drwxrwxr-x 12 vagrant vagrant  4096 Aug 23 23:16 [01;34mfaas[0m
+-rw-rw-r--  1 vagrant vagrant    46 Jun 18 17:15 .gitconfig
+drwx------  3 vagrant vagrant  4096 Dec 21  2020 [01;34m.gnupg[0m
+-rw-rw-r--  1 vagrant vagrant   780 Jun  3 00:58 hosts
+-rw-rw-r--  1 vagrant vagrant   800 Sep 25 01:13 hosts.tmp
+-rw-r--r--  1 vagrant vagrant   588 Jun 29 19:13 id_rsa.pub
+drwxr-xr-x  2 vagrant root     4096 Jun  3 00:57 [01;34mjenkins[0m
+drwxrwxr-x  3 vagrant vagrant  4096 Jul  7 19:42 [01;34m.local[0m
+drwxrwxr-x  4 vagrant vagrant  4096 Jun 18 17:23 [01;34mpaglipay-docker-swarm[0m
+drwxrwxr-x  4 vagrant vagrant  4096 Aug  4 23:22 [01;34mpaglipay-gitlab[0m
+drwxrwxr-x  3 vagrant vagrant  4096 Aug  5 21:57 [01;34mpaglipay-guacamole[0m
+drwxrwxr-x  5 vagrant vagrant  4096 Jun  3 22:49 [01;34mpaglipay-naemon[0m
+-rw-r--r--  1 vagrant vagrant   807 Dec 21  2020 .profile
+-rw-rw-r--  1 vagrant vagrant    66 Jul  7 19:42 .selected_editor
+drwx------  3 vagrant root     4096 Jun 29 18:45 [01;34m.ssh[0m
+-rw-r--r--  1 vagrant vagrant     0 Dec 21  2020 .sudo_as_admin_successful
+-rw-r--r--  1 vagrant vagrant     6 Dec 21  2020 .vbox_version
+-rw-------  1 root    root     4979 Jun 18 02:21 .viminfo
+-rw-r--r--  1 root    root      180 Dec 21  2020 .wget-hsts
 vagrant@doc01:~$ 
