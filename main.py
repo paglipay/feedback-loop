@@ -20,6 +20,9 @@ if __name__ == "__main__":
     print('hello')
 
     command_list = [
+        'pwd',
+        'ls -la',
+        'pwd',
         'git config --global user.email "you@example.com"',
         'git config --global user.name "Your Name"',
         'git checkout ' + socket.gethostname(),
@@ -50,6 +53,11 @@ if __name__ == "__main__":
     log.write('some text, as header of the file\n')
     log.flush()  # <-- here's something not to forget!
     c = subprocess.Popen([socket.gethostname(), '/p'], stdout=log, stderr=log, shell=True)
+
+    log = open(socket.gethostname() + '-requirements.txt', 'a')
+    # log.write('some text, as header of the file\n')
+    log.flush()  # <-- here's something not to forget!
+    c = subprocess.Popen(['python -m pip freeze', '/p'], stdout=log, stderr=log, shell=True)
 
 
     for l in command_list:
