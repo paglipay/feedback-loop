@@ -33,3 +33,191 @@ python3
 v_func:  echo hi
 hi
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: ifconfig
+self.io.write:ifconfig
+
+time.sleep(self.wait):  0
+############################################Sending:ifconfig
+while:  1
+v_func: pwd
+self.io.write:pwd
+
+time.sleep(self.wait):  0
+############################################Sending:pwd
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: ifconfig
+self.io.write:ifconfig
+
+time.sleep(self.wait):  0
+############################################Sending:ifconfig
+while:  1
+v_func: pwd
+self.io.write:pwd
+
+time.sleep(self.wait):  0
+############################################Sending:pwd
+while:  1
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Receiving objects:  99% (2358/2381)   remote: Total 2381 (delta 177), reused 761 (delta 177), pack-reused 1619[K
+Receiving objects: 100% (2381/2381)   Receiving objects: 100% (2381/2381), 3.41 MiB | 7.69 MiB/s, done.
+Resolving deltas:   0% (0/1188)   Resolving deltas:   1% (12/1188)   Resolving deltas:   2% (24/1188)   Resolving deltas:   3% (36/1188)   Resolving deltas:   6% (78/1188)   Resolving deltas:   7% (84/1188)   Resolving deltas:  13% (159/1188)   Resolving deltas:  16% (196/1188)   Resolving deltas:  21% (253/1188)   Resolving deltas:  33% (403/1188)   Resolving deltas:  41% (497/1188)   Resolving deltas:  42% (499/1188)   Resolving deltas:  65% (783/1188)   Resolving deltas:  68% (813/1188)   Resolving deltas:  72% (859/1188)   Resolving deltas:  77% (925/1188)   Resolving deltas:  78% (927/1188)   Resolving deltas:  79% (940/1188)   Resolving deltas:  80% (955/1188)   Resolving deltas:  81% (967/1188)   Resolving deltas:  85% (1014/1188)   Resolving deltas:  86% (1022/1188)   Resolving deltas:  87% (1034/1188)   Resolving deltas:  88% (1049/1188)   Resolving deltas:  89% (1058/1188)   Resolving deltas:  91% (1084/1188)   Resolving deltas:  92% (1096/1188)   Resolving deltas:  93% (1105/1188)   Resolving deltas:  94% (1117/1188)   Resolving deltas:  97% (1158/1188)   Resolving deltas:  98% (1165/1188)   Resolving deltas:  99% (1177/1188)   Resolving deltas: 100% (1188/1188)   Resolving deltas: 100% (1188/1188), done.
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+self.io.write:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+while:  1
+while:  1
+while:  2
+while:  1
+while:  1
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc03:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
