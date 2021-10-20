@@ -421,3 +421,4 @@ time.sleep(self.wait):  0
 ############################################Sending:exit
 while:  1
 while break
+python3 app.py
