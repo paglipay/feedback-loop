@@ -36,6 +36,7 @@ test:
     - pip3 install python-dotenv
     - pip3 install paramiko
     - pip3 install PyYaml
+    - pip3 install jinja2
 
 
   script:
