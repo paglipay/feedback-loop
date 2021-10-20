@@ -34,6 +34,9 @@ test:
     - source venv/bin/activate
     - pip3 install requests
     - pip3 install python-dotenv
+    - pip3 install paramiko
+    - pip3 install PyYaml
+    - pip3 install jinja2
 
 
   script:

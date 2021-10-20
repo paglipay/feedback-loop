@@ -989,3 +989,405 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+fatal: destination path 'feedback-loop' already exists and is not an empty directory.
+vagrant@doc03:~$ 
+str_config: Password
+current_output: 
+git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+fatal: destination path 'feedback-loop' already exists and is not an empty directory.
+vagrant@doc03:~$ 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc03:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && python main.py
+self.io.write:cd feedback-loop && ls && python main.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && python main.py
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+while:  5
+while:  6
+while:  7
+while:  8
+while:  9
+while:  10
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Password for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
+pwd
+/home/vagrant/feedback-loop
+ls -la
+total 168
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .
+drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 16:13 ..
+-rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28 administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28 app.py
+-rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28 branch.txt
+-rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:28 c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:28 c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28 capture
+-rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28 doc01-requirements.txt
+-rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28 doc01-test.txt
+-rw-rw-r--  1 vagrant vagrant  4177 Oct 20 16:13 doc03-requirements.txt
+-rw-rw-r--  1 vagrant vagrant   183 Oct 20 16:13 doc03-test.txt
+-rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28 DTree.py
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 16:13 .git
+-rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28 .gitignore
+-rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28 .gitlab-ci.yml
+drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28 json
+-rw-rw-r--  1 vagrant vagrant  2244 Oct 20 00:28 main.py
+drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:28 my_packages
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:29 __pycache__
+-rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:28 README.md
+-rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:28 requirements.txt
+-rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:28 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:28 some file.txt
+-rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:28 start.json
+-rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:28 test.txt
+-rw-rw-r--  1 vagrant vagrant 17352 Oct 20 00:28 ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  4838 Oct 20 00:28 ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:28 ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:28 ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:28 .vscode
+pwd
+/home/vagrant/feedback-loop
+git config --global credential.helper store
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout -b doc03
+fatal: A branch named 'doc03' already exists.
+git pull origin master
+fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+git add .
+git status
+On branch doc03
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+
+modified:   doc03-requirements.txt
+modified:   doc03-test.txt
+
+git commit -m "doc03"
+[doc03 14e2a7a] doc03
+2 files changed, 4 insertions(+)
+git -c http.sslVerify=false push origin doc03
+Username for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Password for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
+DONE
+vagrant@doc03:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+fatal: destination path 'feedback-loop' already exists and is not an empty directory.
+vagrant@doc03:~$ 
+str_config: Password
+current_output: 
+git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+fatal: destination path 'feedback-loop' already exists and is not an empty directory.
+vagrant@doc03:~$ 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc03:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && python main.py
+self.io.write:cd feedback-loop && ls && python main.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && python main.py
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+while:  5
+while:  6
+while:  7
+while:  8
+while:  9
+while:  10
+while:  11
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Password for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
+pwd
+/home/vagrant/feedback-loop
+ls -la
+total 168
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .
+drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 17:12 ..
+-rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28 administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28 app.py
+-rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28 branch.txt
+-rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:28 c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:28 c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28 capture
+-rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28 doc01-requirements.txt
+-rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28 doc01-test.txt
+-rw-rw-r--  1 vagrant vagrant  6258 Oct 20 17:12 doc03-requirements.txt
+-rw-rw-r--  1 vagrant vagrant   244 Oct 20 17:12 doc03-test.txt
+-rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28 DTree.py
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 17:12 .git
+-rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28 .gitignore
+-rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28 .gitlab-ci.yml
+drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28 json
+-rw-rw-r--  1 vagrant vagrant  2244 Oct 20 00:28 main.py
+drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:28 my_packages
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:29 __pycache__
+-rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:28 README.md
+-rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:28 requirements.txt
+-rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:28 runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:28 some file.txt
+-rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:28 start.json
+-rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:28 test.txt
+-rw-rw-r--  1 vagrant vagrant 17352 Oct 20 00:28 ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  4838 Oct 20 00:28 ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:28 ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:28 ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:28 .vscode
+pwd
+/home/vagrant/feedback-loop
+git config --global credential.helper store
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git checkout -b doc03
+fatal: A branch named 'doc03' already exists.
+git pull origin master
+fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+git add .
+git status
+On branch doc03
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+
+modified:   doc03-requirements.txt
+modified:   doc03-test.txt
+
+git commit -m "doc03"
+[doc03 9dffce5] doc03
+2 files changed, 4 insertions(+)
+git -c http.sslVerify=false push origin doc03
+Username for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Password for 'https://corp.paglipay.info': 
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
+DONE
+vagrant@doc03:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
+python3 app.py
+app.py HERE
+v_func:  Hi Key
+python3 app.py
+app.py HERE
+v_func:  Hi Key
+python3 app.py
+app.py HERE
+v_func:  Hi Key
+python3 app.py
+app.py HERE
+v_func:  Hi Key
