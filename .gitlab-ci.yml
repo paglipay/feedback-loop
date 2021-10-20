@@ -35,6 +35,7 @@ test:
     - pip3 install requests
     - pip3 install python-dotenv
     - pip3 install paramiko
+    - pip3 install PyYaml
 
 
   script:
