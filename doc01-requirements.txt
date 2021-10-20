@@ -2,3 +2,41 @@ python3 app.py
 app.py HERE
 python3 app.py
 app.py HERE
+Traceback (most recent call last):
+  File "app.py", line 20, in <module>
+    do_process(flask_process_data, json_file, import_obj_instance_hash)
+  File "app.py", line 9, in do_process
+    c = DTree.DTree(json.load(open(json_file)), name=json_file, import_obj_instance=import_obj_instance, data=flask_data)
+  File "/home/vagrant/feedback-loop/DTree.py", line 15, in __init__
+    self.begin_process(self.config)
+  File "/home/vagrant/feedback-loop/DTree.py", line 27, in begin_process
+    self.bol = self.process(config)
+  File "/home/vagrant/feedback-loop/DTree.py", line 58, in process
+    if self.process(l) == False:
+  File "/home/vagrant/feedback-loop/DTree.py", line 66, in process
+    return self.process(v)
+  File "/home/vagrant/feedback-loop/DTree.py", line 58, in process
+    if self.process(l) == False:
+  File "/home/vagrant/feedback-loop/DTree.py", line 66, in process
+    return self.process(v)
+  File "/home/vagrant/feedback-loop/DTree.py", line 68, in process
+    self.v_process(config)
+  File "/home/vagrant/feedback-loop/DTree.py", line 44, in v_process
+    d = DTree(json.load(open(config)), config, self.import_obj_instance, self.current_module_name, self.data)
+  File "/home/vagrant/feedback-loop/DTree.py", line 15, in __init__
+    self.begin_process(self.config)
+  File "/home/vagrant/feedback-loop/DTree.py", line 27, in begin_process
+    self.bol = self.process(config)
+  File "/home/vagrant/feedback-loop/DTree.py", line 58, in process
+    if self.process(l) == False:
+  File "/home/vagrant/feedback-loop/DTree.py", line 66, in process
+    return self.process(v)
+  File "/home/vagrant/feedback-loop/DTree.py", line 58, in process
+    if self.process(l) == False:
+  File "/home/vagrant/feedback-loop/DTree.py", line 63, in process
+    self.init_import_obj(v)
+  File "/home/vagrant/feedback-loop/DTree.py", line 22, in init_import_obj
+    my_class = getattr(__import__(module_name), module_name)
+  File "./my_packages/ParamikoObj/__init__.py", line 1, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
