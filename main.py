@@ -26,7 +26,7 @@ if __name__ == "__main__":
         'git config --global credential.helper store',
         'git config --global user.email "you@example.com"',
         'git config --global user.name "Your Name"',
-        'git checkout ' + socket.gethostname(),
+        'git checkout -b ' + socket.gethostname(),
         'git pull origin master',
         'git add .',
         'git status',
@@ -38,7 +38,7 @@ if __name__ == "__main__":
         # 'git add .',
         # 'git status',
         # 'git commit -m "pushing"',
-        'git push origin ' + socket.gethostname()
+        'git -c http.sslVerify=false push origin ' + socket.gethostname()
         ]
     for l in command_list:
         print(l)
