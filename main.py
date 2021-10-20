@@ -37,7 +37,7 @@ if __name__ == "__main__":
         # 'git add .',
         # 'git status',
         # 'git commit -m "pushing"',
-        'git push origin ' + socket.gethostname()
+        'git -c http.sslVerify=false push origin ' + socket.gethostname()
         ]
     for l in command_list:
         print(l)
