@@ -523,3 +523,107 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+while:  5
+while:  6
+while:  7
+while:  8
+while:  9
+while:  10
+while:  11
+while:  12
+while:  13
+str_config: Username
+current_output: 
+remote: Enumerating objects: 13, done.[K
+remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+Receiving objects:   0% (1/2599)   Receiving objects:   1% (26/2599)   Receiving objects:   2% (52/2599)   Receiving objects:   3% (78/2599)   Receiving objects:   4% (104/2599)   Receiving objects:   5% (130/2599)   Receiving objects:   6% (156/2599)   Receiving objects:   7% (182/2599)   Receiving objects:   8% (208/2599)   Receiving objects:   9% (234/2599)   Receiving objects:  10% (260/2599)   Receiving objects:  11% (286/2599)   Receiving objects:  12% (312/2599)   Receiving objects:  13% (338/2599)   Receiving objects:  14% (364/2599)   Receiving objects:  15% (390/2599)   Receiving objects:  16% (416/2599)   Receiving objects:  17% (442/2599)   Receiving objects:  18% (468/2599)   Receiving objects:  19% (494/2599)   Receiving objects:  20% (520/2599)   Receiving objects:  21% (546/2599)   Receiving objects:  22% (572/2599)   Receiving objects:  23% (598/2599)   Receiving objects:  24% (624/2599)   Receiving objects:  25% (650/2599)   Receiving objects:  26% (676/2599)   Receiving objects:  27% (702/2599)   Receiving objects:  28% (728/2599)   Receiving objects:  29% (754/2599)   Receiving objects:  30% (780/2599)   Receiving objects:  31% (806/2599)   Receiving objects:  32% (832/2599)   Receiving objects:  33% (858/2599)   Receiving objects:  34% (884/2599)   Receiving objects:  35% (910/2599)   Receiving objects:  36% (936/2599)   Receiving objects:  37% (962/2599)   Receiving objects:  38% (988/2599)   Receiving objects:  39% (1014/2599)   Receiving objects:  40% (1040/2599)   Receiving objects:  41% (1066/2599)   Receiving objects:  42% (1092/2599)   Receiving objects:  43% (1118/2599)   Receiving objects:  44% (1144/2599)   Receiving objects:  45% (1170/2599)   Receiving objects:  46% (1196/2599)   Receiving objects:  47% (1222/2599)   Receiving objects:  48% (1248/2599)   Receiving objects:  49% (1274/2599)   Receiving objects:  50% (1300/2599)   Receiving objects:  51% (1326/2599)   Receiving objects:  52% (1352/2599)   Receiving objects:  53% (1378/2599)   Receiving objects:  54% (1404/2599)   Receiving objects:  55% (1430/2599)   Receiving objects:  56% (1456/2599)   Receiving objects:  57% (1482/2599)   Receiving objects:  58% (1508/2599)   Receiving objects:  59% (1534/2599)   Receiving objects:  60% (1560/2599)   
+str_config: Password
+current_output: 
+remote: Enumerating objects: 13, done.[K
+remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+Receiving objects:   0% (1/2599)   Receiving objects:   1% (26/2599)   Receiving objects:   2% (52/2599)   Receiving objects:   3% (78/2599)   Receiving objects:   4% (104/2599)   Receiving objects:   5% (130/2599)   Receiving objects:   6% (156/2599)   Receiving objects:   7% (182/2599)   Receiving objects:   8% (208/2599)   Receiving objects:   9% (234/2599)   Receiving objects:  10% (260/2599)   Receiving objects:  11% (286/2599)   Receiving objects:  12% (312/2599)   Receiving objects:  13% (338/2599)   Receiving objects:  14% (364/2599)   Receiving objects:  15% (390/2599)   Receiving objects:  16% (416/2599)   Receiving objects:  17% (442/2599)   Receiving objects:  18% (468/2599)   Receiving objects:  19% (494/2599)   Receiving objects:  20% (520/2599)   Receiving objects:  21% (546/2599)   Receiving objects:  22% (572/2599)   Receiving objects:  23% (598/2599)   Receiving objects:  24% (624/2599)   Receiving objects:  25% (650/2599)   Receiving objects:  26% (676/2599)   Receiving objects:  27% (702/2599)   Receiving objects:  28% (728/2599)   Receiving objects:  29% (754/2599)   Receiving objects:  30% (780/2599)   Receiving objects:  31% (806/2599)   Receiving objects:  32% (832/2599)   Receiving objects:  33% (858/2599)   Receiving objects:  34% (884/2599)   Receiving objects:  35% (910/2599)   Receiving objects:  36% (936/2599)   Receiving objects:  37% (962/2599)   Receiving objects:  38% (988/2599)   Receiving objects:  39% (1014/2599)   Receiving objects:  40% (1040/2599)   Receiving objects:  41% (1066/2599)   Receiving objects:  42% (1092/2599)   Receiving objects:  43% (1118/2599)   Receiving objects:  44% (1144/2599)   Receiving objects:  45% (1170/2599)   Receiving objects:  46% (1196/2599)   Receiving objects:  47% (1222/2599)   Receiving objects:  48% (1248/2599)   Receiving objects:  49% (1274/2599)   Receiving objects:  50% (1300/2599)   Receiving objects:  51% (1326/2599)   Receiving objects:  52% (1352/2599)   Receiving objects:  53% (1378/2599)   Receiving objects:  54% (1404/2599)   Receiving objects:  55% (1430/2599)   Receiving objects:  56% (1456/2599)   Receiving objects:  57% (1482/2599)   Receiving objects:  58% (1508/2599)   Receiving objects:  59% (1534/2599)   Receiving objects:  60% (1560/2599)   
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Receiving objects:  61% (1586/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  62% (1612/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  63% (1638/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  64% (1664/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  65% (1690/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  66% (1716/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  67% (1742/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  68% (1768/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  69% (1794/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  70% (1820/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  71% (1846/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  72% (1872/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  73% (1898/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  74% (1924/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  75% (1950/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  76% (1976/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  77% (2002/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  78% (2028/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  79% (2054/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  80% (2080/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  81% (2106/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  82% (2132/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  83% (2158/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  84% (2184/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  85% (2210/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  86% (2236/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  87% (2262/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  88% (2288/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  89% (2314/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  90% (2340/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  91% (2366/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  92% (2392/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  93% (2418/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  94% (2444/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  95% (2470/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  96% (2496/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  97% (2522/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  98% (2548/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  99% (2574/2599), 2.63 MiB | 5.20 MiB/s   remote: Total 2599 (delta 3), reused 0 (delta 0), pack-reused 2586[K
+Receiving objects: 100% (2599/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects: 100% (2599/2599), 3.46 MiB | 4.79 MiB/s, done.
+Resolving deltas:   0% (0/1327)   Resolving deltas:   1% (14/1327)   Resolving deltas:   2% (28/1327)   Resolving deltas:   3% (40/1327)   Resolving deltas:   5% (72/1327)   Resolving deltas:  11% (157/1327)   Resolving deltas:  12% (160/1327)   Resolving deltas:  23% (312/1327)   Resolving deltas:  50% (666/1327)   Resolving deltas:  51% (677/1327)   Resolving deltas:  52% (700/1327)   Resolving deltas:  56% (744/1327)   Resolving deltas:  57% (760/1327)   Resolving deltas:  60% (801/1327)   Resolving deltas:  62% (829/1327)   Resolving deltas:  63% (847/1327)   Resolving deltas:  80% (1071/1327)   Resolving deltas:  81% (1075/1327)   Resolving deltas:  84% (1126/1327)   Resolving deltas:  90% (1196/1327)   Resolving deltas:  93% (1236/1327)   Resolving deltas:  94% (1254/1327)   Resolving deltas:  95% (1261/1327)   Resolving deltas:  96% (1274/1327)   Resolving deltas:  97% (1294/1327)   Resolving deltas:  98% (1309/1327)   Resolving deltas:  99% (1319/1327)   Resolving deltas: 100% (1327/1327)   Resolving deltas: 100% (1327/1327), done.
+vagrant@doc01:~$ 
+vagrant@doc01:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && python main.py
+self.io.write:cd feedback-loop && ls && python main.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && python main.py
+while:  1
+while:  1
+while:  2
+while:  3
+while:  1
+while:  1
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc01:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break

@@ -4,30 +4,20 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
-<<<<<<< HEAD
-  System information as of Wed Oct 20 00:10:55 UTC 2021
+  System information as of Wed Oct 20 17:43:07 UTC 2021
 
-  System load:                    0.05
+  System load:                    0.02
   Usage of /:                     56.2% of 61.80GB
-  Memory usage:                   27%
+  Memory usage:                   29%
   Swap usage:                     0%
-  Processes:                      156
+  Processes:                      154
   Users logged in:                1
-=======
-  System information as of Wed Oct 20 17:12:07 UTC 2021
-
-  System load:                    0.07
-  Usage of /:                     34.8% of 61.80GB
-  Memory usage:                   31%
-  Swap usage:                     0%
-  Processes:                      125
-  Users logged in:                0
->>>>>>> 9cce362c256ea44f37146ae0ff5b422aa4971d3c
   IP address for eth0:            10.0.2.15
-  IP address for eth1:            192.168.2.83
-  IP address for docker_gwbridge: 172.18.0.1
-  IP address for br-5c8b56c38219: 172.19.0.1
+  IP address for eth1:            192.168.2.81
   IP address for docker0:         172.17.0.1
+  IP address for docker_gwbridge: 172.18.0.1
+  IP address for br-a272740f1519: 172.19.0.1
+  IP address for br-4759a70587ea: 172.20.0.1
 
  * Canonical Livepatch is available for installation.
    - Reduce system reboots and improve kernel security. Activate at:
@@ -36,279 +26,63 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
-<<<<<<< HEAD
-Last login: Wed Oct 20 00:09:29 2021 from 192.168.2.230
-=======
-Last login: Wed Oct 20 16:13:26 2021 from 192.168.2.220
+Last login: Wed Oct 20 03:35:05 2021 from 192.168.2.222
 
 
->>>>>>> 9cce362c256ea44f37146ae0ff5b422aa4971d3c
 
-vagrant@doc03:~$ 
-vagrant@doc03:~$ 
-vagrant@doc03:~$ 
-vagrant@doc03:~$ git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
-fatal: destination path 'feedback-loop' already exists and is not an empty directory.
-vagrant@doc03:~$ 
-vagrant@doc03:~$ Username for 'https://corp.paglipay.info': 
-Password for 'https://corp.paglipay.info': 
-remote: HTTP Basic: Access denied
-fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
-pwd
-/home/vagrant/feedback-loop
-ls -la
-total 168
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .
-drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 17:12 ..
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28 administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28 app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28 branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:28 c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:28 c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28 capture
--rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28 doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28 doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  6258 Oct 20 17:12 doc03-requirements.txt
--rw-rw-r--  1 vagrant vagrant   244 Oct 20 17:12 doc03-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28 DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 17:12 .git
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28 .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28 .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28 json
--rw-rw-r--  1 vagrant vagrant  2244 Oct 20 00:28 main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:28 my_packages
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:29 __pycache__
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:28 README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:28 requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:28 runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:28 some file.txt
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:28 start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:28 test.txt
--rw-rw-r--  1 vagrant vagrant 17352 Oct 20 00:28 ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4838 Oct 20 00:28 ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:28 ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:28 ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:28 .vscode
-pwd
-/home/vagrant/feedback-loop
-git config --global credential.helper store
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git checkout -b doc03
-fatal: A branch named 'doc03' already exists.
-git pull origin master
-fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
-git add .
-git status
-On branch doc03
-Changes to be committed:
-(use "git reset HEAD <file>..." to unstage)
-
-modified:   doc03-requirements.txt
-modified:   doc03-test.txt
-
-<<<<<<< HEAD
 vagrant@doc01:~$ 
 vagrant@doc01:~$ 
 vagrant@doc01:~$ 
-vagrant@doc01:~$ sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
-Cloning into 'feedback-loop'...
-Username for 'https://corp.paglipay.info': root
-Password for 'https://root@corp.paglipay.info': remote: Enumerating objects: 44, done.[K
-remote: Counting objects:   2% (1/44)[Kremote: Counting objects:   4% (2/44)[Kremote: Counting objects:   6% (3/44)[Kremote: Counting objects:   9% (4/44)[Kremote: Counting objects:  11% (5/44)[Kremote: Counting objects:  13% (6/44)[Kremote: Counting objects:  15% (7/44)[Kremote: Counting objects:  18% (8/44)[Kremote: Counting objects:  20% (9/44)[Kremote: Counting objects:  22% (10/44)[Kremote: Counting objects:  25% (11/44)[Kremote: Counting objects:  27% (12/44)[Kremote: Counting objects:  29% (13/44)[Kremote: Counting objects:  31% (14/44)[Kremote: Counting objects:  34% (15/44)[Kremote: Counting objects:  36% (16/44)[Kremote: Counting objects:  38% (17/44)[Kremote: Counting objects:  40% (18/44)[Kremote: Counting objects:  43% (19/44)[Kremote: Counting objects:  45% (20/44)[Kremote: Counting objects:  47% (21/44)[Kremote: Counting objects:  50% (22/44)[Kremote: Counting objects:  52% (23/44)[Kremote: Counting objects:  54% (24/44)[Kremote: Counting objects:  56% (25/44)[Kremote: Counting objects:  59% (26/44)[Kremote: Counting objects:  61% (27/44)[Kremote: Counting objects:  63% (28/44)[Kremote: Counting objects:  65% (29/44)[Kremote: Counting objects:  68% (30/44)[Kremote: Counting objects:  70% (31/44)[Kremote: Counting objects:  72% (32/44)[Kremote: Counting objects:  75% (33/44)[Kremote: Counting objects:  77% (34/44)[Kremote: Counting objects:  79% (35/44)[Kremote: Counting objects:  81% (36/44)[Kremote: Counting objects:  84% (37/44)[Kremote: Counting objects:  86% (38/44)[Kremote: Counting objects:  88% (39/44)[Kremote: Counting objects:  90% (40/44)[Kremote: Counting objects:  93% (41/44)[Kremote: Counting objects:  95% (42/44)[Kremote: Counting objects:  97% (43/44)[Kremote: Counting objects: 100% (44/44)[Kremote: Counting objects: 100% (44/44), done.[K
-remote: Compressing objects:   4% (1/23)[Kremote: Compressing objects:   8% (2/23)[Kremote: Compressing objects:  13% (3/23)[Kremote: Compressing objects:  17% (4/23)[Kremote: Compressing objects:  21% (5/23)[Kremote: Compressing objects:  26% (6/23)[Kremote: Compressing objects:  30% (7/23)[Kremote: Compressing objects:  34% (8/23)[Kremote: Compressing objects:  39% (9/23)[Kremote: Compressing objects:  43% (10/23)[Kremote: Compressing objects:  47% (11/23)[Kremote: Compressing objects:  52% (12/23)[Kremote: Compressing objects:  56% (13/23)[Kremote: Compressing objects:  60% (14/23)[Kremote: Compressing objects:  65% (15/23)[Kremote: Compressing objects:  69% (16/23)[Kremote: Compressing objects:  73% (17/23)[Kremote: Compressing objects:  78% (18/23)[Kremote: Compressing objects:  82% (19/23)[Kremote: Compressing objects:  86% (20/23)[Kremote: Compressing objects:  91% (21/23)[Kremote: Compressing objects:  95% (22/23)[Kremote: Compressing objects: 100% (23/23)[Kremote: Compressing objects: 100% (23/23), done.[K
-Receiving objects:   0% (1/2425)   Receiving objects:   1% (25/2425)   Receiving objects:   2% (49/2425)   Receiving objects:   3% (73/2425)   Receiving objects:   4% (97/2425)   Receiving objects:   5% (122/2425)   Receiving objects:   6% (146/2425)   Receiving objects:   7% (170/2425)   Receiving objects:   8% (194/2425)   Receiving objects:   9% (219/2425)   Receiving objects:  10% (243/2425)   Receiving objects:  11% (267/2425)   Receiving objects:  12% (291/2425)   Receiving objects:  13% (316/2425)   Receiving objects:  14% (340/2425)   Receiving objects:  15% (364/2425)   Receiving objects:  16% (388/2425)   Receiving objects:  17% (413/2425)   Receiving objects:  18% (437/2425)   Receiving objects:  19% (461/2425)   Receiving objects:  20% (485/2425)   Receiving objects:  21% (510/2425)   Receiving objects:  22% (534/2425)   Receiving objects:  23% (558/2425)   Receiving objects:  24% (582/2425)   Receiving objects:  25% (607/2425)   Receiving objects:  26% (631/2425)   Receiving objects:  27% (655/2425)   Receiving objects:  28% (679/2425)   Receiving objects:  29% (704/2425)   Receiving objects:  30% (728/2425)   Receiving objects:  31% (752/2425)   Receiving objects:  32% (776/2425)   Receiving objects:  33% (801/2425)   Receiving objects:  34% (825/2425)   Receiving objects:  35% (849/2425)   Receiving objects:  36% (873/2425)   Receiving objects:  37% (898/2425)   Receiving objects:  38% (922/2425)   Receiving objects:  39% (946/2425)   Receiving objects:  40% (970/2425)   Receiving objects:  41% (995/2425)   Receiving objects:  42% (1019/2425)   Receiving objects:  43% (1043/2425)   Receiving objects:  44% (1067/2425)   Receiving objects:  45% (1092/2425)   Receiving objects:  46% (1116/2425)   Receiving objects:  47% (1140/2425)   Receiving objects:  48% (1164/2425)   Receiving objects:  49% (1189/2425)   Receiving objects:  50% (1213/2425)   Receiving objects:  51% (1237/2425)   Receiving objects:  52% (1261/2425)   Receiving objects:  53% (1286/2425)   Receiving objects:  54% (1310/2425)   
-Receiving objects:  55% (1334/2425)   Receiving objects:  56% (1358/2425)   Receiving objects:  57% (1383/2425)   Receiving objects:  58% (1407/2425)   Receiving objects:  59% (1431/2425)   Receiving objects:  60% (1455/2425)   Receiving objects:  61% (1480/2425)   Receiving objects:  62% (1504/2425)   Receiving objects:  63% (1528/2425)   Receiving objects:  64% (1552/2425)   Receiving objects:  65% (1577/2425)   Receiving objects:  66% (1601/2425)   Receiving objects:  67% (1625/2425)   Receiving objects:  68% (1649/2425)   Receiving objects:  69% (1674/2425)   Receiving objects:  70% (1698/2425)   Receiving objects:  71% (1722/2425)   Receiving objects:  72% (1746/2425)   Receiving objects:  73% (1771/2425)   Receiving objects:  74% (1795/2425)   Receiving objects:  75% (1819/2425)   Receiving objects:  76% (1843/2425)   Receiving objects:  77% (1868/2425)   Receiving objects:  78% (1892/2425)   Receiving objects:  79% (1916/2425)   Receiving objects:  80% (1940/2425)   Receiving objects:  81% (1965/2425)   Receiving objects:  82% (1989/2425)   Receiving objects:  83% (2013/2425)   Receiving objects:  84% (2037/2425)   Receiving objects:  85% (2062/2425)   Receiving objects:  86% (2086/2425)   Receiving objects:  87% (2110/2425)   Receiving objects:  88% (2134/2425)   Receiving objects:  89% (2159/2425)   Receiving objects:  90% (2183/2425)   Receiving objects:  91% (2207/2425)   Receiving objects:  92% (2231/2425)   Receiving objects:  93% (2256/2425)   Receiving objects:  94% (2280/2425)   Receiving objects:  95% (2304/2425)   Receiving objects:  96% (2328/2425)   Receiving objects:  97% (2353/2425)   Receiving objects:  98% (2377/2425)   Receiving objects:  99% (2401/2425)   remote: Total 2425 (delta 18), reused 36 (delta 15), pack-reused 2381[K
-Receiving objects: 100% (2425/2425)   Receiving objects: 100% (2425/2425), 3.42 MiB | 8.14 MiB/s, done.
-Resolving deltas:   0% (0/1216)   Resolving deltas:   1% (13/1216)   Resolving deltas:   2% (25/1216)   Resolving deltas:   3% (37/1216)   Resolving deltas:   5% (67/1216)   Resolving deltas:   6% (73/1216)   Resolving deltas:  13% (169/1216)   Resolving deltas:  16% (199/1216)   Resolving deltas:  20% (251/1216)   Resolving deltas:  25% (316/1216)   Resolving deltas:  41% (509/1216)   Resolving deltas:  42% (515/1216)   Resolving deltas:  43% (523/1216)   Resolving deltas:  52% (638/1216)   Resolving deltas:  60% (738/1216)   Resolving deltas:  61% (751/1216)   Resolving deltas:  72% (883/1216)   Resolving deltas:  81% (996/1216)   Resolving deltas:  84% (1023/1216)   Resolving deltas:  86% (1051/1216)   Resolving deltas:  90% (1100/1216)   Resolving deltas:  91% (1108/1216)   Resolving deltas:  92% (1119/1216)   Resolving deltas:  93% (1131/1216)   Resolving deltas:  94% (1144/1216)   Resolving deltas:  95% (1166/1216)   Resolving deltas:  97% (1181/1216)   Resolving deltas:  98% (1193/1216)   Resolving deltas:  99% (1205/1216)   Resolving deltas: 100% (1216/1216)   Resolving deltas: 100% (1216/1216), done.
+vagrant@doc01:~$ remote: Enumerating objects: 13, done.[K
+remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+Receiving objects:   0% (1/2599)   Receiving objects:   1% (26/2599)   Receiving objects:   2% (52/2599)   Receiving objects:   3% (78/2599)   Receiving objects:   4% (104/2599)   Receiving objects:   5% (130/2599)   Receiving objects:   6% (156/2599)   Receiving objects:   7% (182/2599)   Receiving objects:   8% (208/2599)   Receiving objects:   9% (234/2599)   Receiving objects:  10% (260/2599)   Receiving objects:  11% (286/2599)   Receiving objects:  12% (312/2599)   Receiving objects:  13% (338/2599)   Receiving objects:  14% (364/2599)   Receiving objects:  15% (390/2599)   Receiving objects:  16% (416/2599)   Receiving objects:  17% (442/2599)   Receiving objects:  18% (468/2599)   Receiving objects:  19% (494/2599)   Receiving objects:  20% (520/2599)   Receiving objects:  21% (546/2599)   Receiving objects:  22% (572/2599)   Receiving objects:  23% (598/2599)   Receiving objects:  24% (624/2599)   Receiving objects:  25% (650/2599)   Receiving objects:  26% (676/2599)   Receiving objects:  27% (702/2599)   Receiving objects:  28% (728/2599)   Receiving objects:  29% (754/2599)   Receiving objects:  30% (780/2599)   Receiving objects:  31% (806/2599)   Receiving objects:  32% (832/2599)   Receiving objects:  33% (858/2599)   Receiving objects:  34% (884/2599)   Receiving objects:  35% (910/2599)   Receiving objects:  36% (936/2599)   Receiving objects:  37% (962/2599)   Receiving objects:  38% (988/2599)   Receiving objects:  39% (1014/2599)   Receiving objects:  40% (1040/2599)   Receiving objects:  41% (1066/2599)   Receiving objects:  42% (1092/2599)   Receiving objects:  43% (1118/2599)   Receiving objects:  44% (1144/2599)   Receiving objects:  45% (1170/2599)   Receiving objects:  46% (1196/2599)   Receiving objects:  47% (1222/2599)   Receiving objects:  48% (1248/2599)   Receiving objects:  49% (1274/2599)   Receiving objects:  50% (1300/2599)   Receiving objects:  51% (1326/2599)   Receiving objects:  52% (1352/2599)   Receiving objects:  53% (1378/2599)   Receiving objects:  54% (1404/2599)   Receiving objects:  55% (1430/2599)   Receiving objects:  56% (1456/2599)   Receiving objects:  57% (1482/2599)   Receiving objects:  58% (1508/2599)   Receiving objects:  59% (1534/2599)   Receiving objects:  60% (1560/2599)   
+Receiving objects:  61% (1586/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  62% (1612/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  63% (1638/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  64% (1664/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  65% (1690/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  66% (1716/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  67% (1742/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  68% (1768/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  69% (1794/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  70% (1820/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  71% (1846/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  72% (1872/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  73% (1898/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  74% (1924/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  75% (1950/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  76% (1976/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  77% (2002/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  78% (2028/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  79% (2054/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  80% (2080/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  81% (2106/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  82% (2132/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  83% (2158/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  84% (2184/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  85% (2210/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  86% (2236/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  87% (2262/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  88% (2288/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  89% (2314/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  90% (2340/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  91% (2366/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  92% (2392/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  93% (2418/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  94% (2444/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  95% (2470/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  96% (2496/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  97% (2522/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  98% (2548/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects:  99% (2574/2599), 2.63 MiB | 5.20 MiB/s   remote: Total 2599 (delta 3), reused 0 (delta 0), pack-reused 2586[K
+Receiving objects: 100% (2599/2599), 2.63 MiB | 5.20 MiB/s   Receiving objects: 100% (2599/2599), 3.46 MiB | 4.79 MiB/s, done.
+Resolving deltas:   0% (0/1327)   Resolving deltas:   1% (14/1327)   Resolving deltas:   2% (28/1327)   Resolving deltas:   3% (40/1327)   Resolving deltas:   5% (72/1327)   Resolving deltas:  11% (157/1327)   Resolving deltas:  12% (160/1327)   Resolving deltas:  23% (312/1327)   Resolving deltas:  50% (666/1327)   Resolving deltas:  51% (677/1327)   Resolving deltas:  52% (700/1327)   Resolving deltas:  56% (744/1327)   Resolving deltas:  57% (760/1327)   Resolving deltas:  60% (801/1327)   Resolving deltas:  62% (829/1327)   Resolving deltas:  63% (847/1327)   Resolving deltas:  80% (1071/1327)   Resolving deltas:  81% (1075/1327)   Resolving deltas:  84% (1126/1327)   Resolving deltas:  90% (1196/1327)   Resolving deltas:  93% (1236/1327)   Resolving deltas:  94% (1254/1327)   Resolving deltas:  95% (1261/1327)   Resolving deltas:  96% (1274/1327)   Resolving deltas:  97% (1294/1327)   Resolving deltas:  98% (1309/1327)   Resolving deltas:  99% (1319/1327)   Resolving deltas: 100% (1327/1327)   Resolving deltas: 100% (1327/1327), done.
 vagrant@doc01:~$ 
-vagrant@doc01:~$ cd feedback-loop && ls && python main.py
- administrator2-test.txt   app.py   branch.txt   c-213-requirements.txt   c-213-test.txt   [0m[01;34mcapture[0m   DTree.py   [01;34mjson[0m   main.py   [01;34mmy_packages[0m   [01;34m__pycache__[0m   README.md   requirements.txt   runner-1zql5ubz-project-31-concurrent-0-test.txt  'some file.txt'   start.json   test.txt   ubd-220-requirements.txt   ubd-220-test.txt   ub-desk-230-requirements.txt   ub-desk-230-test.txt
-hello
-pwd
-/home/vagrant/feedback-loop
-ls -la
-total 144
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:10 .
-drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 00:10 ..
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:10 administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:10 app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:10 branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:10 c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:10 c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:10 capture
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:10 DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:10 .git
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:10 .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:10 .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:10 json
--rw-rw-r--  1 vagrant vagrant  2189 Oct 20 00:10 main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:10 my_packages
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:10 __pycache__
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:10 README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:10 requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:10 runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:10 some file.txt
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:10 start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:10 test.txt
--rw-rw-r--  1 vagrant vagrant 12825 Oct 20 00:10 ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4779 Oct 20 00:10 ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:10 ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:10 ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:10 .vscode
-pwd
-/home/vagrant/feedback-loop
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git checkout -b doc01
-Switched to a new branch 'doc01'
-git pull origin master
-fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
-git add .
-git status
-On branch doc01
-nothing to commit, working tree clean
-git commit -m "doc01"
-On branch doc01
-nothing to commit, working tree clean
-git -c http.sslVerify=false push origin doc01
-Username for 'https://corp.paglipay.info': 
-Password for 'https://corp.paglipay.info': 
-remote: HTTP Basic: Access denied
-fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
-pwd
-/home/vagrant/feedback-loop
-ls -la
-total 152
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:11 .
-drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 00:11 ..
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:10 administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:10 app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:10 branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:10 c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:10 c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:10 capture
--rw-rw-r--  1 vagrant vagrant    15 Oct 20 00:11 doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:11 doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:10 DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:11 .git
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:10 .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:10 .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:10 json
--rw-rw-r--  1 vagrant vagrant  2189 Oct 20 00:10 main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:10 my_packages
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:10 __pycache__
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:10 README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:10 requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:10 runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:10 some file.txt
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:10 start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:10 test.txt
--rw-rw-r--  1 vagrant vagrant 12825 Oct 20 00:10 ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4779 Oct 20 00:10 ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:10 ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:10 ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:10 .vscode
-pwd
-/home/vagrant/feedback-loop
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git checkout -b doc01
-fatal: A branch named 'doc01' already exists.
-git pull origin master
-fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
-git add .
-git status
-On branch doc01
-Changes to be committed:
-(use "git reset HEAD <file>..." to unstage)
-
-new file:   doc01-requirements.txt
-new file:   doc01-test.txt
-
-git commit -m "doc01"
-[doc01 1f3d37d] doc01
-2 files changed, 4 insertions(+)
-create mode 100644 doc01-requirements.txt
-create mode 100644 doc01-test.txt
-git -c http.sslVerify=false push origin doc01
-=======
-git commit -m "doc03"
-[doc03 9dffce5] doc03
-2 files changed, 4 insertions(+)
-git -c http.sslVerify=false push origin doc03
->>>>>>> 9cce362c256ea44f37146ae0ff5b422aa4971d3c
-Username for 'https://corp.paglipay.info': 
-Password for 'https://corp.paglipay.info': 
-remote: HTTP Basic: Access denied
-fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.git/'
+vagrant@doc01:~$ To https://corp.paglipay.info/root/feedback-loop.git
+ ! [rejected]        doc01 -> doc01 (non-fast-forward)
+error: failed to push some refs to 'https://corp.paglipay.info/root/feedback-loop.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 DONE
-<<<<<<< HEAD
-vagrant@doc01:~/feedback-loop$ ls -la
-total 152
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:11  [0m[01;34m.[0m
-drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 00:11  [01;34m..[0m
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:10  administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:10  app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:10  branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:10  c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:10  c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:10  [01;34mcapture[0m
--rw-rw-r--  1 vagrant vagrant  2081 Oct 20 00:11  doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:11  doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:10  DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:11  [01;34m.git[0m
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:10  .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:10  .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:10  [01;34mjson[0m
--rw-rw-r--  1 vagrant vagrant  2189 Oct 20 00:10  main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:10  [01;34mmy_packages[0m
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:11  [01;34m__pycache__[0m
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:10  README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:10  requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:10  runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:10 'some file.txt'
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:10  start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:10  test.txt
--rw-rw-r--  1 vagrant vagrant 12825 Oct 20 00:10  ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4779 Oct 20 00:10  ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:10  ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:10  ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:10  [01;34m.vscode[0m
 vagrant@doc01:~/feedback-loop$ 
-=======
-vagrant@doc03:~/feedback-loop$ ls -la
-total 172
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29  [0m[01;34m.[0m
-drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 17:12  [01;34m..[0m
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28  administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28  app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28  branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:28  c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:28  c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28  [01;34mcapture[0m
--rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28  doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28  doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  8324 Oct 20 17:12  doc03-requirements.txt
--rw-rw-r--  1 vagrant vagrant   244 Oct 20 17:12  doc03-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28  DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 17:12  [01;34m.git[0m
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28  .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28  .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28  [01;34mjson[0m
--rw-rw-r--  1 vagrant vagrant  2244 Oct 20 00:28  main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:28  [01;34mmy_packages[0m
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:29  [01;34m__pycache__[0m
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:28  README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:28  requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:28  runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:28 'some file.txt'
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:28  start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:28  test.txt
--rw-rw-r--  1 vagrant vagrant 17352 Oct 20 00:28  ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4838 Oct 20 00:28  ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:28  ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:28  ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:28  [01;34m.vscode[0m
-vagrant@doc03:~/feedback-loop$ 
->>>>>>> 9cce362c256ea44f37146ae0ff5b422aa4971d3c
+vagrant@doc01:~/feedback-loop$ ls -la
+total 244
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 17:43  [0m[01;34m.[0m
+drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 17:43  [01;34m..[0m
+-rw-rw-r--  1 vagrant vagrant  1496 Oct 20 17:43  administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant   625 Oct 20 17:43  app.py
+-rw-rw-r--  1 vagrant vagrant     6 Oct 20 17:43  branch.txt
+-rw-rw-r--  1 vagrant vagrant   212 Oct 20 17:43  c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2286 Oct 20 17:43  c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 17:43  [01;34mcapture[0m
+-rw-rw-r--  1 vagrant vagrant     0 Oct 20 17:43  conftest.py
+-rw-rw-r--  1 vagrant vagrant  2221 Oct 20 17:43  doc01-requirements.txt
+-rw-rw-r--  1 vagrant vagrant   183 Oct 20 17:43  doc01-test.txt
+-rw-rw-r--  1 vagrant vagrant  2911 Oct 20 17:43  DTree.py
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 17:43  [01;34m.git[0m
+-rw-rw-r--  1 vagrant vagrant    64 Oct 20 17:43  .gitignore
+-rw-rw-r--  1 vagrant vagrant  1912 Oct 20 17:43  .gitlab-ci.yml
+-rw-rw-r--  1 vagrant vagrant    70 Oct 20 17:43  inc_dec.py
+drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 17:43  [01;34mjson[0m
+-rw-rw-r--  1 vagrant vagrant  2244 Oct 20 17:43  main.py
+drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 17:43  [01;34mmy_packages[0m
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 17:43  [01;34m__pycache__[0m
+-rw-rw-r--  1 vagrant vagrant    36 Oct 20 17:43  README.md
+-rw-rw-r--  1 vagrant vagrant   700 Oct 20 17:43  requirements.txt
+-rw-rw-r--  1 vagrant vagrant   273 Oct 20 17:43  runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant   445 Oct 20 17:43 'some file.txt'
+-rw-rw-r--  1 vagrant vagrant   518 Oct 20 17:43  start.json
+-rw-rw-r--  1 vagrant vagrant   156 Oct 20 17:43  test_pytest.py
+-rw-rw-r--  1 vagrant vagrant  4332 Oct 20 17:43  test.txt
+-rw-rw-r--  1 vagrant vagrant   294 Oct 20 17:43  test_unittest.py
+-rw-rw-r--  1 vagrant vagrant 96051 Oct 20 17:43  ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  5369 Oct 20 17:43  ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant 17722 Oct 20 17:43  ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2646 Oct 20 17:43  ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 17:43  [01;34m.vscode[0m
+vagrant@doc01:~/feedback-loop$ 
