@@ -1,2 +1,4 @@
 python3 app.py
 app.py HERE
+python3 app.py
+app.py HERE
