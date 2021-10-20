@@ -4,13 +4,13 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
-  System information as of Wed Oct 20 00:02:08 UTC 2021
+  System information as of Wed Oct 20 00:07:45 UTC 2021
 
-  System load:                    0.69
+  System load:                    0.02
   Usage of /:                     56.2% of 61.80GB
   Memory usage:                   27%
   Swap usage:                     0%
-  Processes:                      146
+  Processes:                      155
   Users logged in:                1
   IP address for eth0:            10.0.2.15
   IP address for eth1:            192.168.2.81
@@ -26,7 +26,7 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
-Last login: Tue Oct 19 23:42:26 2021 from 192.168.2.230
+Last login: Wed Oct 20 00:06:09 2021 from 192.168.2.230
 
 
 
@@ -36,62 +36,47 @@ vagrant@doc01:~$
 vagrant@doc01:~$ sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
 Cloning into 'feedback-loop'...
 Username for 'https://corp.paglipay.info': root
-Password for 'https://root@corp.paglipay.info': remote: Enumerating objects: 17, done.[K
-remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
-remote: Compressing objects:   6% (1/15)[Kremote: Compressing objects:  13% (2/15)[Kremote: Compressing objects:  20% (3/15)[Kremote: Compressing objects:  26% (4/15)[Kremote: Compressing objects:  33% (5/15)[Kremote: Compressing objects:  40% (6/15)[Kremote: Compressing objects:  46% (7/15)[Kremote: Compressing objects:  53% (8/15)[Kremote: Compressing objects:  60% (9/15)[Kremote: Compressing objects:  66% (10/15)[Kremote: Compressing objects:  73% (11/15)[Kremote: Compressing objects:  80% (12/15)[Kremote: Compressing objects:  86% (13/15)[Kremote: Compressing objects:  93% (14/15)[Kremote: Compressing objects: 100% (15/15)[Kremote: Compressing objects: 100% (15/15), done.[K
-Receiving objects:   0% (1/2398)   Receiving objects:   1% (24/2398)   Receiving objects:   2% (48/2398)   Receiving objects:   3% (72/2398)   Receiving objects:   4% (96/2398)   Receiving objects:   5% (120/2398)   Receiving objects:   6% (144/2398)   Receiving objects:   7% (168/2398)   Receiving objects:   8% (192/2398)   Receiving objects:   9% (216/2398)   Receiving objects:  10% (240/2398)   Receiving objects:  11% (264/2398)   Receiving objects:  12% (288/2398)   Receiving objects:  13% (312/2398)   Receiving objects:  14% (336/2398)   Receiving objects:  15% (360/2398)   Receiving objects:  16% (384/2398)   Receiving objects:  17% (408/2398)   Receiving objects:  18% (432/2398)   Receiving objects:  19% (456/2398)   Receiving objects:  20% (480/2398)   Receiving objects:  21% (504/2398)   Receiving objects:  22% (528/2398)   Receiving objects:  23% (552/2398)   Receiving objects:  24% (576/2398)   Receiving objects:  25% (600/2398)   Receiving objects:  26% (624/2398)   Receiving objects:  27% (648/2398)   Receiving objects:  28% (672/2398)   Receiving objects:  29% (696/2398)   Receiving objects:  30% (720/2398)   Receiving objects:  31% (744/2398)   Receiving objects:  32% (768/2398)   Receiving objects:  33% (792/2398)   Receiving objects:  34% (816/2398)   Receiving objects:  35% (840/2398)   Receiving objects:  36% (864/2398)   Receiving objects:  37% (888/2398)   Receiving objects:  38% (912/2398)   Receiving objects:  39% (936/2398)   Receiving objects:  40% (960/2398)   Receiving objects:  41% (984/2398)   Receiving objects:  42% (1008/2398)   Receiving objects:  43% (1032/2398)   Receiving objects:  44% (1056/2398)   Receiving objects:  45% (1080/2398)   Receiving objects:  46% (1104/2398)   Receiving objects:  47% (1128/2398)   Receiving objects:  48% (1152/2398)   
-Receiving objects:  49% (1176/2398)   Receiving objects:  50% (1199/2398)   Receiving objects:  51% (1223/2398)   Receiving objects:  52% (1247/2398)   Receiving objects:  53% (1271/2398)   Receiving objects:  54% (1295/2398)   Receiving objects:  55% (1319/2398)   Receiving objects:  56% (1343/2398)   Receiving objects:  57% (1367/2398)   Receiving objects:  58% (1391/2398)   Receiving objects:  59% (1415/2398)   Receiving objects:  60% (1439/2398)   Receiving objects:  61% (1463/2398)   Receiving objects:  62% (1487/2398)   Receiving objects:  63% (1511/2398)   Receiving objects:  64% (1535/2398)   Receiving objects:  65% (1559/2398)   Receiving objects:  66% (1583/2398)   Receiving objects:  67% (1607/2398)   Receiving objects:  68% (1631/2398)   Receiving objects:  69% (1655/2398)   Receiving objects:  70% (1679/2398)   Receiving objects:  71% (1703/2398)   Receiving objects:  72% (1727/2398)   Receiving objects:  73% (1751/2398)   Receiving objects:  74% (1775/2398)   Receiving objects:  75% (1799/2398)   Receiving objects:  76% (1823/2398)   Receiving objects:  77% (1847/2398)   Receiving objects:  78% (1871/2398)   Receiving objects:  79% (1895/2398)   Receiving objects:  80% (1919/2398)   Receiving objects:  81% (1943/2398)   Receiving objects:  82% (1967/2398)   Receiving objects:  83% (1991/2398)   Receiving objects:  84% (2015/2398)   Receiving objects:  85% (2039/2398)   Receiving objects:  86% (2063/2398)   Receiving objects:  87% (2087/2398)   Receiving objects:  88% (2111/2398)   Receiving objects:  89% (2135/2398)   Receiving objects:  90% (2159/2398)   Receiving objects:  91% (2183/2398)   Receiving objects:  92% (2207/2398)   Receiving objects:  93% (2231/2398)   Receiving objects:  94% (2255/2398)   Receiving objects:  95% (2279/2398)   Receiving objects:  96% (2303/2398)   Receiving objects:  97% (2327/2398)   Receiving objects:  98% (2351/2398)   Receiving objects:  99% (2375/2398)   remote: Total 2398 (delta 5), reused 0 (delta 0), pack-reused 2381[K
-Receiving objects: 100% (2398/2398)   Receiving objects: 100% (2398/2398), 3.41 MiB | 9.65 MiB/s, done.
-Resolving deltas:   0% (0/1203)   Resolving deltas:   1% (13/1203)   Resolving deltas:   2% (25/1203)   Resolving deltas:   3% (38/1203)   Resolving deltas:  25% (310/1203)   Resolving deltas:  29% (355/1203)   Resolving deltas:  32% (387/1203)   Resolving deltas:  33% (397/1203)   Resolving deltas:  37% (457/1203)   Resolving deltas:  38% (458/1203)   Resolving deltas:  47% (577/1203)   Resolving deltas:  52% (627/1203)   Resolving deltas:  53% (638/1203)   Resolving deltas:  54% (654/1203)   Resolving deltas:  56% (681/1203)   Resolving deltas:  76% (917/1203)   Resolving deltas:  80% (971/1203)   Resolving deltas:  84% (1016/1203)   Resolving deltas:  90% (1086/1203)   Resolving deltas:  91% (1099/1203)   Resolving deltas:  92% (1117/1203)   Resolving deltas:  93% (1120/1203)   Resolving deltas:  94% (1131/1203)   Resolving deltas:  95% (1143/1203)   Resolving deltas:  96% (1155/1203)   Resolving deltas:  98% (1181/1203)   Resolving deltas:  99% (1193/1203)   Resolving deltas: 100% (1203/1203)   Resolving deltas: 100% (1203/1203), done.
+Password for 'https://root@corp.paglipay.info': remote: Enumerating objects: 32, done.[K
+remote: Counting objects:   3% (1/32)[Kremote: Counting objects:   6% (2/32)[Kremote: Counting objects:   9% (3/32)[Kremote: Counting objects:  12% (4/32)[Kremote: Counting objects:  15% (5/32)[Kremote: Counting objects:  18% (6/32)[Kremote: Counting objects:  21% (7/32)[Kremote: Counting objects:  25% (8/32)[Kremote: Counting objects:  28% (9/32)[Kremote: Counting objects:  31% (10/32)[Kremote: Counting objects:  34% (11/32)[Kremote: Counting objects:  37% (12/32)[Kremote: Counting objects:  40% (13/32)[Kremote: Counting objects:  43% (14/32)[Kremote: Counting objects:  46% (15/32)[Kremote: Counting objects:  50% (16/32)[Kremote: Counting objects:  53% (17/32)[Kremote: Counting objects:  56% (18/32)[Kremote: Counting objects:  59% (19/32)[Kremote: Counting objects:  62% (20/32)[Kremote: Counting objects:  65% (21/32)[Kremote: Counting objects:  68% (22/32)[Kremote: Counting objects:  71% (23/32)[Kremote: Counting objects:  75% (24/32)[Kremote: Counting objects:  78% (25/32)[Kremote: Counting objects:  81% (26/32)[Kremote: Counting objects:  84% (27/32)[Kremote: Counting objects:  87% (28/32)[Kremote: Counting objects:  90% (29/32)[Kremote: Counting objects:  93% (30/32)[Kremote: Counting objects:  96% (31/32)[Kremote: Counting objects: 100% (32/32)[Kremote: Counting objects: 100% (32/32), done.[K
+remote: Compressing objects:   3% (1/28)[Kremote: Compressing objects:   7% (2/28)[Kremote: Compressing objects:  10% (3/28)[Kremote: Compressing objects:  14% (4/28)[Kremote: Compressing objects:  17% (5/28)[Kremote: Compressing objects:  21% (6/28)[Kremote: Compressing objects:  25% (7/28)[Kremote: Compressing objects:  28% (8/28)[Kremote: Compressing objects:  32% (9/28)[Kremote: Compressing objects:  35% (10/28)[Kremote: Compressing objects:  39% (11/28)[Kremote: Compressing objects:  42% (12/28)[Kremote: Compressing objects:  46% (13/28)[Kremote: Compressing objects:  50% (14/28)[Kremote: Compressing objects:  53% (15/28)[Kremote: Compressing objects:  57% (16/28)[Kremote: Compressing objects:  60% (17/28)[Kremote: Compressing objects:  64% (18/28)[Kremote: Compressing objects:  67% (19/28)[Kremote: Compressing objects:  71% (20/28)[Kremote: Compressing objects:  75% (21/28)[Kremote: Compressing objects:  78% (22/28)[Kremote: Compressing objects:  82% (23/28)[Kremote: Compressing objects:  85% (24/28)[Kremote: Compressing objects:  89% (25/28)[Kremote: Compressing objects:  92% (26/28)[Kremote: Compressing objects:  96% (27/28)[Kremote: Compressing objects: 100% (28/28)[Kremote: Compressing objects: 100% (28/28), done.[K
+Receiving objects:   0% (1/2413)   Receiving objects:   1% (25/2413)   Receiving objects:   2% (49/2413)   Receiving objects:   3% (73/2413)   Receiving objects:   4% (97/2413)   Receiving objects:   5% (121/2413)   Receiving objects:   6% (145/2413)   Receiving objects:   7% (169/2413)   Receiving objects:   8% (194/2413)   Receiving objects:   9% (218/2413)   Receiving objects:  10% (242/2413)   Receiving objects:  11% (266/2413)   Receiving objects:  12% (290/2413)   Receiving objects:  13% (314/2413)   Receiving objects:  14% (338/2413)   Receiving objects:  15% (362/2413)   Receiving objects:  16% (387/2413)   Receiving objects:  17% (411/2413)   Receiving objects:  18% (435/2413)   Receiving objects:  19% (459/2413)   Receiving objects:  20% (483/2413)   Receiving objects:  21% (507/2413)   Receiving objects:  22% (531/2413)   Receiving objects:  23% (555/2413)   Receiving objects:  24% (580/2413)   Receiving objects:  25% (604/2413)   Receiving objects:  26% (628/2413)   Receiving objects:  27% (652/2413)   Receiving objects:  28% (676/2413)   Receiving objects:  29% (700/2413)   Receiving objects:  30% (724/2413)   Receiving objects:  31% (749/2413)   Receiving objects:  32% (773/2413)   Receiving objects:  33% (797/2413)   Receiving objects:  34% (821/2413)   Receiving objects:  35% (845/2413)   Receiving objects:  36% (869/2413)   Receiving objects:  37% (893/2413)   Receiving objects:  38% (917/2413)   Receiving objects:  39% (942/2413)   Receiving objects:  40% (966/2413)   Receiving objects:  41% (990/2413)   Receiving objects:  42% (1014/2413)   Receiving objects:  43% (1038/2413)   Receiving objects:  44% (1062/2413)   Receiving objects:  45% (1086/2413)   Receiving objects:  46% (1110/2413)   Receiving objects:  47% (1135/2413)   Receiving objects:  48% (1159/2413)   Receiving objects:  49% (1183/2413)   Receiving objects:  50% (1207/2413)   Receiving objects:  51% (1231/2413)   Receiving objects:  52% (1255/2413)   Receiving objects:  53% (1279/2413)   Receiving objects:  54% (1304/2413)   Receiving objects:  55% (1328/2413)   Receiving objects:  56% (1352/2413)   Receiving objects:  57% (1376/2413)   remote: Total 2413 (delta 11), reused 0 (delta 0), pack-reused 2381[K
+Receiving objects:  58% (1400/2413)   Receiving objects:  59% (1424/2413)   Receiving objects:  60% (1448/2413)   Receiving objects:  61% (1472/2413)   Receiving objects:  62% (1497/2413)   Receiving objects:  63% (1521/2413)   Receiving objects:  64% (1545/2413)   Receiving objects:  65% (1569/2413)   Receiving objects:  66% (1593/2413)   Receiving objects:  67% (1617/2413)   Receiving objects:  68% (1641/2413)   Receiving objects:  69% (1665/2413)   Receiving objects:  70% (1690/2413)   Receiving objects:  71% (1714/2413)   Receiving objects:  72% (1738/2413)   Receiving objects:  73% (1762/2413)   Receiving objects:  74% (1786/2413)   Receiving objects:  75% (1810/2413)   Receiving objects:  76% (1834/2413)   Receiving objects:  77% (1859/2413)   Receiving objects:  78% (1883/2413)   Receiving objects:  79% (1907/2413)   Receiving objects:  80% (1931/2413)   Receiving objects:  81% (1955/2413)   Receiving objects:  82% (1979/2413)   Receiving objects:  83% (2003/2413)   Receiving objects:  84% (2027/2413)   Receiving objects:  85% (2052/2413)   Receiving objects:  86% (2076/2413)   Receiving objects:  87% (2100/2413)   Receiving objects:  88% (2124/2413)   Receiving objects:  89% (2148/2413)   Receiving objects:  90% (2172/2413)   Receiving objects:  91% (2196/2413)   Receiving objects:  92% (2220/2413)   Receiving objects:  93% (2245/2413)   Receiving objects:  94% (2269/2413)   Receiving objects:  95% (2293/2413)   Receiving objects:  96% (2317/2413)   Receiving objects:  97% (2341/2413)   Receiving objects:  98% (2365/2413)   Receiving objects:  99% (2389/2413)   Receiving objects: 100% (2413/2413)   Receiving objects: 100% (2413/2413), 3.42 MiB | 10.08 MiB/s, done.
+Resolving deltas:   0% (0/1209)   Resolving deltas:   1% (13/1209)   Resolving deltas:   2% (25/1209)   Resolving deltas:   3% (38/1209)   Resolving deltas:   7% (88/1209)   
+Resolving deltas:  46% (561/1209)   Resolving deltas:  49% (593/1209)   Resolving deltas:  50% (607/1209)   Resolving deltas:  51% (620/1209)   Resolving deltas:  56% (679/1209)   Resolving deltas:  57% (690/1209)   Resolving deltas:  58% (711/1209)   Resolving deltas:  59% (714/1209)   Resolving deltas:  60% (735/1209)   Resolving deltas:  63% (767/1209)   Resolving deltas:  65% (794/1209)   Resolving deltas:  69% (838/1209)   Resolving deltas:  78% (944/1209)   Resolving deltas:  81% (985/1209)   Resolving deltas:  82% (994/1209)   Resolving deltas:  83% (1004/1209)   Resolving deltas:  91% (1109/1209)   Resolving deltas:  92% (1118/1209)   Resolving deltas:  93% (1125/1209)   Resolving deltas:  94% (1137/1209)   Resolving deltas:  95% (1149/1209)   Resolving deltas:  96% (1166/1209)   Resolving deltas:  97% (1181/1209)   Resolving deltas:  98% (1193/1209)   Resolving deltas:  99% (1197/1209)   Resolving deltas: 100% (1209/1209)   Resolving deltas: 100% (1209/1209), done.
 vagrant@doc01:~$ 
-vagrant@doc01:~$ On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-(use "git reset HEAD <file>..." to unstage)
-
-new file:   doc01-requirements.txt
-new file:   doc01-test.txt
-
-git commit -m "doc01"
-[master e036f3f] doc01
-2 files changed, 4 insertions(+)
-create mode 100644 doc01-requirements.txt
-create mode 100644 doc01-test.txt
-git push origin doc01
-error: src refspec doc01 does not match any.
+vagrant@doc01:~$ error: src refspec doc01 does not match any.
 error: failed to push some refs to 'https://corp.paglipay.info/root/feedback-loop.git'
 DONE
 vagrant@doc01:~/feedback-loop$ 
 vagrant@doc01:~/feedback-loop$ ls -la
-total 140
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:02  [0m[01;34m.[0m
-drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 00:02  [01;34m..[0m
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:02  administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:02  app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:02  branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:02  c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:02  c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:02  [01;34mcapture[0m
--rw-rw-r--  1 vagrant vagrant  2081 Oct 20 00:02  doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:02  doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:02  DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:02  [01;34m.git[0m
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:02  .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:02  .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:02  [01;34mjson[0m
--rw-rw-r--  1 vagrant vagrant  2162 Oct 20 00:02  main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:02  [01;34mmy_packages[0m
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:02  [01;34m__pycache__[0m
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:02  README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:02  requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:02  runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:02 'some file.txt'
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:02  start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:02  test.txt
--rw-rw-r--  1 vagrant vagrant 12825 Oct 20 00:02  ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4779 Oct 20 00:02  ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant  6261 Oct 20 00:02  ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2520 Oct 20 00:02  ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:02  [01;34m.vscode[0m
+total 144
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:07  [0m[01;34m.[0m
+drwxr-xr-x 15 vagrant vagrant  4096 Oct 20 00:07  [01;34m..[0m
+-rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:07  administrator2-test.txt
+-rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:07  app.py
+-rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:07  branch.txt
+-rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:07  c-213-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:07  c-213-test.txt
+drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:07  [01;34mcapture[0m
+-rw-rw-r--  1 vagrant vagrant  2081 Oct 20 00:08  doc01-requirements.txt
+-rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:07  doc01-test.txt
+-rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:07  DTree.py
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:07  [01;34m.git[0m
+-rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:07  .gitignore
+-rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:07  .gitlab-ci.yml
+drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:07  [01;34mjson[0m
+-rw-rw-r--  1 vagrant vagrant  2186 Oct 20 00:07  main.py
+drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:07  [01;34mmy_packages[0m
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:07  [01;34m__pycache__[0m
+-rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:07  README.md
+-rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:07  requirements.txt
+-rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:07  runner-1zql5ubz-project-31-concurrent-0-test.txt
+-rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:07 'some file.txt'
+-rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:07  start.json
+-rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:07  test.txt
+-rw-rw-r--  1 vagrant vagrant 12825 Oct 20 00:07  ubd-220-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  4779 Oct 20 00:07  ubd-220-test.txt
+-rw-rw-r--  1 vagrant vagrant 11811 Oct 20 00:07  ub-desk-230-requirements.txt
+-rw-rw-r--  1 vagrant vagrant  2583 Oct 20 00:07  ub-desk-230-test.txt
+drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:07  [01;34m.vscode[0m
 vagrant@doc01:~/feedback-loop$ 

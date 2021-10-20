@@ -321,3 +321,103 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Receiving objects:  44% (1060/2408)   Receiving objects:  45% (1084/2408)   Receiving objects:  46% (1108/2408)   Receiving objects:  47% (1132/2408)   Receiving objects:  48% (1156/2408)   Receiving objects:  49% (1180/2408)   Receiving objects:  50% (1204/2408)   Receiving objects:  51% (1229/2408)   Receiving objects:  52% (1253/2408)   Receiving objects:  53% (1277/2408)   Receiving objects:  54% (1301/2408)   Receiving objects:  55% (1325/2408)   Receiving objects:  56% (1349/2408)   Receiving objects:  57% (1373/2408)   Receiving objects:  58% (1397/2408)   Receiving objects:  59% (1421/2408)   Receiving objects:  60% (1445/2408)   Receiving objects:  61% (1469/2408)   Receiving objects:  62% (1493/2408)   Receiving objects:  63% (1518/2408)   Receiving objects:  64% (1542/2408)   Receiving objects:  65% (1566/2408)   Receiving objects:  66% (1590/2408)   Receiving objects:  67% (1614/2408)   Receiving objects:  68% (1638/2408)   Receiving objects:  69% (1662/2408)   Receiving objects:  70% (1686/2408)   Receiving objects:  71% (1710/2408)   Receiving objects:  72% (1734/2408)   Receiving objects:  73% (1758/2408)   Receiving objects:  74% (1782/2408)   Receiving objects:  75% (1806/2408)   Receiving objects:  76% (1831/2408)   Receiving objects:  77% (1855/2408)   Receiving objects:  78% (1879/2408)   Receiving objects:  79% (1903/2408)   Receiving objects:  80% (1927/2408)   Receiving objects:  81% (1951/2408)   Receiving objects:  82% (1975/2408)   Receiving objects:  83% (1999/2408)   Receiving objects:  84% (2023/2408)   Receiving objects:  85% (2047/2408)   Receiving objects:  86% (2071/2408)   Receiving objects:  87% (2095/2408)   Receiving objects:  88% (2120/2408)   Receiving objects:  89% (2144/2408)   Receiving objects:  90% (2168/2408)   Receiving objects:  91% (2192/2408)   Receiving objects:  92% (2216/2408)   Receiving objects:  93% (2240/2408)   Receiving objects:  94% (2264/2408)   Receiving objects:  95% (2288/2408)   Receiving objects:  96% (2312/2408)   Receiving objects:  97% (2336/2408)   Receiving objects:  98% (2360/2408)   Receiving objects:  99% (2384/2408), 3.41 MiB | 5.48 MiB/s   remote: Total 2408 (delta 8), reused 0 (delta 0), pack-reused 2381[K
+Receiving objects: 100% (2408/2408), 3.41 MiB | 5.48 MiB/s   Receiving objects: 100% (2408/2408), 3.42 MiB | 5.29 MiB/s, done.
+Resolving deltas:   0% (0/1206)   Resolving deltas:   1% (13/1206)   Resolving deltas:   2% (25/1206)   Resolving deltas:   3% (38/1206)   Resolving deltas:  10% (129/1206)   Resolving deltas:  16% (201/1206)   Resolving deltas:  29% (352/1206)   Resolving deltas:  48% (586/1206)   Resolving deltas:  51% (616/1206)   Resolving deltas:  58% (706/1206)   Resolving deltas:  59% (715/1206)   Resolving deltas:  60% (727/1206)   Resolving deltas:  62% (756/1206)   Resolving deltas:  68% (830/1206)   Resolving deltas:  69% (833/1206)   Resolving deltas:  76% (921/1206)   Resolving deltas:  87% (1058/1206)   Resolving deltas:  88% (1062/1206)   Resolving deltas:  90% (1087/1206)   Resolving deltas:  91% (1098/1206)   Resolving deltas:  93% (1126/1206)   Resolving deltas:  94% (1134/1206)   Resolving deltas:  95% (1146/1206)   Resolving deltas:  96% (1166/1206)   Resolving deltas:  97% (1181/1206)   Resolving deltas:  98% (1183/1206)   Resolving deltas:  99% (1197/1206)   Resolving deltas: 100% (1206/1206)   Resolving deltas: 100% (1206/1206), done.
+vagrant@doc01:~$ 
+vagrant@doc01:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && python main.py
+self.io.write:cd feedback-loop && ls && python main.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && python main.py
+while:  1
+while:  1
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc01:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break

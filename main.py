@@ -25,7 +25,7 @@ if __name__ == "__main__":
         'pwd',
         'git config --global user.email "you@example.com"',
         'git config --global user.name "Your Name"',
-        'git checkout ' + socket.gethostname(),
+        'git checkout -b ' + socket.gethostname(),
         'git pull origin master',
         'git add .',
         'git status',
