@@ -9,7 +9,7 @@
             },
             {
                 "open": {
-                    "ip": "192.168.2.81",
+                    "ip": "192.168.2.83",
                     "username": "vagrant",
                     "password": "vagrant"
                 }
@@ -26,7 +26,10 @@
                       ""
                     ],
                     {
-                        "True": "sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git"
+                        "False": "sudo rm -R ./feedback-loop"
+                    },
+                    {
+                        "True": "git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git"
                     },
                     {
                         "Username": "root"
