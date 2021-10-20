@@ -476,3 +476,106 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.83
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Receiving objects:  84% (1980/2357)   Receiving objects:  85% (2004/2357)   Receiving objects:  86% (2028/2357)   Receiving objects:  87% (2051/2357)   Receiving objects:  88% (2075/2357)   Receiving objects:  89% (2098/2357)   Receiving objects:  90% (2122/2357)   Receiving objects:  91% (2145/2357)   Receiving objects:  92% (2169/2357)   Receiving objects:  93% (2193/2357)   Receiving objects:  94% (2216/2357)   Receiving objects:  95% (2240/2357)   Receiving objects:  96% (2263/2357)   Receiving objects:  97% (2287/2357)   Receiving objects:  98% (2310/2357)   Receiving objects:  99% (2334/2357), 1.57 MiB | 3.14 MiB/s   remote: Total 2357 (delta 162), reused 690 (delta 129), pack-reused 1619[K
+Receiving objects: 100% (2357/2357), 1.57 MiB | 3.14 MiB/s   Receiving objects: 100% (2357/2357), 3.41 MiB | 4.71 MiB/s, done.
+Resolving deltas:   0% (0/1173)   Resolving deltas:   1% (12/1173)   Resolving deltas:   2% (24/1173)   Resolving deltas:   3% (37/1173)   Resolving deltas:  19% (223/1173)   Resolving deltas:  24% (285/1173)   Resolving deltas:  43% (512/1173)   Resolving deltas:  44% (517/1173)   Resolving deltas:  72% (848/1173)   Resolving deltas:  73% (865/1173)   Resolving deltas:  76% (893/1173)   Resolving deltas:  77% (907/1173)   Resolving deltas:  79% (930/1173)   Resolving deltas:  80% (945/1173)   Resolving deltas:  81% (957/1173)   Resolving deltas:  82% (962/1173)   Resolving deltas:  85% (1000/1173)   Resolving deltas:  86% (1014/1173)   Resolving deltas:  87% (1029/1173)   Resolving deltas:  90% (1064/1173)   Resolving deltas:  92% (1082/1173)   Resolving deltas:  93% (1096/1173)   Resolving deltas:  94% (1104/1173)   Resolving deltas:  95% (1115/1173)   Resolving deltas:  96% (1135/1173)   Resolving deltas:  97% (1138/1173)   Resolving deltas:  98% (1150/1173)   Resolving deltas:  99% (1162/1173)   Resolving deltas: 100% (1173/1173)   Resolving deltas: 100% (1173/1173), done.
+vagrant@doc03:~$ 
+vagrant@doc03:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+self.io.write:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && pip install -r requirements.txt && python app.py
+while:  1
+while:  1
+while:  2
+while:  3
+while:  4
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+vagrant@doc03:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
