@@ -1,19 +1,18 @@
 
 
-
 Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
-  System information as of Wed Oct 20 00:43:19 UTC 2021
+  System information as of Wed Oct 20 16:13:25 UTC 2021
 
-  System load:                    0.04
+  System load:                    0.12
   Usage of /:                     34.8% of 61.80GB
   Memory usage:                   30%
   Swap usage:                     0%
-  Processes:                      124
+  Processes:                      125
   Users logged in:                0
   IP address for eth0:            10.0.2.15
   IP address for eth1:            192.168.2.83
@@ -28,60 +27,15 @@ Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-128-generic x86_64)
 
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
-Last login: Wed Oct 20 00:28:51 2021 from 192.168.2.220
+Last log
+in: Wed Oct 20 00:43:20 2021 from 192.168.2.220
 vagrant@doc03:~$ 
 vagrant@doc03:~$ 
 vagrant@doc03:~$ 
 vagrant@doc03:~$ git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
 fatal: destination path 'feedback-loop' already exists and is not an empty directory.
 vagrant@doc03:~$ 
-vagrant@doc03:~$ cd feedback-loop && ls && python main.py
- administrator2-test.txt   app.py   branch.txt   c-213-requirements.txt   c-213-test.txt   [0m[01;34mcapture[0m   doc01-requirements.txt   doc01-test.txt   doc03-requirements.txt   doc03-test.txt   DTree.py   [01;34mjson[0m   main.py   [01;34mmy_packages[0m   [01;34m__pycache__[0m   README.md   requirements.txt   runner-1zql5ubz-project-31-concurrent-0-test.txt  'some file.txt'   start.json   test.txt   ubd-220-requirements.txt   ubd-220-test.txt   ub-desk-230-requirements.txt   ub-desk-230-test.txt
-hello
-pwd
-/home/vagrant/feedback-loop
-ls -la
-total 164
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .
-drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 00:29 ..
--rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28 administrator2-test.txt
--rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28 app.py
--rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28 branch.txt
--rw-rw-r--  1 vagrant vagrant   212 Oct 20 00:28 c-213-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2286 Oct 20 00:28 c-213-test.txt
-drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28 capture
--rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28 doc01-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28 doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  2081 Oct 20 00:29 doc03-requirements.txt
--rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:29 doc03-test.txt
--rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28 DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .git
--rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28 .gitignore
--rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28 .gitlab-ci.yml
-drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28 json
--rw-rw-r--  1 vagrant vagrant  2244 Oct 20 00:28 main.py
-drwxrwxr-x  7 vagrant vagrant  4096 Oct 20 00:28 my_packages
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:29 __pycache__
--rw-rw-r--  1 vagrant vagrant    17 Oct 20 00:28 README.md
--rw-rw-r--  1 vagrant vagrant   700 Oct 20 00:28 requirements.txt
--rw-rw-r--  1 vagrant vagrant   273 Oct 20 00:28 runner-1zql5ubz-project-31-concurrent-0-test.txt
--rw-rw-r--  1 vagrant vagrant   445 Oct 20 00:28 some file.txt
--rw-rw-r--  1 vagrant vagrant   479 Oct 20 00:28 start.json
--rw-rw-r--  1 vagrant vagrant  4332 Oct 20 00:28 test.txt
--rw-rw-r--  1 vagrant vagrant 17352 Oct 20 00:28 ubd-220-requirements.txt
--rw-rw-r--  1 vagrant vagrant  4838 Oct 20 00:28 ubd-220-test.txt
--rw-rw-r--  1 vagrant vagrant 17722 Oct 20 00:28 ub-desk-230-requirements.txt
--rw-rw-r--  1 vagrant vagrant  2646 Oct 20 00:28 ub-desk-230-test.txt
-drwxrwxr-x  2 vagrant vagrant  4096 Oct 20 00:28 .vscode
-pwd
-/home/vagrant/feedback-loop
-git config --global credential.helper store
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git checkout -b doc03
-fatal: A branch named 'doc03' already exists.
-git pull origin master
-fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+vagrant@doc03:~$ fatal: unable to access 'https://corp.paglipay.info/root/feedback-loop.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
 git add .
 git status
 On branch doc03
@@ -91,7 +45,7 @@ Changes to be committed:
 modified:   doc03-requirements.txt
 
 git commit -m "doc03"
-[doc03 7d71040] doc03
+[doc03 f3ecbca] doc03
 1 file changed, 38 insertions(+)
 git -c http.sslVerify=false push origin doc03
 Username for 'https://corp.paglipay.info': 
@@ -101,9 +55,9 @@ fatal: Authentication failed for 'https://corp.paglipay.info/root/feedback-loop.
 pwd
 /home/vagrant/feedback-loop
 ls -la
-total 164
+total 168
 drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29 .
-drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 00:43 ..
+drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 16:13 ..
 -rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28 administrator2-test.txt
 -rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28 app.py
 -rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28 branch.txt
@@ -112,10 +66,10 @@ drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 00:43 ..
 drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28 capture
 -rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28 doc01-requirements.txt
 -rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28 doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  2096 Oct 20 00:43 doc03-requirements.txt
--rw-rw-r--  1 vagrant vagrant   122 Oct 20 00:43 doc03-test.txt
+-rw-rw-r--  1 vagrant vagrant  4177 Oct 20 16:13 doc03-requirements.txt
+-rw-rw-r--  1 vagrant vagrant   183 Oct 20 16:13 doc03-test.txt
 -rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28 DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:43 .git
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 16:13 .git
 -rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28 .gitignore
 -rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28 .gitlab-ci.yml
 drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28 json
@@ -152,7 +106,7 @@ modified:   doc03-requirements.txt
 modified:   doc03-test.txt
 
 git commit -m "doc03"
-[doc03 a4da317] doc03
+[doc03 14e2a7a] doc03
 2 files changed, 4 insertions(+)
 git -c http.sslVerify=false push origin doc03
 Username for 'https://corp.paglipay.info': 
@@ -163,7 +117,7 @@ DONE
 vagrant@doc03:~/feedback-loop$ ls -la
 total 168
 drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:29  [0m[01;34m.[0m
-drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 00:43  [01;34m..[0m
+drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 16:13  [01;34m..[0m
 -rw-rw-r--  1 vagrant vagrant  1496 Oct 20 00:28  administrator2-test.txt
 -rw-rw-r--  1 vagrant vagrant   625 Oct 20 00:28  app.py
 -rw-rw-r--  1 vagrant vagrant     6 Oct 20 00:28  branch.txt
@@ -172,10 +126,10 @@ drwxr-xr-x 19 vagrant vagrant  4096 Oct 20 00:43  [01;34m..[0m
 drwxrwxr-x  3 vagrant vagrant  4096 Oct 20 00:28  [01;34mcapture[0m
 -rw-rw-r--  1 vagrant vagrant    27 Oct 20 00:28  doc01-requirements.txt
 -rw-rw-r--  1 vagrant vagrant    61 Oct 20 00:28  doc01-test.txt
--rw-rw-r--  1 vagrant vagrant  4162 Oct 20 00:43  doc03-requirements.txt
--rw-rw-r--  1 vagrant vagrant   122 Oct 20 00:43  doc03-test.txt
+-rw-rw-r--  1 vagrant vagrant  6243 Oct 20 16:13  doc03-requirements.txt
+-rw-rw-r--  1 vagrant vagrant   183 Oct 20 16:13  doc03-test.txt
 -rw-rw-r--  1 vagrant vagrant  2911 Oct 20 00:28  DTree.py
-drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 00:43  [01;34m.git[0m
+drwxrwxr-x  8 vagrant vagrant  4096 Oct 20 16:13  [01;34m.git[0m
 -rw-rw-r--  1 vagrant vagrant    64 Oct 20 00:28  .gitignore
 -rw-rw-r--  1 vagrant vagrant   812 Oct 20 00:28  .gitlab-ci.yml
 drwxrwxr-x  6 vagrant vagrant  4096 Oct 20 00:28  [01;34mjson[0m
