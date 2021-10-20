@@ -26,7 +26,10 @@
                       ""
                     ],
                     {
-                        "True": "sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git"
+                        "True": "sudo rm -R ./feedback-loop"
+                    },
+                    {
+                        "True": "git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git"
                     },
                     {
                         "Username": "root"
