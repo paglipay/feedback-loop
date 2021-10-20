@@ -422,3 +422,103 @@ time.sleep(self.wait):  0
 while:  1
 while break
 python3 app.py
+app.py HERE
+ParamikoObj!
+SSH connection established to 192.168.2.81
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+v_func: sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+self.io.write:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+
+time.sleep(self.wait):  0
+############################################Sending:sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+while:  1
+str_config: Username
+current_output: 
+sudo rm -R ./feedback-loop && git -c http.sslVerify=false clone https://corp.paglipay.info/root/feedback-loop.git
+Cloning into 'feedback-loop'...
+Username for 'https://corp.paglipay.info': 
+v_func: root
+self.io.write:root
+
+time.sleep(self.wait):  0
+############################################Sending:root
+while:  1
+str_config: Password
+current_output: 
+root
+Password for 'https://root@corp.paglipay.info': 
+v_func: P@ssw0rd
+self.io.write:P@ssw0rd
+
+time.sleep(self.wait):  0
+############################################Sending:P@ssw0rd
+while:  1
+while:  1
+while:  2
+while:  3
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+Receiving objects:  57% (1380/2420)   remote: Total 2420 (delta 15), reused 39 (delta 15), pack-reused 2381[K
+Receiving objects:  58% (1404/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  59% (1428/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  60% (1452/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  61% (1477/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  62% (1501/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  63% (1525/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  64% (1549/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  65% (1573/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  66% (1598/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  67% (1622/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  68% (1646/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  69% (1670/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  70% (1694/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  71% (1719/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  72% (1743/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  73% (1767/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  74% (1791/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  75% (1815/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  76% (1840/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  77% (1864/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  78% (1888/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  79% (1912/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  80% (1936/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  81% (1961/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  82% (1985/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  83% (2009/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  84% (2033/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  85% (2057/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  86% (2082/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  87% (2106/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  88% (2130/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  89% (2154/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  90% (2178/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  91% (2203/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  92% (2227/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  93% (2251/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  94% (2275/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  95% (2299/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  96% (2324/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  97% (2348/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  98% (2372/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects:  99% (2396/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects: 100% (2420/2420), 3.32 MiB | 6.62 MiB/s   Receiving objects: 100% (2420/2420), 3.42 MiB | 6.68 MiB/s, done.
+Resolving deltas:   0% (0/1213)   Resolving deltas:   1% (13/1213)   Resolving deltas:   2% (25/1213)   Resolving deltas:   3% (38/1213)   Resolving deltas:  11% (141/1213)   Resolving deltas:  13% (162/1213)   Resolving deltas:  19% (236/1213)   Resolving deltas:  24% (300/1213)   Resolving deltas:  39% (479/1213)   Resolving deltas:  48% (594/1213)   Resolving deltas:  52% (640/1213)   Resolving deltas:  53% (646/1213)   Resolving deltas:  54% (657/1213)   Resolving deltas:  55% (668/1213)   Resolving deltas:  57% (694/1213)   Resolving deltas:  72% (879/1213)   Resolving deltas:  82% (997/1213)   Resolving deltas:  85% (1042/1213)   Resolving deltas:  86% (1046/1213)   Resolving deltas:  89% (1084/1213)   Resolving deltas:  90% (1094/1213)   Resolving deltas:  91% (1113/1213)   Resolving deltas:  92% (1116/1213)   Resolving deltas:  93% (1129/1213)   Resolving deltas:  94% (1141/1213)   Resolving deltas:  95% (1153/1213)   Resolving deltas:  96% (1166/1213)   Resolving deltas:  97% (1181/1213)   Resolving deltas:  98% (1193/1213)   Resolving deltas:  99% (1202/1213)   Resolving deltas: 100% (1213/1213)   Resolving deltas: 100% (1213/1213), done.
+vagrant@doc01:~$ 
+vagrant@doc01:~$ 
+wait:  0
+self.wait:  0
+v_func: cd feedback-loop && ls && python main.py
+self.io.write:cd feedback-loop && ls && python main.py
+
+time.sleep(self.wait):  0
+############################################Sending:cd feedback-loop && ls && python main.py
+while:  1
+wait:  10
+self.wait:  10
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  10
+############################################Sending:
+while:  1
+str_config: not'$
+current_output: 
+
+
+vagrant@doc01:~/feedback-loop$ 
+vagrant@doc01:~/feedback-loop$ 
+wait:  0
+self.wait:  0
+v_func: ls -la
+self.io.write:ls -la
+
+time.sleep(self.wait):  0
+############################################Sending:ls -la
+while:  1
+v_func: 
+self.io.write:
+
+time.sleep(self.wait):  0
+############################################Sending:
+while:  1
+directory:
+.//capture//monitoring_terminals
+v_func: exit
+self.io.write:exit
+
+time.sleep(self.wait):  0
+############################################Sending:exit
+while:  1
+while break
